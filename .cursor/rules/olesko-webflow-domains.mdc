@@ -1,0 +1,47 @@
+---
+description: Production domains, Cloudflare DNS, and publish_site IDs for oleskostudio.com. Read before publishing, DNS, or domain changes.
+alwaysApply: true
+---
+
+# oleskostudio.com — domains and publish
+
+Site is already on production custom domains. Do not re-add them. Do not use Quick Connect (it would take over DNS). Do not move nameservers off Cloudflare. Do not touch Google MX or SPF.
+
+## Live
+
+- Default: `https://oleskostudio.com`
+- www redirects to apex
+- Staging: `https://olesko-website----development.webflow.io`
+- Site ID: `6a7b43a328ec101a40bb1d20`
+- Short name: `olesko-website----development`
+
+## DNS (Cloudflare, proxy off / grey cloud)
+
+- `A` `@` → `198.202.211.1`
+- `CNAME` `www` → `cdn.webflow.com`
+- `TXT` `_webflow` → `one-time-verification=1f42e90e-1d0f-4ffb-8b10-e92dc5088fb4`
+- Never use `75.2.*` / `99.83.*` or `proxy-ssl.webflow.com`
+
+## Publish
+
+Webflow MCP cannot add custom domains (`list_sites` / `get_site` / `publish_site` only). Adding domains is dashboard UI: Manually add domain. Custom domains need a paid Site plan.
+
+`publish_site` needs domain **IDs**, not hostnames. Do not publish unless Sebastian asks.
+
+```json
+{
+  "site_id": "6a7b43a328ec101a40bb1d20",
+  "customDomains": [
+    "6a874109e067f5d3b357ad46",
+    "6a874109e067f5d3b357ad4d"
+  ],
+  "publishToWebflowSubdomain": true
+}
+```
+
+- `oleskostudio.com` → `6a874109e067f5d3b357ad46`
+- `www.oleskostudio.com` → `6a874109e067f5d3b357ad4d`
+
+Default domain is apex. After any default-domain change, publish for it to take effect.
+
+Canonical copy: `rules/olesko-webflow-domains.md`.

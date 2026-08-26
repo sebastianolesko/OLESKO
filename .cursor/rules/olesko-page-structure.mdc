@@ -1,0 +1,37 @@
+---
+description: Locked OLESKO inner-page shell. Read before Collection, Commission, film pages, or any new inner page.
+alwaysApply: true
+---
+
+# OLESKO inner page structure (locked)
+
+Do not invent a parallel shell. Collection has already been rebuilt without this twice.
+
+## Inner page shell
+
+```
+page_wrap + u-theme-dark
+  Global Styles
+  Global Guides
+  OLESKO Global Header
+  page_main#main
+    olesko_page_section + u-section + u-theme-dark  (#page)
+      section_contain + u-container
+        olesko_section_grid + u-grid-custom
+          intro and/or content
+  OLESKO Global Footer
+```
+
+`section_contain` + `u-container` is required. Never put `olesko_section_grid` as a direct child of the section.
+
+## Intro band
+
+Copy uses `olesko_section_intro` + `u-grid-subgrid` + `u-column-start-3` + `u-column-span-8`.
+
+## Content
+
+- Collection cards: `home_service_film_card` + `u-grid-stack` + `u-column-span-6`; odd `u-column-start-1`, even `u-column-start-7`. Wrap the still in a Div `home_service_film_media` (that class draws the play triangle). Then `home_service_film_image`, then copy. Whole card links to the film page. Do not nest another link inside the card.
+- Film pages: intro in the 8-column band; Mux player + share stay inside `section_contain` + `u-container`. Class `olesko_film_embed`. Never `olesko_film_video`.
+- Commission: forms in the same 8-column band unless Sebastian asks otherwise.
+
+Canonical copy also lives in Webflow as `rules/olesko-page-structure.md`.
