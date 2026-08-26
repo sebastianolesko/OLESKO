@@ -1,0 +1,31 @@
+{
+  "@id": "https://oleskostudio.com/#organization",
+  "@type": "Organization",
+  "name": "OLESKO",
+  "legalName": "OLESKO",
+  "alternateName": ["OLESKO Studio", "oleskostudio.com"],
+  "url": "https://oleskostudio.com",
+  "email": "sebastian@oleskostudio.com",
+  "description": "Commissioned films for exclusive cars, generated from your images.",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a830b20a53e873314bb9a04_olesko-webclip-1024.png"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Vienna",
+    "addressCountry": "AT"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "sebastian@oleskostudio.com",
+    "url": "https://oleskostudio.com/commission",
+    "availableLanguage": ["English", "German"]
+  },
+  "sameAs": [
+    "https://www.instagram.com/olesko.studio/",
+    "https://www.facebook.com/sebastianolesko/",
+    "https://www.linkedin.com/in/sebastianolesko/"
+  ]
+}

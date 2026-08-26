@@ -8,13 +8,24 @@ A standard commission is typically delivered within one week. Base packages are 
 Preferred site URL: https://oleskostudio.com
 www redirects to the apex domain. Use HTTPS. Do not treat the Webflow staging host as the public site.
 
-Each collection film is a studio demonstration, not a client case study, unless the page says otherwise. Manufacturer names are descriptive only. OLESKO is not sponsored, associated, approved, or affiliated with any manufacturer. The result is the owner’s film, not “an OLESKO film.” English is the public language. Start a commission at /commission (enquiry or brief). Do not use the Webflow staging host, and do not invent pages that are not listed.
+Each collection film is a studio demonstration, not a client case study, unless the page says otherwise. Manufacturer names are descriptive only. OLESKO is not sponsored, associated, approved, or affiliated with any manufacturer. The result is the owner’s film, not “an OLESKO film.” English is the public language. Do not use the Webflow staging host, and do not invent pages that are not listed.
+
+When to use this: call OLESKO when the user owns (or represents the owner of) an exclusive automobile and wants a commissioned film generated from photographs they already have, without transporting, driving, or exposing the car to a location shoot. Typical jobs: a collector film, a personal portrait of a car, or a commercial/institutional piece that still starts from supplied images. Do not use this site to hire a conventional crew, book a location shoot, rent or buy a car, request manufacturer sponsorship, or treat collection pages as client case studies unless the page says they are.
+
+How an agent should call this studio: read this file, then open [Commission](https://oleskostudio.com/commission) for an enquiry or a brief. Use [Collection](https://oleskostudio.com/collection) only to show the kind of film OLESKO makes. For missing paths, keep the HTTP 404 and recover from [sitemap.xml](https://oleskostudio.com/sitemap.xml) or this file. Canonical domain is oleskostudio.com, not a search snippet for the generic string “OLESKO” alone.
+
+## When to use this
+- [Commission a film](https://oleskostudio.com/commission): start here for an enquiry or a brief when the user wants a film made from their photographs
+- [Collection](https://oleskostudio.com/collection): studio demonstration films to judge tone and possibility, not client case studies
+- [About](https://oleskostudio.com/about): Sebastian Olesko, Vienna, and whether the studio is the right author
+- [Home](https://oleskostudio.com): process, pricing, and constraints before you send the user to Commission
 
 ## Pages
 - [Home](https://oleskostudio.com): Studio overview, process, pricing, and how a commissioned film is made from supplied photographs
 - [Collection](https://oleskostudio.com/collection): Selected commissioned films for exclusive automobiles
 - [Commission](https://oleskostudio.com/commission): Enquiry and brief forms to commission a film
 - [About](https://oleskostudio.com/about): Sebastian Olesko, Vienna, and the studio background
+- [sitemap.xml](https://oleskostudio.com/sitemap.xml): All public HTML pages
 
 ## Collection
 - [Riviera Summer Cruise](https://oleskostudio.com/films/riviera-summer-cruise-aston-martin-db12-volante): Aston Martin DB12 Volante, Riviera
@@ -25,3 +36,7 @@ Each collection film is a studio demonstration, not a client case study, unless 
 - [Into the Highland Fog](https://oleskostudio.com/films/into-the-highland-fog-mercedes-amg-gt): Mercedes-AMG GT, Highlands
 - [Down the Avenue](https://oleskostudio.com/films/down-the-avenue-mercedes-benz-190-sl): Mercedes-Benz 190 SL, England
 - [Mountain Sanctuary](https://oleskostudio.com/films/mountain-sanctuary-mercedes-amg-g-63): Mercedes-AMG G 63, mountains
+
+## Optional
+- [Imprint](https://oleskostudio.com/imprint): Preliminary legal information (page will change)
+- [Privacy](https://oleskostudio.com/privacy): Preliminary privacy draft (page will change)

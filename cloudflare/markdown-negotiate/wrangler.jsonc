@@ -1,0 +1,9 @@
+{
+  "name": "olesko-markdown-negotiate",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-04-18",
+  "routes": [
+    { "pattern": "oleskostudio.com/*", "zone_name": "oleskostudio.com" },
+    { "pattern": "www.oleskostudio.com/*", "zone_name": "oleskostudio.com" }
+  ]
+}
