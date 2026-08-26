@@ -1,0 +1,17 @@
+{
+  "name": "OLESKO",
+  "install": "echo 'OLESKO is the source-of-truth repository for oleskostudio.com (Webflow content, rules, and HTML/JS embeds). There are no dependencies to install and no build step.'",
+  "terminals": [
+    {
+      "name": "preview",
+      "command": "python3 -m http.server 8000",
+      "description": "Static preview server for the repo root. Open http://localhost:8000/.cursor-share-embed.html to preview HTML/JS embeds in a browser before pasting them into Webflow. The Webflow site itself is edited remotely via the Webflow MCP."
+    }
+  ],
+  "ports": [
+    {
+      "name": "preview",
+      "port": 8000
+    }
+  ]
+}
