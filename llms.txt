@@ -36,6 +36,8 @@ How an agent should call this studio: read this file, then open [Commission](htt
 - [Into the Highland Fog](https://oleskostudio.com/films/into-the-highland-fog-mercedes-amg-gt): Mercedes-AMG GT, Highlands
 - [Down the Avenue](https://oleskostudio.com/films/down-the-avenue-mercedes-benz-190-sl): Mercedes-Benz 190 SL, England
 - [Mountain Sanctuary](https://oleskostudio.com/films/mountain-sanctuary-mercedes-amg-g-63): Mercedes-AMG G 63, mountains
+- [The Look of Love](https://oleskostudio.com/films/the-look-of-love-ferrari-250-gt-california-spyder): Ferrari 250 GT California Spyder, Como
+- [Let it rain](https://oleskostudio.com/films/let-it-rain-nurburgring-nordschleife): Four hypercars, Nürburgring
 
 ## Optional
 - [Imprint](https://oleskostudio.com/imprint): Preliminary legal information (page will change)
