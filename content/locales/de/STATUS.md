@@ -1,13 +1,13 @@
-# OLESKO German (Austria) locale — applied, unpublished
+# OLESKO German (Austria) locale — published site, locale still disabled
 
-Sebastian: **nothing is live.** Pack is applied to the existing draft locale. Do not publish. Do not request Google indexing.
+Sebastian said **PUBLISH**. Full-site `publish_site` ran. `/de-at` is **not** public yet because the secondary locale is still `enabled: false`. MCP cannot toggle locale publishing. Designer is disconnected. Do not open Designer for commission buttons.
 
 Site: `https://oleskostudio.com`  
 Site ID: `6a7b43a328ec101a40bb1d20`  
 Primary locale: English (`en`, id `6a876663b22843d8b60c22b0`, cmsLocaleId `6a876663b22843d8b60c2297`)  
 Secondary: **German (Austria)** (`de-AT`, id `6a983fb4dfdbdb9a5e8b882c`, cmsLocaleId `6a983fb4dfdbdb9a5e8b8831`, subdirectory `de-at`, **enabled: false**)
 
-Last live publish (unchanged): **`2026-09-02T09:23:02.801Z`**. `googleTagIds` empty. `publish_site` was not called.
+Last live publish: **`2026-09-02T16:34:37.873Z`** (also on `oleskostudio.com` and `www.oleskostudio.com`). `googleTagIds` still empty. `publishScope: site`. Webflow subdomain included.
 
 ## Copy lock (unpublished de-AT, 2026-09-02)
 
@@ -67,6 +67,26 @@ Accordion questions were span + String nodes. Localization MCP strips `<span>`, 
 | WHAT USAGE RIGHTS ARE INCLUDED? | WELCHE NUTZUNGSRECHTE SIND ENTHALTEN? | `51038112-42e7-f285-de32-e1d2e757a556` |
 | WILL MY COMMISSIONED FILM BE PUBLISHED? | WIRD MEIN AUFTRAGSFILM VERÖFFENTLICHT? | `9607c924-6490-3458-87d1-c0d71fb15b3d` |
 
+## Publish verification (2026-09-02)
+
+| Check | Result |
+|---|---|
+| `lastPublished` | `2026-09-02T16:34:37.873Z` (was `2026-09-02T09:23:02.801Z`) |
+| de-AT `enabled` | **false** (unchanged). Primary EN also reports `enabled: false` (normal for primary). |
+| `https://oleskostudio.com/de-at/` | 301 → `/de-at` → **404** Page not found. English 404 title. |
+| `https://oleskostudio.com/` | **200**. Title `OLESKO. Commissioned Films for Exclusive Cars. Generated from Your Images`. `IMPOSSIBLE FILMS`, `smart technology`, `IN ONE WEEK`. No German Home SEO. |
+| hreflang | **None** on live EN home. Canonical is `https://oleskostudio.com` only. |
+| `sitemap.xml` | **200**, 16 EN locs. **No `/de-at/`**. No xhtml hreflang. |
+| Reality | English `BUT IS IT REAL?` still in HTML. CSS `.home_reality_section.u-section.u-theme-light { display: none; }`. |
+| Imprint / Privacy | Still English titles. |
+| Commission buttons | Still `SEND ENQUIRY` / `SEND BRIEF` / `Please wait...`. |
+| CMS | `collections: []`. Not recreated. |
+| `llms.txt` | Not written. Site Settings / Designer only. |
+
+## Leftover that blocks `/de-at`
+
+Webflow will not compile a secondary locale until Localize → **Enable publishing to the subdirectory** is on, then publish again. Data API / MCP cannot set `enabled: true`. Designer MCP is disconnected (login required). After that toggle, republish the full site (same domain IDs + subdomain). Then hreflang and sitemap `/de-at/` should appear.
+
 ## Leftovers (Designer on de-AT only)
 
 - Primary header DE is still a **disabled span**, not a locale link. Do not type a fake `/de` or `/de-at` path on live EN until you publish.
@@ -79,7 +99,7 @@ Accordion questions were span + String nodes. Localization MCP strips `<span>`, 
 
 ## What was not done (on purpose)
 
-- No site publish, no CMS publish
+- Full site published 2026-09-02T16:34:37.873Z. No CMS publish. Locale publishing still off.
 - No new locale created
 - No custom-domain changes
 - No Google indexing request

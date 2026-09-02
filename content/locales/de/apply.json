@@ -3,6 +3,7 @@
   "site_id": "6a7b43a328ec101a40bb1d20",
   "localeId": "6a983fb4dfdbdb9a5e8b882c",
   "notes": [
+    "Full site published 2026-09-02T16:34:37.873Z. Locale publishing still disabled; /de-at 404s until Localize enable + republish.",
     "Applied to existing unpublished locale German (Austria).",
     "localeId 6a983fb4dfdbdb9a5e8b882c cmsLocaleId 6a983fb4dfdbdb9a5e8b8831 tag de-AT subdirectory de-at enabled false.",
     "Films are static pages. Do not recreate Films-cms or Posts.",

@@ -1,6 +1,6 @@
 # How to apply the DE pack (German Austria, unpublished)
 
-Do not publish. Do not enable locale publishing. Do not create a locale.
+Full site was published 2026-09-02T16:34:37.873Z. de-AT is still `enabled: false`, so `/de-at` 404s. Enable publishing on that locale in Localize, then publish again. Do not create a locale.
 
 Existing secondary locale (do not recreate):
 
