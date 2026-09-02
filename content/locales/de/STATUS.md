@@ -2,7 +2,7 @@
 
 ## Breadcrumbs (2026-09-02)
 
-**lastPublished: `2026-09-02T17:37:25.798Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
+**lastPublished: `2026-09-02T19:16:58.722Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. Separator spacing published after the jammed `HOME/COLLECTION/LET IT RAIN` screenshot.
 
 Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is ` / ` (space slash space, same as header EN / DE) via `olesko_header_language_separator`. Last crumb is a self page-link with `aria-current="page"`.
 
@@ -15,7 +15,7 @@ JSON-LD keeps the existing page object and adds a BreadcrumbList sibling in `@gr
 Live `/collection`:
 
 ```html
-<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/" class="olesko_breadcrumb_link">HOME</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a aria-current="page" href="/collection" class="olesko_breadcrumb_link w--current">COLLECTION</a></nav>
+<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/" class="olesko_breadcrumb_link">HOME</a><span aria-hidden="true" class="olesko_header_language_separator"> / </span><a aria-current="page" href="/collection" class="olesko_breadcrumb_link w--current">COLLECTION</a></nav>
 ```
 
 ```json
@@ -25,7 +25,7 @@ Live `/collection`:
 Live `/de-at/collection`:
 
 ```html
-<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/de-at" class="olesko_breadcrumb_link">START</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a aria-current="page" href="/de-at/collection" class="olesko_breadcrumb_link w--current">KOLLEKTION</a></nav>
+<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/de-at" class="olesko_breadcrumb_link">START</a><span aria-hidden="true" class="olesko_header_language_separator"> / </span><a aria-current="page" href="/de-at/collection" class="olesko_breadcrumb_link w--current">KOLLEKTION</a></nav>
 ```
 
 ```json
