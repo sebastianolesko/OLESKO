@@ -1,5 +1,17 @@
 # OLESKO German (Austria) locale
 
+## Breadcrumbs (2026-09-02)
+
+Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is `/` via `olesko_header_language_separator`. Last crumb is a self page-link with `aria-current="page"`.
+
+EN visible: HOME / COLLECTION, HOME / COMMISSION, HOME / ABOUT, HOME / COLLECTION / [film title], HOME / IMPRINT, HOME / PRIVACY.
+
+DE visible (menu words): START / KOLLEKTION, START / AUFTRAG, START / ÜBER, START / KOLLEKTION / [English film title]. Imprint/Privacy stay English pages.
+
+JSON-LD keeps the existing page object and adds a BreadcrumbList sibling in `@graph`. Legal pages that had null schema now have BreadcrumbList only. item URLs are absolute `https://oleskostudio.com/…`. No crumbs on Home. Reality stays hidden. Commission buttons stay SEND ENQUIRY / SEND BRIEF. No `googleTagIds`. `llms.txt` untouched.
+
+---
+
 ## Live verify (2026-09-02)
 
 **lastPublished: `2026-09-02T16:51:45.136Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. de-AT `enabled: true`.

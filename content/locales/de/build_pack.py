@@ -561,6 +561,8 @@ home_nodes = [
 ]
 
 collection_nodes = [
+    n("f4e392c1-30a0-95d7-cece-30cf50f0d7e9", '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a83fdcf46ec1970b6eb307b">START</a>'),
+    n("f3962036-1e3e-667a-9d7b-ecd2e8d13e72", '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a8471318afbe9b46708f954">KOLLEKTION</a>'),
     n("e5f14414-aad2-ddda-5300-c52a03172fde", '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">DIE KOLLEKTION</p>'),
     n("8a7c22be-2029-ddc7-7e6f-8dee79dcbea2", '<h1 id="collection-title" class="olesko_section_grid_item u-text-style-h2">Kollektion</h1>'),
     n("b92297f0-eaff-dfe5-9c28-de759a2d043f", "<div>Keine Einträge.</div>"),
@@ -583,6 +585,8 @@ collection_nodes = [
 
 LABEL = "c3778b1c-e9f9-7ed9-b7c9-f987a278ddb0"
 commission_nodes = [
+    n("106d9216-49b1-e247-45fd-7caf3ab70098", '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a83fdcf46ec1970b6eb307b">START</a>'),
+    n("106d9216-49b1-e247-45fd-7caf3ab7009c", '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a8471320e6ee1e88c0037c2">AUFTRAG</a>'),
     n("2a097400-64ed-1286-6504-d64f1f23e3b8", '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">AUFTRAG</p>'),
     n("5ea31196-f387-49a9-2820-804f3b63289d", '<h1 id="commission-title" class="olesko_section_grid_item u-text-style-h2">IHR FILM</h1>'),
     n(
@@ -646,6 +650,8 @@ commission_nodes = [
 ]
 
 about_nodes = [
+    n("07b25bb3-b15f-2b85-82da-964d2d3ad299", '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a83fdcf46ec1970b6eb307b">START</a>'),
+    n("07b25bb3-b15f-2b85-82da-964d2d3ad29d", '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a8471331d2d68eb848af612">ÜBER</a>'),
     n(
         "a8851332-85d3-eb33-1e41-86e4ae13b0c0",
         '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">KREATIV AUSGEBILDET. KOMMERZIELL ERFAHREN.</p>',
@@ -883,13 +889,31 @@ apply = {
     ],
 }
 
+FILM_CRUMB_NODES = {
+    "6a94a5aa1d755181100606b7": ("0e677bd7-dbf3-9c62-d7a7-a386c8aaa64f", "0e677bd7-dbf3-9c62-d7a7-a386c8aaa653"),
+    "6a94835baff009655de6bdca": ("98a88856-c882-4cf7-4066-9e070a4bd085", "98a88856-c882-4cf7-4066-9e070a4bd089"),
+    "6a8b402d69195cfc7d432a59": ("f47db824-273b-daed-4f76-ba6132d6c475", "f47db824-273b-daed-4f76-ba6132d6c479"),
+    "6a8b402d3f30e7ce2c689cec": ("9045b573-b034-50b7-d7da-5d886cbe439a", "9045b573-b034-50b7-d7da-5d886cbe439e"),
+    "6a8b075dacef99c64dc2ba1d": ("9bb9167d-0246-6fd5-4aee-ef5d1625353b", "9bb9167d-0246-6fd5-4aee-ef5d1625353f"),
+    "6a8b402e3f30e7ce2c689d4b": ("8f95d564-101f-3de2-a869-6b589000f3cd", "8f95d564-101f-3de2-a869-6b589000f3d1"),
+    "6a8b402efd4a464888ee176a": ("98fb329d-923e-c8db-2866-005488a4e46c", "98fb329d-923e-c8db-2866-005488a4e470"),
+    "6a8b402ffa314513088680ba": ("07cf97f5-f2f4-2821-0d8b-eace28444bd3", "07cf97f5-f2f4-2821-0d8b-eace28444bd7"),
+    "6a8b402fefdad2a541be5cf8": ("532353d2-7c9f-468e-b934-23d48a7dd4cf", "532353d2-7c9f-468e-b934-23d48a7dd4d3"),
+    "6a8b4030d04c77b87628e041": ("5093b8db-f729-97bb-1a57-add8d32893df", "5093b8db-f729-97bb-1a57-add8d32893e3"),
+}
+
 for page_id, meta in films.items():
+    home_id, col_id = FILM_CRUMB_NODES[page_id]
     apply["pages"].append(
         {
             "name": meta["title"].rstrip("."),
             "page_id": page_id,
             "path": f"/films/{meta['slug']}",
-            "nodes": meta["nodes"],
+            "nodes": [
+                n(home_id, '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a83fdcf46ec1970b6eb307b">START</a>'),
+                n(col_id, '<a class="olesko_breadcrumb_link" data-wf-link-page-id="6a8471318afbe9b46708f954">KOLLEKTION</a>'),
+                *meta["nodes"],
+            ],
         }
     )
 
@@ -1311,6 +1335,51 @@ seo = {
     },
     "pages": seo_pages,
 }
+
+def _breadcrumb_list(pairs):
+    return {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i, "name": name, "item": url}
+            for i, (name, url) in enumerate(pairs, 1)
+        ],
+    }
+
+
+def _with_breadcrumbs(schema, pairs):
+    if not schema or "@graph" in schema:
+        return schema
+    obj = {k: v for k, v in schema.items() if k != "@context"}
+    return {"@context": "https://schema.org", "@graph": [obj, _breadcrumb_list(pairs)]}
+
+
+_BC = {
+    "6a8471318afbe9b46708f954": [
+        ("START", "https://oleskostudio.com/de-at"),
+        ("KOLLEKTION", "https://oleskostudio.com/de-at/collection"),
+    ],
+    "6a8471320e6ee1e88c0037c2": [
+        ("START", "https://oleskostudio.com/de-at"),
+        ("AUFTRAG", "https://oleskostudio.com/de-at/commission"),
+    ],
+    "6a8471331d2d68eb848af612": [
+        ("START", "https://oleskostudio.com/de-at"),
+        ("ÜBER", "https://oleskostudio.com/de-at/about"),
+    ],
+}
+for page in seo["pages"]:
+    schema = page.get("jsonLdSchema")
+    if page["id"] in _BC:
+        page["jsonLdSchema"] = _with_breadcrumbs(schema, _BC[page["id"]])
+    elif schema and schema.get("@type") == "VideoObject":
+        page["jsonLdSchema"] = _with_breadcrumbs(
+            schema,
+            [
+                ("START", "https://oleskostudio.com/de-at"),
+                ("KOLLEKTION", "https://oleskostudio.com/de-at/collection"),
+                (schema["name"], schema["url"]),
+            ],
+        )
 
 (OUT / "apply.json").write_text(json.dumps(apply, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 (OUT / "seo-schema.json").write_text(json.dumps(seo, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

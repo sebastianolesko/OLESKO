@@ -3,6 +3,7 @@
   "site_id": "6a7b43a328ec101a40bb1d20",
   "localeId": "6a983fb4dfdbdb9a5e8b882c",
   "notes": [
+    "Inner-page breadcrumbs: START / KOLLEKTION / AUFTRAG / ÜBER. Film last crumb stays the English title. Imprint/Privacy stay English HOME / IMPRINT and HOME / PRIVACY.",
     "Language switcher: DE spans removed. Header, menu, and menu-bottom EN/DE are real links. Pairing script oleskolangpair 1.0.0 in site footer.",
     "localeId 6a983fb4dfdbdb9a5e8b882c cmsLocaleId 6a983fb4dfdbdb9a5e8b8831 tag de-AT subdirectory de-at enabled true.",
     "Films are static pages. Do not recreate Films-cms or Posts.",
@@ -707,6 +708,14 @@
       "path": "/collection",
       "nodes": [
         {
+          "nodeId": "f4e392c1-30a0-95d7-cece-30cf50f0d7e9",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "f3962036-1e3e-667a-9d7b-ecd2e8d13e72",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
+        {
           "nodeId": "e5f14414-aad2-ddda-5300-c52a03172fde",
           "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">DIE KOLLEKTION</p>"
         },
@@ -785,6 +794,14 @@
       "page_id": "6a8471320e6ee1e88c0037c2",
       "path": "/commission",
       "nodes": [
+        {
+          "nodeId": "106d9216-49b1-e247-45fd-7caf3ab70098",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "106d9216-49b1-e247-45fd-7caf3ab7009c",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471320e6ee1e88c0037c2\">AUFTRAG</a>"
+        },
         {
           "nodeId": "2a097400-64ed-1286-6504-d64f1f23e3b8",
           "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">AUFTRAG</p>"
@@ -1063,6 +1080,14 @@
       "path": "/about",
       "nodes": [
         {
+          "nodeId": "07b25bb3-b15f-2b85-82da-964d2d3ad299",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "07b25bb3-b15f-2b85-82da-964d2d3ad29d",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471331d2d68eb848af612\">ÜBER</a>"
+        },
+        {
           "nodeId": "a8851332-85d3-eb33-1e41-86e4ae13b0c0",
           "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">KREATIV AUSGEBILDET. KOMMERZIELL ERFAHREN.</p>"
         },
@@ -1158,6 +1183,14 @@
       "path": "/films/let-it-rain-nurburgring-nordschleife",
       "nodes": [
         {
+          "nodeId": "0e677bd7-dbf3-9c62-d7a7-a386c8aaa64f",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "0e677bd7-dbf3-9c62-d7a7-a386c8aaa653",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
+        {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Die Grüne Hölle ist nass. Gischt hinter einem Chiron, einer Valkyrie, einem Jesko Attack und einem Huayra. Vier Hypercars auf der Nordschleife, als wäre der Regen dafür aufgehoben worden.</p>"
         },
@@ -1180,6 +1213,14 @@
       "page_id": "6a94835baff009655de6bdca",
       "path": "/films/the-look-of-love-ferrari-250-gt-california-spyder",
       "nodes": [
+        {
+          "nodeId": "98a88856-c882-4cf7-4066-9e070a4bd085",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "98a88856-c882-4cf7-4066-9e070a4bd089",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Das Dach ist offen. Burgunderroter Aufbau auf der Como-Straße, Oleander in der Sonne. Ein 250 GT California Spyder, ohne Eile, als wäre der Nachmittag dafür aufgehoben worden.</p>"
@@ -1204,6 +1245,14 @@
       "path": "/films/riviera-summer-cruise-aston-martin-db12-volante",
       "nodes": [
         {
+          "nodeId": "f47db824-273b-daed-4f76-ba6132d6c475",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "f47db824-273b-daed-4f76-ba6132d6c479",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
+        {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Das Dach ist offen. Mittelmeerlicht auf dem Aufbau, die Corniche rollt sich auf, als wäre sie dafür aufgehoben worden. Ein DB12 Volante, ohne Eile, nah genug, um das Salz zu schmecken.</p>"
         },
@@ -1226,6 +1275,14 @@
       "page_id": "6a8b402d3f30e7ce2c689cec",
       "path": "/films/alpine-autumn-high-pass-porsche-992-gt3-touring",
       "nodes": [
+        {
+          "nodeId": "9045b573-b034-50b7-d7da-5d886cbe439a",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "9045b573-b034-50b7-d7da-5d886cbe439e",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Hohe Luft, dünnes Licht, der Pass öffnet sich durch Lärche und Stein. Ein 992 GT3 Touring an den Berg gehalten, ohne Eile, als hätte die Straße gewartet.</p>"
@@ -1250,6 +1307,14 @@
       "path": "/films/along-the-sea-wall-bentley-continental-gtc",
       "nodes": [
         {
+          "nodeId": "9bb9167d-0246-6fd5-4aee-ef5d1625353b",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "9bb9167d-0246-6fd5-4aee-ef5d1625353f",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
+        {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Das Dach ist offen. Silberner Aufbau gegen die Seemauer, Sonne auf dem Wasser, die Küste öffnet sich, als wäre sie dafür aufgehoben worden. Ein Continental GTC, ohne Eile, nah genug, um das Salz zu schmecken.</p>"
         },
@@ -1272,6 +1337,14 @@
       "page_id": "6a8b402e3f30e7ce2c689d4b",
       "path": "/films/on-the-flooded-salt-lamborghini-revuelto",
       "nodes": [
+        {
+          "nodeId": "8f95d564-101f-3de2-a869-6b589000f3cd",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "8f95d564-101f-3de2-a869-6b589000f3d1",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Himmel und Salz als eine Fläche. Ein Revuelto auf dem überfluteten Salar, ohne Eile, der Horizont so still, er könnte Glas sein.</p>"
@@ -1296,6 +1369,14 @@
       "path": "/films/at-the-louvre-ferrari-250-gto",
       "nodes": [
         {
+          "nodeId": "98fb329d-923e-c8db-2866-005488a4e46c",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "98fb329d-923e-c8db-2866-005488a4e470",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
+        {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Nacht auf dem Stein, roter Aufbau unter den Lampen. Ein 250 GTO in Paris, ohne Eile, als wäre die Straße dafür aufgehoben worden.</p>"
         },
@@ -1318,6 +1399,14 @@
       "page_id": "6a8b402ffa314513088680ba",
       "path": "/films/into-the-highland-fog-mercedes-amg-gt",
       "nodes": [
+        {
+          "nodeId": "07cf97f5-f2f4-2821-0d8b-eace28444bd3",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "07cf97f5-f2f4-2821-0d8b-eace28444bd7",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Die Straße dünnt sich in den Nebel. Ein AMG GT in den Highlands, ohne Eile, Silber gegen das Nasse, nah genug, um den Regen zu schmecken.</p>"
@@ -1342,6 +1431,14 @@
       "path": "/films/down-the-avenue-mercedes-benz-190-sl",
       "nodes": [
         {
+          "nodeId": "532353d2-7c9f-468e-b934-23d48a7dd4cf",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "532353d2-7c9f-468e-b934-23d48a7dd4d3",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
+        {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Bäume in einer Reihe, heller Aufbau im Schatten. Ein 190 SL auf einer englischen Allee, ohne Eile, als wäre der Nachmittag dafür aufgehoben worden.</p>"
         },
@@ -1364,6 +1461,14 @@
       "page_id": "6a8b4030d04c77b87628e041",
       "path": "/films/mountain-sanctuary-mercedes-amg-g-63",
       "nodes": [
+        {
+          "nodeId": "5093b8db-f729-97bb-1a57-add8d32893df",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">START</a>"
+        },
+        {
+          "nodeId": "5093b8db-f729-97bb-1a57-add8d32893e3",
+          "text": "<a class=\"olesko_breadcrumb_link\" data-wf-link-page-id=\"6a8471318afbe9b46708f954\">KOLLEKTION</a>"
+        },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
           "text": "<p class=\"olesko_film_copy\">Schnee, Stille, schwarzer Aufbau gegen den Gipfel. Ein G 63 in der hohen Luft, ohne Eile, als hätte der Berg gewartet.</p>"
