@@ -139,6 +139,8 @@ MCP wrote **only** localeId `6a983fb4dfdbdb9a5e8b882c`. English primary SEO and 
 
 Sebastian lock: German `Automobil*` / `Automobile` / compounds replaced with `Fahrzeug` / `Fahrzeuge` / `Fahrzeugs` / `Fahrzeugen` as grammar requires. English primary untouched (`automobile` stays). English identifiers (`brief-automobile`, `data-name="Automobile"`, `Second automobile in one film`, `aria-label="Selected automobile films"`) untouched. Imprint/Privacy body stays English; de-AT footer chrome uses Fahrzeuge. `llms.txt` not changed (live file is English only). Reality stays hidden. Commission buttons stay SEND ENQUIRY / SEND BRIEF.
 
+Published `2026-09-02T21:23:59.765Z` to apex + www + subdomain. Live `/de-at` H1: `UNMÖGLICHE FILME FÜR AUSSERGEWÖHNLICHE FAHRZEUGE`. Collection meta: `Ausgewählte beauftragte Filme für exklusive Fahrzeuge.` No German `Automobil*` left on de-AT pages.
+
 ## FAQ questions (applied on de-AT)
 
 Accordion questions were span + String nodes. Localization MCP strips `<span>`, so those strings could not be written. Each original span still wraps the toggle. Inside it, a localizable `h5.accordion_toggle_text.u-text-style-h5` holds the question. English heading copy is unchanged. de-AT headings are German. Same 13 items. No new FAQ rows.
