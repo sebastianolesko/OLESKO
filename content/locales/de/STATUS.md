@@ -17,6 +17,7 @@ MCP wrote **only** localeId `6a983fb4dfdbdb9a5e8b882c`. English primary SEO and 
 |---|---|
 | Header, footer, commission CTA, film disclaimer | German (components, earlier this run) |
 | Home, Collection, Commission, About | German static copy |
+| Home FAQ **questions** (13) | German on de-AT via new h5 nodes inside the original accordion spans. English headings unchanged. |
 | 10 static film pages | German blurbs, disclosure, TEILEN, LINK KOPIEREN. Titles stay English. Mux embeds unchanged. |
 | SEO titles, meta, OG | German on those 14 pages. `publishedPath` is `/de-at/...`. |
 | JSON-LD | Organization / WebSite / WebPage / FAQPage / CollectionPage / AboutPage / VideoObject. `inLanguage` `de-AT`. URLs `/de-at/`. Live Mux `contentUrl` / `embedUrl`. |
@@ -25,31 +26,34 @@ MCP wrote **only** localeId `6a983fb4dfdbdb9a5e8b882c`. English primary SEO and 
 | CMS | `get_collection_list` → `collections: []`. Films-cms and Posts were not recreated. |
 | Collection empty-state node `b92297f0-eaff-dfe5-9c28-de759a2d043f` | **Node not found** (CMS list gone). Other Collection strings wrote. |
 
-## Leftovers (Designer on de-AT only)
+## FAQ questions (applied on de-AT)
 
-Localization MCP cannot edit the primary locale or FAQ toggle spans.
+Accordion questions were span + String nodes. Localization MCP strips `<span>`, so those strings could not be written. Each original span still wraps the toggle. Inside it, a localizable `h5.accordion_toggle_text.u-text-style-h5` holds the question. English heading copy is unchanged. de-AT headings are German. Same 13 items. No new FAQ rows.
+
+| EN (primary heading) | DE written on de-AT | heading node |
+|---|---|---|
+| CAN I MAKE THIS MYSELF WITH AI SOFTWARE? | KANN ICH DAS SELBST MIT KI-SOFTWARE MACHEN? | `4d895fa8-66cd-3e23-13a7-ebb539f59f9c` |
+| CAN I USE THIS IF THE MANUFACTURER ONLY ALLOWS OFFICIAL BRAND MATERIAL? | GEHT DAS, WENN DER HERSTELLER NUR OFFIZIELLES MARKENMATERIAL ERLAUBT? | `83039e7b-b200-fdda-9d2f-174f71eefc59` |
+| WHAT IS A COMMISSIONED AUTOMOBILE FILM? | WAS IST EIN AUTOMOBILFILM AUF AUFTRAG? | `368b27dc-78b0-b61f-da33-f1098d00a301` |
+| WHAT DO I NEED TO PROVIDE? | WAS MUSS ICH LIEFERN? | `ca15bc04-49e0-b415-2d24-3b032601e370` |
+| DOES MY AUTOMOBILE NEED TO BE TRANSPORTED? | MUSS MEIN AUTOMOBIL TRANSPORTIERT WERDEN? | `58b2ed8d-04a8-b4d5-59f2-8886ef72f2df` |
+| DOES MY FILM NEED A COMMERCIAL OBJECTIVE? | BRAUCHT MEIN FILM EIN KOMMERZIELLES ZIEL? | `6360e305-4063-d52e-5d3b-2048c210fb7f` |
+| HOW LONG WILL MY FILM TAKE? | WIE LANGE DAUERT MEIN FILM? | `e810c2a3-a2cb-f0db-09b3-c782c48e17d7` |
+| WILL MY BRAND GUIDELINES BE FOLLOWED? | WERDEN MEINE MARKENRICHTLINIEN BEACHTET? | `178ab66d-46b6-4aba-6050-5673e6e15c31` |
+| IS THE IMAGERY REAL OR GENERATED? | SIND DIE BILDER ECHT ODER ERZEUGT? | `147a4df7-4071-122e-b0c3-0e6b5c1e4450` |
+| CAN MY FILM INCLUDE A REAL SHOWROOM, VILLA OR IDENTIFIABLE PERSON? | KANN MEIN FILM EINEN ECHTEN SHOWROOM, EINE VILLA ODER EINE ERKENNBARE PERSON ZEIGEN? | `a8e96439-c1a2-85db-c4a0-f9802ecafb51` |
+| CAN I SPECIFY THE NUMBER PLATE, BRANDING AND DELIVERY FORMAT? | KANN ICH KENNZEICHEN, BRANDING UND AUSLIEFERUNGSFORMAT VORGEBEN? | `efa85462-f607-f9cc-2caf-30e070d1790b` |
+| WHAT USAGE RIGHTS ARE INCLUDED? | WELCHE NUTZUNGSRECHTE SIND ENTHALTEN? | `51038112-42e7-f285-de32-e1d2e757a556` |
+| WILL MY COMMISSIONED FILM BE PUBLISHED? | WIRD MEIN AUFTRAGSFILM VERÖFFENTLICHT? | `9607c924-6490-3458-87d1-c0d71fb15b3d` |
+
+## Leftovers (Designer on de-AT only)
 
 - Primary header DE is still a **disabled span**, not a locale link. Do not type a fake `/de` or `/de-at` path on live EN until you publish.
 - On the DE header, DE is current; EN → `/`. Bottom row still shows both as current until Designer fixes the switcher.
-- FAQ **questions** in `accordion_toggle_text` are still English. Answers are German. IDs:
-
-| EN | DE | node (toggle text) |
-|---|---|---|
-| CAN I MAKE THIS MYSELF WITH AI SOFTWARE? | KANN ICH DAS SELBST MIT KI-SOFTWARE MACHEN? | `bc61f72d-608a-d5ee-1f27-d36e12220cf6` |
-| CAN I USE THIS IF THE MANUFACTURER ONLY ALLOWS OFFICIAL BRAND MATERIAL? | GEHT DAS, WENN DER HERSTELLER NUR OFFIZIELLES MARKENMATERIAL ERLAUBT? | `c2e1f317-16f6-7d17-7546-ddd849486b74` |
-| WHAT IS A COMMISSIONED AUTOMOBILE FILM? | WAS IST EIN AUTOMOBILFILM AUF AUFTRAG? | `ee7a7955-3390-8fe0-0996-4c4b89761154` |
-| WHAT DO I NEED TO PROVIDE? | WAS MUSS ICH LIEFERN? | `ee7a7955-3390-8fe0-0996-4c4b8976115d` |
-| DOES MY AUTOMOBILE NEED TO BE TRANSPORTED? | MUSS MEIN AUTOMOBIL TRANSPORTIERT WERDEN? | `ee7a7955-3390-8fe0-0996-4c4b89761166` |
-| DOES MY FILM NEED A COMMERCIAL OBJECTIVE? | BRAUCHT MEIN FILM EIN KOMMERZIELLES ZIEL? | `ee7a7955-3390-8fe0-0996-4c4b8976116f` |
-| HOW LONG WILL MY FILM TAKE? | WIE LANGE DAUERT MEIN FILM? | `ee7a7955-3390-8fe0-0996-4c4b89761178` |
-| WILL MY BRAND GUIDELINES BE FOLLOWED? | WERDEN MEINE MARKENRICHTLINIEN BEACHTET? | `ee7a7955-3390-8fe0-0996-4c4b89761181` |
-| IS THE IMAGERY REAL OR GENERATED? | SIND DIE BILDER ECHT ODER ERZEUGT? | `ee7a7955-3390-8fe0-0996-4c4b8976118a` |
-| CAN MY FILM INCLUDE A REAL SHOWROOM, VILLA OR IDENTIFIABLE PERSON? | KANN MEIN FILM EINEN ECHTEN SHOWROOM, EINE VILLA ODER EINE ERKENNBARE PERSON ZEIGEN? | `ee7a7955-3390-8fe0-0996-4c4b89761193` |
-| CAN I SPECIFY THE NUMBER PLATE, BRANDING AND DELIVERY FORMAT? | KANN ICH KENNZEICHEN, BRANDING UND AUSLIEFERUNGSFORMAT VORGEBEN? | `ee7a7955-3390-8fe0-0996-4c4b8976119c` |
-| WHAT USAGE RIGHTS ARE INCLUDED? | WELCHE NUTZUNGSRECHTE SIND ENTHALTEN? | `ee7a7955-3390-8fe0-0996-4c4b897611a5` |
-| WILL MY COMMISSIONED FILM BE PUBLISHED? | WIRD MEIN AUFTRAGSFILM VERÖFFENTLICHT? | sibling of summary `ee7a7955-3390-8fe0-0996-4c4b897611b1` |
-
-- Commission submit values still SEND ENQUIRY / SEND BRIEF until Designer on de-AT sets `ANFRAGE SENDEN` / `BRIEFING SENDEN` and `Bitte warten...`.
+- Commission submit values still SEND ENQUIRY / SEND BRIEF (verified 2026-09-02). Official Pages Update Content wants `value` + `waitingText` on those submit nodes. MCP `update_static_content` only accepts `text` / `propertyOverrides`, so the write is rejected. `set_settings` on `buttonText` has no localeId and would overwrite live English. Designer is disconnected (login required). On de-AT set `ANFRAGE SENDEN` / `BRIEFING SENDEN` and `Bitte warten...` on:
+  - Enquiry `0fc9e301-f2d1-cff1-0e91-2fc4442cdb1c` (`#commission-enquiry-submit`, `type=submit`)
+  - Brief `a39ce365-82b8-2a52-a5ae-d47a9ab4712a` (`#commission-brief-submit`, `type=submit`)
+  Keep method post, field names, no Lumos overlay, no `commissionformsubmit`.
 - Live `hreflang` / sitemap `/de-at/` rows appear after you publish the locale. Do not paste `llms.txt` until then.
 
 ## What was not done (on purpose)

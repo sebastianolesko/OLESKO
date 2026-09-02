@@ -15,7 +15,7 @@ Existing secondary locale (do not recreate):
 2. `update_component_content` for each entry in `apply.json` → `components` with that `localeId`.
 3. `update_static_content` for each entry in `apply.json` → `pages` with that `localeId`. Skip Imprint and Privacy.
 4. `bulk_update_pages` / `bulk_update_pages_schema_markup` from `seo-schema.json` with that `localeId`. All canonicals, og:url, JSON-LD `url`, and hreflang use `/de-at/` and `de-AT`.
-5. Designer on **de-AT only** (do not overwrite EN): convert the primary header DE span into a real locale link. On DE, EN stays `/`. Set FAQ question spans listed in `STATUS.md`. Set Commission button values `ANFRAGE SENDEN` / `BRIEFING SENDEN` and waiting text `Bitte warten...`.
+5. Designer on **de-AT only** (do not overwrite EN): convert the primary header DE span into a real locale link. On DE, EN stays `/`. FAQ questions are already German on the h5 nodes in `STATUS.md`. Set Commission button values `ANFRAGE SENDEN` / `BRIEFING SENDEN` and waiting text `Bitte warten...` (`value` / `waitingText` on the native submit nodes).
 6. Save. Webflow should emit `hreflang` en ↔ de-AT after a Designer save. Canonical stays the locale URL under `/de-at/`.
 7. Stop. Wait for Sebastian’s publish yes. Do not call `publish_site`.
 

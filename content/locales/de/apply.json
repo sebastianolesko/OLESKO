@@ -7,7 +7,7 @@
     "localeId 6a983fb4dfdbdb9a5e8b882c cmsLocaleId 6a983fb4dfdbdb9a5e8b8831 tag de-AT subdirectory de-at enabled false.",
     "Films are static pages. Do not recreate Films-cms or Posts.",
     "Do not write Imprint or Privacy DE.",
-    "FAQ questions and commission submit buttons may need Designer on de-AT.",
+    "FAQ questions are now localizable h5 nodes inside the original accordion spans. Commission submit buttons still need value/waitingText on de-AT.",
     "Reality section is translated and stays hidden.",
     "Do not publish."
   ],
@@ -588,52 +588,104 @@
           "text": "<h2 id=\"faq-title\" class=\"olesko_section_grid_item u-text-style-h2\">FRAGEN, BEANTWORTET.</h2>"
         },
         {
+          "nodeId": "4d895fa8-66cd-3e23-13a7-ebb539f59f9c",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">KANN ICH DAS SELBST MIT KI-SOFTWARE MACHEN?</h5>"
+        },
+        {
           "nodeId": "bc61f72d-608a-d5ee-1f27-d36e12220cfb",
           "text": "<p class=\"home_faq_answer_copy\">Ja. Jeder kann das, wenn er das Können hat und die Werkzeuge beherrscht. Die Software ist nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Automobil in Bewegung aussieht, und die Arbeit, es dorthin zu bringen.</p>"
+        },
+        {
+          "nodeId": "83039e7b-b200-fdda-9d2f-174f71eefc59",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">GEHT DAS, WENN DER HERSTELLER NUR OFFIZIELLES MARKENMATERIAL ERLAUBT?</h5>"
         },
         {
           "nodeId": "c2e1f317-16f6-7d17-7546-ddd849486b79",
           "text": "<p class=\"home_faq_answer_copy\">Das ist keine Herstellerwerbung. Es ist ein beauftragter Film eines bestimmten Automobils, aus Ihren Fotografien, ohne Anspruch auf Markengenehmigung. Verbietet ein Händlervertrag tatsächlich inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Auto, Inserat oder Ihren Kunden gilt das nicht in derselben Weise.</p>"
         },
         {
+          "nodeId": "368b27dc-78b0-b61f-da33-f1098d00a301",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">WAS IST EIN AUTOMOBILFILM AUF AUFTRAG?</h5>"
+        },
+        {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b89761159",
           "text": "<p class=\"home_faq_answer_copy\">Ihr beauftragter Film ist eine kurze visuelle Arbeit aus gelieferten Fotografien. Er kann Ihr Automobil in eine komponierte Geschichte, einen Ort oder eine Atmosphäre setzen, ohne einen konventionellen Location-Dreh.</p>"
+        },
+        {
+          "nodeId": "ca15bc04-49e0-b415-2d24-3b032601e370",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">WAS MUSS ICH LIEFERN?</h5>"
         },
         {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b89761162",
           "text": "<p class=\"home_faq_answer_copy\">Klare Fotografien aus brauchbaren Winkeln, wichtige Erscheinungsdetails und eine kurze Beschreibung des Ergebnisses, das Sie wollen.</p>"
         },
         {
+          "nodeId": "58b2ed8d-04a8-b4d5-59f2-8886ef72f2df",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">MUSS MEIN AUTOMOBIL TRANSPORTIERT WERDEN?</h5>"
+        },
+        {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b8976116b",
           "text": "<p class=\"home_faq_answer_copy\">Nein. Ihr Film entsteht aus gelieferten Fotografien.</p>"
+        },
+        {
+          "nodeId": "6360e305-4063-d52e-5d3b-2048c210fb7f",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">BRAUCHT MEIN FILM EIN KOMMERZIELLES ZIEL?</h5>"
         },
         {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b89761174",
           "text": "<p class=\"home_faq_answer_copy\">Nein. Ihr Film kann ein kommerzielles Ziel stützen, oder für persönliche Bedeutung und Emotion entstehen.</p>"
         },
         {
+          "nodeId": "e810c2a3-a2cb-f0db-09b3-c782c48e17d7",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">WIE LANGE DAUERT MEIN FILM?</h5>"
+        },
+        {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b8976117d",
           "text": "<p class=\"home_faq_answer_copy\">Ein üblicher Auftrag wird in der Regel innerhalb einer Woche geliefert.</p>"
+        },
+        {
+          "nodeId": "178ab66d-46b6-4aba-6050-5673e6e15c31",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">WERDEN MEINE MARKENRICHTLINIEN BEACHTET?</h5>"
         },
         {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b89761186",
           "text": "<p class=\"home_faq_answer_copy\">Ja. Gelieferte Richtlinien und Kommunikationsvorgaben gehen in Ihr Briefing ein.</p>"
         },
         {
+          "nodeId": "147a4df7-4071-122e-b0c3-0e6b5c1e4450",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">SIND DIE BILDER ECHT ODER ERZEUGT?</h5>"
+        },
+        {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b8976118f",
           "text": "<p class=\"home_faq_answer_copy\">Ihr Film verwendet komponierte Bilder und moderne Bildtechnik, die generative KI einschließen kann, in einem persönlich verantworteten Herstellungsprozess. Die Art der Bilder wird klar benannt.</p>"
+        },
+        {
+          "nodeId": "a8e96439-c1a2-85db-c4a0-f9802ecafb51",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">KANN MEIN FILM EINEN ECHTEN SHOWROOM, EINE VILLA ODER EINE ERKENNBARE PERSON ZEIGEN?</h5>"
         },
         {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b89761198",
           "text": "<p class=\"home_faq_answer_copy\">Ja. Eigene reale Orte und erkennbare Personen können als zusätzliche Anforderungen beauftragt werden, wenn geeignetes Referenzmaterial vorliegt.</p>"
         },
         {
+          "nodeId": "efa85462-f607-f9cc-2caf-30e070d1790b",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">KANN ICH KENNZEICHEN, BRANDING UND AUSLIEFERUNGSFORMAT VORGEBEN?</h5>"
+        },
+        {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b897611a1",
           "text": "<p class=\"home_faq_answer_copy\">Ja. Kennzeichen, Abschlussbranding, Seitenverhältnis und Auflösung können Teil Ihres Auftrags sein; manche Wahl kann den Preis ändern.</p>"
         },
         {
+          "nodeId": "51038112-42e7-f285-de32-e1d2e757a556",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">WELCHE NUTZUNGSRECHTE SIND ENTHALTEN?</h5>"
+        },
+        {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b897611aa",
           "text": "<p class=\"home_faq_answer_copy\">Zulässige Nutzungen sind für jeden Auftrag klar bestimmt. Ihre Vereinbarung legt Lieferung, Nutzung und etwaige Grenzen fest, bevor die Herstellung beginnt.</p>"
+        },
+        {
+          "nodeId": "9607c924-6490-3458-87d1-c0d71fb15b3d",
+          "text": "<h5 class=\"accordion_toggle_text u-text-style-h5\">WIRD MEIN AUFTRAGSFILM VERÖFFENTLICHT?</h5>"
         },
         {
           "nodeId": "ee7a7955-3390-8fe0-0996-4c4b897611b3",
