@@ -9,7 +9,28 @@ Secondary: **German (Austria)** (`de-AT`, id `6a983fb4dfdbdb9a5e8b882c`, cmsLoca
 
 Last live publish (unchanged): **`2026-09-02T09:23:02.801Z`**. `googleTagIds` empty. `publish_site` was not called.
 
-## Applied (this turn)
+## Copy lock (unpublished de-AT, 2026-09-02)
+
+MCP wrote **only** localeId `6a983fb4dfdbdb9a5e8b882c`. English primary not edited. `publish_site` not called. lastPublished still `2026-09-02T09:23:02.801Z`.
+
+1. **kluge Technik replacements: 1.** Live + pack body `28ea34b7-fdff-c129-ec54-21a8f43bf721` was `mit kluger Technik` → `mit intelligenter Technologie`. No other `kluge`/`kluger Technik` on de-AT, SEO, OG, nav, footer, or CTA. About “Technik” / “moderne Technik” / FAQ “Bildtechnik” left alone.
+2. **Delivery line is exactly `in einer Woche geliefert`.** Other week/turnaround phrasing killed (`IN EINER WOCHE`, `EINE WOCHE` / `ÜBLICHE` / `LIEFERZEIT`, `in einer Woche bei Ihnen`, `in der Regel innerhalb einer Woche…`, `etwa eine Woche`). Empty laurel lines inherit English `STANDARD`/`TURNAROUND`, so those two subdued spans are `·` (not a delivery claim).
+
+| Where | node | String |
+|---|---|---|
+| Home hero laurel | `5b3c7b25-e77b-cfe4-245d-1e1676ee0e27` (`…0e2c`) | `in einer Woche geliefert` |
+| Home service H2 | `28ea34b7-fdff-c129-ec54-21a8f43bf71d` | `IHR AUTO. KEIN echter Dreh. KEIN RISIKO. in einer Woche geliefert.` |
+| Home service body | `28ea34b7-fdff-c129-ec54-21a8f43bf721` | `… mit intelligenter Technologie. … in einer Woche geliefert.` |
+| Home process | `8dda0860-6443-e88d-fe16-1e70ea760893` | `Ihr Film kommt gebrauchsfertig, in einer Woche geliefert, ohne reale Produktion.` |
+| Home FAQ answer | `ee7a7955-3390-8fe0-0996-4c4b8976117d` | `Ein üblicher Auftrag wird in einer Woche geliefert.` |
+| Home JSON-LD FAQ | WIE LANGE DAUERT MEIN FILM? | `Ein üblicher Auftrag wird in einer Woche geliefert.` |
+| Commission intro | `35f671f4-2ad3-d413-7137-ff0ac44e687d` | `Übliche Arbeit wird persönlich gemacht, in einer Woche geliefert.` |
+
+Kept (not turnaround): `WAS MUSS ICH LIEFERN?`, `gelieferten Fotografien/Bildern`, `IHRE GELIEFERTEN FOTOGRAFIEN`, `AUSLIEFERUNGSFORMAT`, `die Sie liefern`, FAQ “Lieferung, Nutzung”.
+
+Commission submit values still English (`SEND ENQUIRY` / `SEND BRIEF`, waiting `Please wait...`). MCP cannot send `value`/`waitingText`. Designer disconnected. Do not use `set_settings` (no localeId; would overwrite live EN).
+
+## Applied (earlier)
 
 MCP wrote **only** localeId `6a983fb4dfdbdb9a5e8b882c`. English primary SEO and copy were not overwritten.
 

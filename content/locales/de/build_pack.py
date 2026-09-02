@@ -223,9 +223,9 @@ home_nodes = [
         '<img src="https://s3.amazonaws.com/webflow-prod-assets/6a7b43a328ec101a40bb1d20/6a7b646b03d3b1363eea29cc_olesko-laurel-left.svg" loading="lazy" width="auto" height="auto" alt="__wf_reserved_inherit" class="olesko_hero_laurel_branch" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e29">'
         "</span> "
         '<span class="olesko_hero_laurel_copy" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e2b">'
-        '<span class="olesko_hero_laurel_line" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e2c">EINE WOCHE</span>'
-        '<span class="olesko_hero_laurel_line_subdued" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e2e">ÜBLICHE</span>'
-        '<span class="olesko_hero_laurel_line_subdued" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e30">LIEFERZEIT</span></span>'
+        '<span class="olesko_hero_laurel_line" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e2c">in einer Woche geliefert</span>'
+        '<span class="olesko_hero_laurel_line_subdued" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e2e">·</span>'
+        '<span class="olesko_hero_laurel_line_subdued" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e30">·</span></span>'
         '<span class="olesko_hero_laurel_side" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e32">'
         '<img src="https://s3.amazonaws.com/webflow-prod-assets/6a7b43a328ec101a40bb1d20/6a7b646b460c187d667116b7_olesko-laurel-right.svg" loading="lazy" width="auto" height="auto" alt="__wf_reserved_inherit" class="olesko_hero_laurel_branch" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e33">'
         "</span></li>",
@@ -236,7 +236,7 @@ home_nodes = [
     ),
     n(
         "28ea34b7-fdff-c129-ec54-21a8f43bf71d",
-        '<h2 id="service-title" class="home_service_title u-text-style-h2">IHR AUTO. KEIN echter Dreh. KEIN RISIKO. IN EINER WOCHE.</h2>',
+        '<h2 id="service-title" class="home_service_title u-text-style-h2">IHR AUTO. KEIN echter Dreh. KEIN RISIKO. in einer Woche geliefert.</h2>',
     ),
     n(
         "c18d7b03-b0f8-fb20-f8cb-5004a01c3a8b",
@@ -251,8 +251,8 @@ home_nodes = [
     n(
         "28ea34b7-fdff-c129-ec54-21a8f43bf721",
         '<p class="home_service_text u-text-style-main">'
-        "Der Film entsteht vollständig aus Fotografien, die Sie liefern, mit kluger Technik. "
-        "Ihr genaues Automobil, in einer Umgebung die Sie wählen, in einer Woche bei Ihnen. </p>",
+        "Der Film entsteht vollständig aus Fotografien, die Sie liefern, mit intelligenter Technologie. "
+        "Ihr genaues Automobil, in einer Umgebung die Sie wählen, in einer Woche geliefert. </p>",
     ),
     n(
         "0bb8b077-d226-6bb5-ca3d-7e919ab2b7e3",
@@ -452,7 +452,7 @@ home_nodes = [
     n(
         "8dda0860-6443-e88d-fe16-1e70ea760893",
         '<p class="home_process_step_copy u-text-style-main u-color-faded">'
-        "Ihr Film kommt gebrauchsfertig, in der Regel innerhalb einer Woche bei einem üblichen Auftrag, ohne reale Produktion.</p>",
+        "Ihr Film kommt gebrauchsfertig, in einer Woche geliefert, ohne reale Produktion.</p>",
     ),
     n(
         "aaa2b792-6d47-3a67-2a56-26858ec42113",
@@ -521,7 +521,7 @@ home_nodes = [
         "ee7a7955-3390-8fe0-0996-4c4b89761174",
         '<p class="home_faq_answer_copy">Nein. Ihr Film kann ein kommerzielles Ziel stützen, oder für persönliche Bedeutung und Emotion entstehen.</p>',
     ),
-    n("ee7a7955-3390-8fe0-0996-4c4b8976117d", '<p class="home_faq_answer_copy">Ein üblicher Auftrag wird in der Regel innerhalb einer Woche geliefert.</p>'),
+    n("ee7a7955-3390-8fe0-0996-4c4b8976117d", '<p class="home_faq_answer_copy">Ein üblicher Auftrag wird in einer Woche geliefert.</p>'),
     n(
         "ee7a7955-3390-8fe0-0996-4c4b89761186",
         '<p class="home_faq_answer_copy">Ja. Gelieferte Richtlinien und Kommunikationsvorgaben gehen in Ihr Briefing ein.</p>',
@@ -587,7 +587,7 @@ commission_nodes = [
     n("5ea31196-f387-49a9-2820-804f3b63289d", '<h1 id="commission-title" class="olesko_section_grid_item u-text-style-h2">IHR FILM</h1>'),
     n(
         "35f671f4-2ad3-d413-7137-ff0ac44e687d",
-        '<p class="olesko_commission_copy">Sie beauftragen einen Film Ihres Automobils aus Fotografien, die Sie liefern. Übliche Arbeit wird persönlich gemacht, etwa eine Woche.</p>',
+        '<p class="olesko_commission_copy">Sie beauftragen einen Film Ihres Automobils aus Fotografien, die Sie liefern. Übliche Arbeit wird persönlich gemacht, in einer Woche geliefert.</p>',
     ),
     n(
         "fd72e77f-f435-bebf-63fc-1a2294326f1a",
@@ -1063,7 +1063,7 @@ faq = [
         "BRAUCHT MEIN FILM EIN KOMMERZIELLES ZIEL?",
         "Nein. Ihr Film kann ein kommerzielles Ziel stützen, oder für persönliche Bedeutung und Emotion entstehen.",
     ),
-    ("WIE LANGE DAUERT MEIN FILM?", "Ein üblicher Auftrag wird in der Regel innerhalb einer Woche geliefert."),
+    ("WIE LANGE DAUERT MEIN FILM?", "Ein üblicher Auftrag wird in einer Woche geliefert."),
     ("WERDEN MEINE MARKENRICHTLINIEN BEACHTET?", "Ja. Gelieferte Richtlinien und Kommunikationsvorgaben gehen in Ihr Briefing ein."),
     (
         "SIND DIE BILDER ECHT ODER ERZEUGT?",
