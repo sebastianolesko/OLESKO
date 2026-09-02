@@ -4,7 +4,7 @@
 
 **lastPublished: `2026-09-02T17:37:25.798Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
 
-Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is `/` via `olesko_header_language_separator`. Last crumb is a self page-link with `aria-current="page"`.
+Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is ` / ` (space slash space, same as header EN / DE) via `olesko_header_language_separator`. Last crumb is a self page-link with `aria-current="page"`.
 
 EN visible: HOME / COLLECTION, HOME / COMMISSION, HOME / ABOUT, HOME / COLLECTION / [film title], HOME / IMPRINT, HOME / PRIVACY.
 
