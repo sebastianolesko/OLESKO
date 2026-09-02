@@ -2,7 +2,7 @@
 
 ## Breadcrumbs (2026-09-02)
 
-**lastPublished: pending publish** Header, menu, and breadcrumb slashes share one rule: inherit size/weight from the labels, even `0.75em` padding, vertical-align middle. Language items hug the slash (`first-child` flex-end, `last-child` flex-start) so N-to-slash and slash-to-D stay even. No hard-set `.75rem` on the slash.
+**lastPublished: `2026-09-02T20:13:32.677Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. Header, menu, and breadcrumb slashes share one rule: inherit size/weight from the labels, even `0.75em` padding, `vertical-align: middle`. Language items hug the slash (`first-child` flex-end, `last-child` flex-start). No hard-set `.75rem` on the slash.
 
 Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is a dedicated `olesko_breadcrumb_separator` (inherits trail type; `padding-left/right: 0.75em`). Do not reuse `olesko_header_language_separator` on crumbs. Last crumb is a self page-link with `aria-current="page"`.
 
