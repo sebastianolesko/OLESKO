@@ -2,7 +2,7 @@
 
 ## Breadcrumbs (2026-09-02)
 
-**lastPublished: `2026-09-02T19:16:58.722Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. Separator spacing published after the jammed `HOME/COLLECTION/LET IT RAIN` screenshot.
+**lastPublished: `2026-09-02T19:52:18.333Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. Breadcrumb slashes now use `olesko_breadcrumb_separator` (inherit trail type, `padding-left/right: 0.75em`). Do not reuse the header language separator on crumbs.
 
 Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is a dedicated `olesko_breadcrumb_separator` (inherits trail type; `padding-left/right: 0.75em`). Do not reuse `olesko_header_language_separator` on crumbs. Last crumb is a self page-link with `aria-current="page"`.
 
@@ -15,7 +15,7 @@ JSON-LD keeps the existing page object and adds a BreadcrumbList sibling in `@gr
 Live `/collection`:
 
 ```html
-<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/" class="olesko_breadcrumb_link">HOME</a><span aria-hidden="true" class="olesko_header_language_separator"> / </span><a aria-current="page" href="/collection" class="olesko_breadcrumb_link w--current">COLLECTION</a></nav>
+<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/" class="olesko_breadcrumb_link">HOME</a><span aria-hidden="true" class="olesko_breadcrumb_separator">/</span><a aria-current="page" href="/collection" class="olesko_breadcrumb_link w--current">COLLECTION</a></nav>
 ```
 
 ```json
