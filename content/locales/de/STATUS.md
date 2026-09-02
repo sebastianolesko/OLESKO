@@ -2,6 +2,8 @@
 
 ## Breadcrumbs (2026-09-02)
 
+**lastPublished: `2026-09-02T17:37:25.798Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
+
 Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is `/` via `olesko_header_language_separator`. Last crumb is a self page-link with `aria-current="page"`.
 
 EN visible: HOME / COLLECTION, HOME / COMMISSION, HOME / ABOUT, HOME / COLLECTION / [film title], HOME / IMPRINT, HOME / PRIVACY.
@@ -9,6 +11,26 @@ EN visible: HOME / COLLECTION, HOME / COMMISSION, HOME / ABOUT, HOME / COLLECTIO
 DE visible (menu words): START / KOLLEKTION, START / AUFTRAG, START / ÜBER, START / KOLLEKTION / [English film title]. Imprint/Privacy stay English pages.
 
 JSON-LD keeps the existing page object and adds a BreadcrumbList sibling in `@graph`. Legal pages that had null schema now have BreadcrumbList only. item URLs are absolute `https://oleskostudio.com/…`. No crumbs on Home. Reality stays hidden. Commission buttons stay SEND ENQUIRY / SEND BRIEF. No `googleTagIds`. `llms.txt` untouched.
+
+Live `/collection`:
+
+```html
+<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/" class="olesko_breadcrumb_link">HOME</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a aria-current="page" href="/collection" class="olesko_breadcrumb_link w--current">COLLECTION</a></nav>
+```
+
+```json
+{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "HOME", "item": "https://oleskostudio.com/"}, {"@type": "ListItem", "position": 2, "name": "COLLECTION", "item": "https://oleskostudio.com/collection"}]}
+```
+
+Live `/de-at/collection`:
+
+```html
+<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/de-at" class="olesko_breadcrumb_link">START</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a aria-current="page" href="/de-at/collection" class="olesko_breadcrumb_link w--current">KOLLEKTION</a></nav>
+```
+
+```json
+{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "START", "item": "https://oleskostudio.com/de-at"}, {"@type": "ListItem", "position": 2, "name": "KOLLEKTION", "item": "https://oleskostudio.com/de-at/collection"}]}
+```
 
 ---
 
