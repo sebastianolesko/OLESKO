@@ -1,104 +1,37 @@
-# OLESKO German locale — draft status (unpublished)
+# OLESKO German (Austria) locale — applied, unpublished
 
-Sebastian: **nothing is live.** This pack is the DE draft. Do not publish. Do not request Google indexing.
+Sebastian: **nothing is live.** Pack is applied to the existing draft locale. Do not publish. Do not request Google indexing.
 
 Site: `https://oleskostudio.com`  
 Site ID: `6a7b43a328ec101a40bb1d20`  
 Primary locale: English (`en`, id `6a876663b22843d8b60c22b0`, cmsLocaleId `6a876663b22843d8b60c2297`)  
-Secondary locales at last MCP check: **none**
+Secondary: **German (Austria)** (`de-AT`, id `6a983fb4dfdbdb9a5e8b882c`, cmsLocaleId `6a983fb4dfdbdb9a5e8b8831`, subdirectory `de-at`, **enabled: false**)
 
-## Blocker: MCP cannot create locale `de`
+Last live publish (unchanged): **`2026-09-02T09:23:02.801Z`**. `googleTagIds` empty. `publish_site` was not called.
 
-Webflow Localization is initialized (primary English exists) but the secondary list is empty. Official Data API and the Webflow MCP **cannot add a locale**. That is Designer → Localize → Add locale, or Project Settings → Localization.
+## Applied (this turn)
 
-Designer MCP is **not connected** on this machine. To let an agent apply this pack after you add the locale, open Designer with the MCP app:
+MCP wrote **only** localeId `6a983fb4dfdbdb9a5e8b882c`. English primary SEO and copy were not overwritten.
 
-https://olesko-website----development.design.webflow.com?app=dc8209c65e3ec02254d15275ca056539c89f6d15741893a0adf29ad6f381eb99
-
-### What to add (you, once)
-
-1. Locale tag: `de`
-2. Display name: German / Deutsch
-3. Subdirectory: `de` (not a folder of duplicate static pages)
-4. **Publishing: leave disabled.** Draft only.
-5. Do not enable locale publishing. Do not publish the site.
-
-After `de` exists, MCP can write secondary-locale page copy, page SEO, and schema. Primary English stays read-only via the localization tool.
-
-## What this repo contains
-
-| File | Purpose |
+| Surface | Result |
 |---|---|
-| `/llms.txt` | Full EN + DE studio rules. EN Collection now lists all **10** films (Look of Love + Let It Rain added). DE Collection rows use `/de/...` URLs and are labeled draft/unpublished. |
-| `content/locales/de/apply.json` | Node-level DE copy for Home, Collection, Commission, About, 10 film pages, header, footer, commission CTA, film disclaimer. Ready for `update_static_content` / `update_component_content` once `localeId` exists. |
-| `content/locales/de/seo-schema.json` | DE titles, meta, OG, and JSON-LD (Organization, WebSite, CollectionPage, WebPage, VideoObject). Mux `contentUrl` / `embedUrl` copied from live EN. Canonical = locale URL. |
-| `content/locales/de/APPLY.md` | Apply order after you add locale `de`. |
-| `content/locales/de/build_pack.py` | Regenerates the two JSON files. |
-| This file | What MCP could not do. What still needs your publish yes. |
+| Header, footer, commission CTA, film disclaimer | German (components, earlier this run) |
+| Home, Collection, Commission, About | German static copy |
+| 10 static film pages | German blurbs, disclosure, TEILEN, LINK KOPIEREN. Titles stay English. Mux embeds unchanged. |
+| SEO titles, meta, OG | German on those 14 pages. `publishedPath` is `/de-at/...`. |
+| JSON-LD | Organization / WebSite / WebPage / FAQPage / CollectionPage / AboutPage / VideoObject. `inLanguage` `de-AT`. URLs `/de-at/`. Live Mux `contentUrl` / `embedUrl`. |
+| Imprint + Privacy | Still English. EN slugs `/imprint` `/privacy` unchanged. de-AT metadata still English. No DE legal copy written. |
+| Reality / “BUT IS IT REAL?” | German copy on de-AT (`ABER IST ES ECHT?`). Display not changed. Section stays hidden. |
+| CMS | `get_collection_list` → `collections: []`. Films-cms and Posts were not recreated. |
+| Collection empty-state node `b92297f0-eaff-dfe5-9c28-de759a2d043f` | **Node not found** (CMS list gone). Other Collection strings wrote. |
 
-## CMS leftovers still on the site (blocks Localization Basic)
+## Leftovers (Designer on de-AT only)
 
-Re-checked via MCP on 2 Sep 2026. Still exactly two collections, both **zero items**. Not deleted.
+Localization MCP cannot edit the primary locale or FAQ toggle spans.
 
-| Collection | id | slug | items |
-|---|---|---|---|
-| Films-cms | `6a876663b22843d8b60c22c8` | `films-cms` | 0 |
-| Posts | `6a87666d57cf52c62b38e6cf` | `posts` | 0 |
-
-`data_cms_tool` has no delete-collection action (confirmed: `delete_collection` is rejected). Designer MCP is not connected. This environment has no Webflow Data API token, so `DELETE https://api.webflow.com/v2/collections/{id}` could not be sent.
-
-Live films stay static `/films/...` pages. Do **not** create replacement collections. Do **not** publish. Do **not** enable locale publishing. Do **not** paste llms.txt.
-
-### How to delete (you, then retry Localization Basic)
-
-Designer: CMS → collection gear → Delete collection. Do that for **Films-cms** and **Posts**. Do not publish after.
-
-Or put a site token with `cms:write` in the agent environment as `WEBFLOW_SITE_API_TOKEN` and say retry. Official call:
-
-```
-DELETE https://api.webflow.com/v2/collections/6a876663b22843d8b60c22c8
-DELETE https://api.webflow.com/v2/collections/6a87666d57cf52c62b38e6cf
-```
-
-After both are gone, `get_collection_list` must return **zero** collections. Then retry Localization Basic checkout. Locale `de` stays unpublished.
-
-## CMS films: there are no CMS film items to clone
-
-Live films are **static pages** under `/films/...` (10 pages, including Look of Love and Let It Rain). Do **not** create Films-cms items. That would invent a second set of film URLs.
-
-The Collection page still has an empty CMS list (“No items found”) plus the static cards. Left as-is. Not a DE task.
-
-## llms.txt: MCP cannot write Site Settings
-
-No MCP action writes the site-level llms.txt field. Live Site Settings still has the older 8-film English file.
-
-**Do not paste the bilingual `/llms.txt` into live Site Settings until you publish DE.** The DE rows use `/de/...` URLs. Those 404 until the locale is published.
-
-When you say publish:
-
-1. Publish DE (and only then)
-2. Paste `/llms.txt` from this repo into Site Settings → llms.txt
-3. Publish again so crawlers see the new file
-
-Until then, the repo file is the source of truth.
-
-## Header switcher
-
-Live header DE is a **disabled span**, not a locale link. Wiring it to `/de` on the primary locale before the locale exists would 404 if anyone published by accident.
-
-After you add `de`:
-
-- Primary header: EN current, DE → locale `de` (Webflow locale link, not a fake `/de` path you typed)
-- DE header: DE current, EN → `/`
-- Menu + bar + bottom language row all three
-
-Do not treat IMPRINT / PRIVACY as German legal. Labels stay English so nobody thinks a DE legal page exists.
-
-## FAQ questions
-
-`get_page_content` returns FAQ **answers** (localizable). FAQ **questions** live in `accordion_toggle_text` spans and did not come back in that payload. `set_text` has no `localeId` and would overwrite English.
-
-After `de` exists, set these on the **DE locale only** (Designer or a locale-aware write):
+- Primary header DE is still a **disabled span**, not a locale link. Do not type a fake `/de` or `/de-at` path on live EN until you publish.
+- On the DE header, DE is current; EN → `/`. Bottom row still shows both as current until Designer fixes the switcher.
+- FAQ **questions** in `accordion_toggle_text` are still English. Answers are German. IDs:
 
 | EN | DE | node (toggle text) |
 |---|---|---|
@@ -116,58 +49,36 @@ After `de` exists, set these on the **DE locale only** (Designer or a locale-awa
 | WHAT USAGE RIGHTS ARE INCLUDED? | WELCHE NUTZUNGSRECHTE SIND ENTHALTEN? | `ee7a7955-3390-8fe0-0996-4c4b897611a5` |
 | WILL MY COMMISSIONED FILM BE PUBLISHED? | WIRD MEIN AUFTRAGSFILM VERÖFFENTLICHT? | sibling of summary `ee7a7955-3390-8fe0-0996-4c4b897611b1` |
 
-## Imprint and Privacy
-
-Left in English. No invented legal German. Pending Dolores. Do not publish legal DE.
-
-## Home “BUT IS IT REAL?”
-
-DE copy is in `apply.json`. The section stays **hidden**. This job does not unhide it.
+- Commission submit values still SEND ENQUIRY / SEND BRIEF until Designer on de-AT sets `ANFRAGE SENDEN` / `BRIEFING SENDEN` and `Bitte warten...`.
+- Live `hreflang` / sitemap `/de-at/` rows appear after you publish the locale. Do not paste `llms.txt` until then.
 
 ## What was not done (on purpose)
 
-- No site publish
+- No site publish, no CMS publish
+- No new locale created
 - No custom-domain changes
 - No Google indexing request
 - No `/de` folder of duplicate static pages
 - No Seedance / Higgsfield on the public site
-- No new GitHub repo, no new Cursor project
 - No new rem, no new Lumos tokens
-- No Films-cms items created
-- Header DE switcher not pointed at `/de` on the live primary (locale missing)
+- No Films-cms / Posts recreated
+- Imprint / Privacy not translated
+- Reality section not unhidden
+- Live English pages not edited (hreflang is Webflow’s job after publish)
 
-## After you add locale `de` (agent or you)
+## Page IDs
 
-1. `get_site` → read `localeId` and `cmsLocaleId` for `de`
-2. Apply `apply.json` with that `localeId`
-3. Apply `seo-schema.json` (`update_page_settings` + schema markup, `localeId`)
-4. Wire header language links to the real locale
-5. Set FAQ question spans on DE only
-6. Save in Designer so Webflow can emit `hreflang` en ↔ de
-7. **Stop. Wait for your publish yes.**
-
-## Success checklist (draft)
-
-- [ ] Locale `de` exists as subdirectory (you)
-- [ ] DE copy, SEO, OG, schema on Home, Collection, Commission, About, 10 films (pack ready; apply blocked)
-- [ ] hreflang in locale HTML (needs locale + Designer save)
-- [ ] DE switcher points at DE locale (needs locale)
-- [x] Report written
-- [x] llms.txt in repo (Site Settings paste later, after publish)
-
-## Page IDs (for apply)
-
-| Page | id | EN path | DE path (after locale) |
+| Page | id | EN path | DE path (unpublished) |
 |---|---|---|---|
-| Home | `6a83fdcf46ec1970b6eb307b` | `/` | `/de` |
-| Collection | `6a8471318afbe9b46708f954` | `/collection` | `/de/collection` |
-| Commission | `6a8471320e6ee1e88c0037c2` | `/commission` | `/de/commission` |
-| About | `6a8471331d2d68eb848af612` | `/about` | `/de/about` |
+| Home | `6a83fdcf46ec1970b6eb307b` | `/` | `/de-at` |
+| Collection | `6a8471318afbe9b46708f954` | `/collection` | `/de-at/collection` |
+| Commission | `6a8471320e6ee1e88c0037c2` | `/commission` | `/de-at/commission` |
+| About | `6a8471331d2d68eb848af612` | `/about` | `/de-at/about` |
 | Imprint | `6a8b7dede6239a222989a4f9` | `/imprint` | leave EN |
 | Privacy | `6a8b7ded6e9a5fb3c6f8fec9` | `/privacy` | leave EN |
-| Let it rain | `6a94a5aa1d755181100606b7` | `/films/let-it-rain-nurburgring-nordschleife` | `/de/films/let-it-rain-nurburgring-nordschleife` |
-| The Look of Love | `6a94835baff009655de6bdca` | `/films/the-look-of-love-ferrari-250-gt-california-spyder` | `/de/films/the-look-of-love-ferrari-250-gt-california-spyder` |
-| Riviera Summer Cruise | `6a8b402d69195cfc7d432a59` | `/films/riviera-summer-cruise-aston-martin-db12-volante` | same slug under `/de` |
+| Let it rain | `6a94a5aa1d755181100606b7` | `/films/let-it-rain-nurburgring-nordschleife` | `/de-at/films/...` |
+| The Look of Love | `6a94835baff009655de6bdca` | `/films/the-look-of-love-ferrari-250-gt-california-spyder` | same slug under `/de-at` |
+| Riviera Summer Cruise | `6a8b402d69195cfc7d432a59` | `/films/riviera-summer-cruise-aston-martin-db12-volante` | same |
 | Alpine Autumn High Pass | `6a8b402d3f30e7ce2c689cec` | `/films/alpine-autumn-high-pass-porsche-992-gt3-touring` | same |
 | Along the Sea Wall | `6a8b075dacef99c64dc2ba1d` | `/films/along-the-sea-wall-bentley-continental-gtc` | same |
 | On the Flooded Salt | `6a8b402e3f30e7ce2c689d4b` | `/films/on-the-flooded-salt-lamborghini-revuelto` | same |

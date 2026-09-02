@@ -1,15 +1,15 @@
 {
   "do_not_publish": true,
   "site_id": "6a7b43a328ec101a40bb1d20",
-  "localeId": "REPLACE_AFTER_DE_LOCALE_EXISTS",
+  "localeId": "6a983fb4dfdbdb9a5e8b882c",
   "notes": [
-    "MCP cannot create locale de. Designer Localize first. Leave publishing disabled.",
-    "Films are static pages. Films-cms has 0 items. Do not create CMS film items.",
+    "Applied to existing unpublished locale German (Austria).",
+    "localeId 6a983fb4dfdbdb9a5e8b882c cmsLocaleId 6a983fb4dfdbdb9a5e8b8831 tag de-AT subdirectory de-at enabled false.",
+    "Films are static pages. Do not recreate Films-cms or Posts.",
     "Do not write Imprint or Privacy DE.",
-    "Primary header DE switcher still needs Designer locale-link after de exists.",
-    "FAQ questions are not in get_page_content. See STATUS.md.",
-    "Commission submit-button values (SEND ENQUIRY / SEND BRIEF) need Designer on DE.",
-    "Reality section is translated and stays hidden."
+    "FAQ questions and commission submit buttons may need Designer on de-AT.",
+    "Reality section is translated and stays hidden.",
+    "Do not publish."
   ],
   "components": [
     {
@@ -1330,5 +1330,8 @@
         }
       ]
     }
-  ]
+  ],
+  "cmsLocaleId": "6a983fb4dfdbdb9a5e8b8831",
+  "localeTag": "de-AT",
+  "subdirectory": "de-at"
 }

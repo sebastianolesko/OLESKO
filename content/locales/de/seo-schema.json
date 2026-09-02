@@ -1,9 +1,9 @@
 {
   "do_not_publish": true,
   "site_id": "6a7b43a328ec101a40bb1d20",
-  "localeId": "REPLACE_AFTER_DE_LOCALE_EXISTS",
+  "localeId": "6a983fb4dfdbdb9a5e8b882c",
   "hreflang": {
-    "note": "Webflow Localization writes en <-> de hreflang after locale de exists and the page is saved in Designer. MCP has no separate hreflang action. Canonical is the locale URL.",
+    "note": "Webflow Localization writes en <-> de-AT hreflang after the locale exists and a page is saved. Canonical is the locale URL under /de-at/.",
     "expected": [
       {
         "rel": "alternate",
@@ -12,8 +12,8 @@
       },
       {
         "rel": "alternate",
-        "hreflang": "de",
-        "href": "https://oleskostudio.com/de{path}"
+        "hreflang": "de-AT",
+        "href": "https://oleskostudio.com/de-at{path}"
       },
       {
         "rel": "alternate",
@@ -26,7 +26,7 @@
     {
       "id": "6a83fdcf46ec1970b6eb307b",
       "path": "/",
-      "canonical": "https://oleskostudio.com/de",
+      "canonical": "https://oleskostudio.com/de-at",
       "title": "Home",
       "seo": {
         "title": "OLESKO. Beauftragte Filme für exklusive Automobile. Erzeugt aus Ihren Bildern",
@@ -62,7 +62,7 @@
               ],
               "contactType": "sales",
               "email": "sebastian@oleskostudio.com",
-              "url": "https://oleskostudio.com/de/commission"
+              "url": "https://oleskostudio.com/de-at/commission"
             },
             "description": "Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern.",
             "email": "sebastian@oleskostudio.com",
@@ -89,24 +89,24 @@
             "url": "https://oleskostudio.com",
             "inLanguage": [
               "en",
-              "de"
+              "de-AT"
             ]
           },
           {
-            "@id": "https://oleskostudio.com/de#webpage",
+            "@id": "https://oleskostudio.com/de-at#webpage",
             "@type": "WebPage",
             "description": "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern, ohne Transport, Straßensperrungen oder einen konventionellen Location-Dreh.",
-            "inLanguage": "de",
+            "inLanguage": "de-AT",
             "isPartOf": {
               "@id": "https://oleskostudio.com/#website"
             },
             "name": "OLESKO. Beauftragte Filme für exklusive Automobile. Erzeugt aus Ihren Bildern",
-            "url": "https://oleskostudio.com/de"
+            "url": "https://oleskostudio.com/de-at"
           },
           {
-            "@id": "https://oleskostudio.com/de#faq",
+            "@id": "https://oleskostudio.com/de-at#faq",
             "@type": "FAQPage",
-            "inLanguage": "de",
+            "inLanguage": "de-AT",
             "mainEntity": [
               {
                 "@type": "Question",
@@ -220,7 +220,7 @@
     {
       "id": "6a8471318afbe9b46708f954",
       "path": "/collection",
-      "canonical": "https://oleskostudio.com/de/collection",
+      "canonical": "https://oleskostudio.com/de-at/collection",
       "title": "Collection",
       "seo": {
         "title": "Die Kollektion. OLESKO",
@@ -234,7 +234,7 @@
       "jsonLdSchema": {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "description": "Ausgewählte beauftragte Filme für exklusive Automobile.",
         "mainEntity": {
           "@type": "ItemList",
@@ -243,61 +243,61 @@
               "@type": "ListItem",
               "name": "LET IT RAIN.",
               "position": 1,
-              "url": "https://oleskostudio.com/de/films/let-it-rain-nurburgring-nordschleife"
+              "url": "https://oleskostudio.com/de-at/films/let-it-rain-nurburgring-nordschleife"
             },
             {
               "@type": "ListItem",
               "name": "THE LOOK OF LOVE.",
               "position": 2,
-              "url": "https://oleskostudio.com/de/films/the-look-of-love-ferrari-250-gt-california-spyder"
+              "url": "https://oleskostudio.com/de-at/films/the-look-of-love-ferrari-250-gt-california-spyder"
             },
             {
               "@type": "ListItem",
               "name": "RIVIERA SUMMER CRUISE.",
               "position": 3,
-              "url": "https://oleskostudio.com/de/films/riviera-summer-cruise-aston-martin-db12-volante"
+              "url": "https://oleskostudio.com/de-at/films/riviera-summer-cruise-aston-martin-db12-volante"
             },
             {
               "@type": "ListItem",
               "name": "ALPINE AUTUMN HIGH PASS.",
               "position": 4,
-              "url": "https://oleskostudio.com/de/films/alpine-autumn-high-pass-porsche-992-gt3-touring"
+              "url": "https://oleskostudio.com/de-at/films/alpine-autumn-high-pass-porsche-992-gt3-touring"
             },
             {
               "@type": "ListItem",
               "name": "ALONG THE SEA WALL.",
               "position": 5,
-              "url": "https://oleskostudio.com/de/films/along-the-sea-wall-bentley-continental-gtc"
+              "url": "https://oleskostudio.com/de-at/films/along-the-sea-wall-bentley-continental-gtc"
             },
             {
               "@type": "ListItem",
               "name": "ON THE FLOODED SALT.",
               "position": 6,
-              "url": "https://oleskostudio.com/de/films/on-the-flooded-salt-lamborghini-revuelto"
+              "url": "https://oleskostudio.com/de-at/films/on-the-flooded-salt-lamborghini-revuelto"
             },
             {
               "@type": "ListItem",
               "name": "AT THE LOUVRE.",
               "position": 7,
-              "url": "https://oleskostudio.com/de/films/at-the-louvre-ferrari-250-gto"
+              "url": "https://oleskostudio.com/de-at/films/at-the-louvre-ferrari-250-gto"
             },
             {
               "@type": "ListItem",
               "name": "INTO THE HIGHLAND FOG.",
               "position": 8,
-              "url": "https://oleskostudio.com/de/films/into-the-highland-fog-mercedes-amg-gt"
+              "url": "https://oleskostudio.com/de-at/films/into-the-highland-fog-mercedes-amg-gt"
             },
             {
               "@type": "ListItem",
               "name": "DOWN THE AVENUE.",
               "position": 9,
-              "url": "https://oleskostudio.com/de/films/down-the-avenue-mercedes-benz-190-sl"
+              "url": "https://oleskostudio.com/de-at/films/down-the-avenue-mercedes-benz-190-sl"
             },
             {
               "@type": "ListItem",
               "name": "MOUNTAIN SANCTUARY.",
               "position": 10,
-              "url": "https://oleskostudio.com/de/films/mountain-sanctuary-mercedes-amg-g-63"
+              "url": "https://oleskostudio.com/de-at/films/mountain-sanctuary-mercedes-amg-g-63"
             }
           ]
         },
@@ -318,7 +318,7 @@
             ],
             "contactType": "sales",
             "email": "sebastian@oleskostudio.com",
-            "url": "https://oleskostudio.com/de/commission"
+            "url": "https://oleskostudio.com/de-at/commission"
           },
           "email": "sebastian@oleskostudio.com",
           "name": "OLESKO",
@@ -329,13 +329,13 @@
           ],
           "url": "https://oleskostudio.com"
         },
-        "url": "https://oleskostudio.com/de/collection"
+        "url": "https://oleskostudio.com/de-at/collection"
       }
     },
     {
       "id": "6a8471320e6ee1e88c0037c2",
       "path": "/commission",
-      "canonical": "https://oleskostudio.com/de/commission",
+      "canonical": "https://oleskostudio.com/de-at/commission",
       "title": "Commission",
       "seo": {
         "title": "Einen Film beauftragen. OLESKO",
@@ -349,7 +349,7 @@
       "jsonLdSchema": {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "description": "Beauftragen Sie einen Film für Ihr exklusives Automobil, erzeugt aus Ihren Bildern.",
         "name": "Einen Film beauftragen. OLESKO",
         "publisher": {
@@ -357,13 +357,13 @@
           "name": "OLESKO",
           "url": "https://oleskostudio.com"
         },
-        "url": "https://oleskostudio.com/de/commission"
+        "url": "https://oleskostudio.com/de-at/commission"
       }
     },
     {
       "id": "6a8471331d2d68eb848af612",
       "path": "/about",
-      "canonical": "https://oleskostudio.com/de/about",
+      "canonical": "https://oleskostudio.com/de-at/about",
       "title": "About",
       "seo": {
         "title": "Über. OLESKO",
@@ -377,7 +377,7 @@
       "jsonLdSchema": {
         "@context": "https://schema.org",
         "@type": "AboutPage",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "description": "Über OLESKO. Beauftragte Filme für exklusive Automobile.",
         "mainEntity": {
           "@type": "Person",
@@ -388,7 +388,7 @@
             "https://www.linkedin.com/in/sebastianolesko/",
             "https://www.facebook.com/sebastianolesko/"
           ],
-          "url": "https://oleskostudio.com/de/about",
+          "url": "https://oleskostudio.com/de-at/about",
           "worksFor": {
             "@id": "https://oleskostudio.com/#organization",
             "@type": "Organization",
@@ -405,7 +405,7 @@
               ],
               "contactType": "sales",
               "email": "sebastian@oleskostudio.com",
-              "url": "https://oleskostudio.com/de/commission"
+              "url": "https://oleskostudio.com/de-at/commission"
             },
             "email": "sebastian@oleskostudio.com",
             "name": "OLESKO",
@@ -418,13 +418,13 @@
           }
         },
         "name": "Über. OLESKO",
-        "url": "https://oleskostudio.com/de/about"
+        "url": "https://oleskostudio.com/de-at/about"
       }
     },
     {
       "id": "6a94a5aa1d755181100606b7",
       "path": "/films/let-it-rain-nurburgring-nordschleife",
-      "canonical": "https://oleskostudio.com/de/films/let-it-rain-nurburgring-nordschleife",
+      "canonical": "https://oleskostudio.com/de-at/films/let-it-rain-nurburgring-nordschleife",
       "title": "LET IT RAIN",
       "seo": {
         "title": "LET IT RAIN. Nürburgring Nordschleife. OLESKO",
@@ -444,10 +444,10 @@
         "contentUrl": "https://stream.mux.com/OlX8CPetuXoNzDIwejgd7NOU1intYKyZ8h3toHIdrNg.m3u8",
         "embedUrl": "https://player.mux.com/OlX8CPetuXoNzDIwejgd7NOU1intYKyZ8h3toHIdrNg",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a957cf4677cc64555e104fb_olesko-demo-hypercars-nurburgring-nordschleife-v3.jpg",
         "uploadDate": "2026-08-31T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/let-it-rain-nurburgring-nordschleife",
+        "url": "https://oleskostudio.com/de-at/films/let-it-rain-nurburgring-nordschleife",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -458,7 +458,7 @@
     {
       "id": "6a94835baff009655de6bdca",
       "path": "/films/the-look-of-love-ferrari-250-gt-california-spyder",
-      "canonical": "https://oleskostudio.com/de/films/the-look-of-love-ferrari-250-gt-california-spyder",
+      "canonical": "https://oleskostudio.com/de-at/films/the-look-of-love-ferrari-250-gt-california-spyder",
       "title": "THE LOOK OF LOVE",
       "seo": {
         "title": "THE LOOK OF LOVE. Ferrari 250 GT California Spyder. OLESKO",
@@ -478,10 +478,10 @@
         "contentUrl": "https://stream.mux.com/rs01FzIgY7VytHaQpcSz02eznRjuYts8zz2I9MIQ36dHo.m3u8",
         "embedUrl": "https://player.mux.com/rs01FzIgY7VytHaQpcSz02eznRjuYts8zz2I9MIQ36dHo",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a97e86a5886662d0a4028fb_olesko-demo-ferrari-california-spyder-como-v3.jpg",
         "uploadDate": "2026-08-30T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/the-look-of-love-ferrari-250-gt-california-spyder",
+        "url": "https://oleskostudio.com/de-at/films/the-look-of-love-ferrari-250-gt-california-spyder",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -492,7 +492,7 @@
     {
       "id": "6a8b402d69195cfc7d432a59",
       "path": "/films/riviera-summer-cruise-aston-martin-db12-volante",
-      "canonical": "https://oleskostudio.com/de/films/riviera-summer-cruise-aston-martin-db12-volante",
+      "canonical": "https://oleskostudio.com/de-at/films/riviera-summer-cruise-aston-martin-db12-volante",
       "title": "RIVIERA SUMMER CRUISE",
       "seo": {
         "title": "RIVIERA SUMMER CRUISE. Aston Martin DB12 Volante. OLESKO",
@@ -512,10 +512,10 @@
         "contentUrl": "https://stream.mux.com/02qnn02P7l2wIRJfRyjBTyhGoTTOoKjDelHwSxFe1OdKY.m3u8",
         "embedUrl": "https://player.mux.com/02qnn02P7l2wIRJfRyjBTyhGoTTOoKjDelHwSxFe1OdKY",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a89dd32b52c25150dc49fbc_olesko-demo-db12-volante-riviera.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/riviera-summer-cruise-aston-martin-db12-volante",
+        "url": "https://oleskostudio.com/de-at/films/riviera-summer-cruise-aston-martin-db12-volante",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -526,7 +526,7 @@
     {
       "id": "6a8b402d3f30e7ce2c689cec",
       "path": "/films/alpine-autumn-high-pass-porsche-992-gt3-touring",
-      "canonical": "https://oleskostudio.com/de/films/alpine-autumn-high-pass-porsche-992-gt3-touring",
+      "canonical": "https://oleskostudio.com/de-at/films/alpine-autumn-high-pass-porsche-992-gt3-touring",
       "title": "ALPINE AUTUMN HIGH PASS",
       "seo": {
         "title": "ALPINE AUTUMN HIGH PASS. Porsche 992 GT3 Touring. OLESKO",
@@ -546,10 +546,10 @@
         "contentUrl": "https://stream.mux.com/JpRyvr01QDyNp5v1O5ODoWzzbiWll1HrNGlFGfwa6DQs.m3u8",
         "embedUrl": "https://player.mux.com/JpRyvr01QDyNp5v1O5ODoWzzbiWll1HrNGlFGfwa6DQs",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a899d738775ce81a7b4a072_olesko-demo-porsche-gt3-alpine.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/alpine-autumn-high-pass-porsche-992-gt3-touring",
+        "url": "https://oleskostudio.com/de-at/films/alpine-autumn-high-pass-porsche-992-gt3-touring",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -560,7 +560,7 @@
     {
       "id": "6a8b075dacef99c64dc2ba1d",
       "path": "/films/along-the-sea-wall-bentley-continental-gtc",
-      "canonical": "https://oleskostudio.com/de/films/along-the-sea-wall-bentley-continental-gtc",
+      "canonical": "https://oleskostudio.com/de-at/films/along-the-sea-wall-bentley-continental-gtc",
       "title": "ALONG THE SEA WALL",
       "seo": {
         "title": "ALONG THE SEA WALL. Bentley Continental GTC. OLESKO",
@@ -580,10 +580,10 @@
         "contentUrl": "https://stream.mux.com/HK7phtLFrY6EoR7Zb4J700hPvNkLRosTbDQZtirhxqqk.m3u8",
         "embedUrl": "https://player.mux.com/HK7phtLFrY6EoR7Zb4J700hPvNkLRosTbDQZtirhxqqk",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a88c73984092424b60c3dac_olesko-demo-bentley-coast-v2.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/along-the-sea-wall-bentley-continental-gtc",
+        "url": "https://oleskostudio.com/de-at/films/along-the-sea-wall-bentley-continental-gtc",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -594,7 +594,7 @@
     {
       "id": "6a8b402e3f30e7ce2c689d4b",
       "path": "/films/on-the-flooded-salt-lamborghini-revuelto",
-      "canonical": "https://oleskostudio.com/de/films/on-the-flooded-salt-lamborghini-revuelto",
+      "canonical": "https://oleskostudio.com/de-at/films/on-the-flooded-salt-lamborghini-revuelto",
       "title": "ON THE FLOODED SALT",
       "seo": {
         "title": "ON THE FLOODED SALT. Lamborghini Revuelto. OLESKO",
@@ -614,10 +614,10 @@
         "contentUrl": "https://stream.mux.com/7vMDXoYF3ELCWh1Ht01rSTv856q9yP600Ns02PIzzhiztw.m3u8",
         "embedUrl": "https://player.mux.com/7vMDXoYF3ELCWh1Ht01rSTv856q9yP600Ns02PIzzhiztw",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a87131f791cd9404feea96c_olesko-demo-revuelto-uyuni-16x9.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/on-the-flooded-salt-lamborghini-revuelto",
+        "url": "https://oleskostudio.com/de-at/films/on-the-flooded-salt-lamborghini-revuelto",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -628,7 +628,7 @@
     {
       "id": "6a8b402efd4a464888ee176a",
       "path": "/films/at-the-louvre-ferrari-250-gto",
-      "canonical": "https://oleskostudio.com/de/films/at-the-louvre-ferrari-250-gto",
+      "canonical": "https://oleskostudio.com/de-at/films/at-the-louvre-ferrari-250-gto",
       "title": "AT THE LOUVRE",
       "seo": {
         "title": "AT THE LOUVRE. Ferrari 250 GTO. OLESKO",
@@ -648,10 +648,10 @@
         "contentUrl": "https://stream.mux.com/Ew5FZhdef02EiwtkpJ768ZJL1N6FKOpfKuyRp1KjpFJI.m3u8",
         "embedUrl": "https://player.mux.com/Ew5FZhdef02EiwtkpJ768ZJL1N6FKOpfKuyRp1KjpFJI",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a882be0ecb8ec0b729f1b8f_olesko-demo-ferrari-gto-paris-hires.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/at-the-louvre-ferrari-250-gto",
+        "url": "https://oleskostudio.com/de-at/films/at-the-louvre-ferrari-250-gto",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -662,7 +662,7 @@
     {
       "id": "6a8b402ffa314513088680ba",
       "path": "/films/into-the-highland-fog-mercedes-amg-gt",
-      "canonical": "https://oleskostudio.com/de/films/into-the-highland-fog-mercedes-amg-gt",
+      "canonical": "https://oleskostudio.com/de-at/films/into-the-highland-fog-mercedes-amg-gt",
       "title": "INTO THE HIGHLAND FOG",
       "seo": {
         "title": "INTO THE HIGHLAND FOG. Mercedes-AMG GT. OLESKO",
@@ -682,10 +682,10 @@
         "contentUrl": "https://stream.mux.com/Xcs02prXENY100cDYVvGjToQyZ21PJkaFpY006icNuVvgg.m3u8",
         "embedUrl": "https://player.mux.com/Xcs02prXENY100cDYVvGjToQyZ21PJkaFpY006icNuVvgg",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a88c8294e03304523ebb96d_olesko-demo-amg-fog-v2.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/into-the-highland-fog-mercedes-amg-gt",
+        "url": "https://oleskostudio.com/de-at/films/into-the-highland-fog-mercedes-amg-gt",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -696,7 +696,7 @@
     {
       "id": "6a8b402fefdad2a541be5cf8",
       "path": "/films/down-the-avenue-mercedes-benz-190-sl",
-      "canonical": "https://oleskostudio.com/de/films/down-the-avenue-mercedes-benz-190-sl",
+      "canonical": "https://oleskostudio.com/de-at/films/down-the-avenue-mercedes-benz-190-sl",
       "title": "DOWN THE AVENUE",
       "seo": {
         "title": "DOWN THE AVENUE. Mercedes-Benz 190 SL. OLESKO",
@@ -716,10 +716,10 @@
         "contentUrl": "https://stream.mux.com/7vlFqf2fLr3h5kneTRKmO6XCjMbU7Fu3zxgdPUelkTA.m3u8",
         "embedUrl": "https://player.mux.com/7vlFqf2fLr3h5kneTRKmO6XCjMbU7Fu3zxgdPUelkTA",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a881a76264cbbc0966e2d2e_olesko-demo-190sl-avenue-hires.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/down-the-avenue-mercedes-benz-190-sl",
+        "url": "https://oleskostudio.com/de-at/films/down-the-avenue-mercedes-benz-190-sl",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -730,7 +730,7 @@
     {
       "id": "6a8b4030d04c77b87628e041",
       "path": "/films/mountain-sanctuary-mercedes-amg-g-63",
-      "canonical": "https://oleskostudio.com/de/films/mountain-sanctuary-mercedes-amg-g-63",
+      "canonical": "https://oleskostudio.com/de-at/films/mountain-sanctuary-mercedes-amg-g-63",
       "title": "MOUNTAIN SANCTUARY",
       "seo": {
         "title": "MOUNTAIN SANCTUARY. Mercedes-AMG G 63. OLESKO",
@@ -750,10 +750,10 @@
         "contentUrl": "https://stream.mux.com/svnxW67n6IeVArX329IXJiALGVi02TCWhNV3FXSthKjk.m3u8",
         "embedUrl": "https://player.mux.com/svnxW67n6IeVArX329IXJiALGVi02TCWhNV3FXSthKjk",
         "encodingFormat": "application/x-mpegURL",
-        "inLanguage": "de",
+        "inLanguage": "de-AT",
         "thumbnailUrl": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a968b386f1d9c22617c6d53_olesko-demo-g63-mountain-sanctuary-v3.jpg",
         "uploadDate": "2026-08-23T00:00:00+02:00",
-        "url": "https://oleskostudio.com/de/films/mountain-sanctuary-mercedes-amg-g-63",
+        "url": "https://oleskostudio.com/de-at/films/mountain-sanctuary-mercedes-amg-g-63",
         "publisher": {
           "@type": "Organization",
           "name": "OLESKO",
@@ -761,5 +761,8 @@
         }
       }
     }
-  ]
+  ],
+  "cmsLocaleId": "6a983fb4dfdbdb9a5e8b8831",
+  "localeTag": "de-AT",
+  "subdirectory": "de-at"
 }

@@ -8,7 +8,11 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
 SITE = "6a7b43a328ec101a40bb1d20"
-LOCALE_PLACEHOLDER = "REPLACE_AFTER_DE_LOCALE_EXISTS"
+LOCALE_ID = "6a983fb4dfdbdb9a5e8b882c"
+CMS_LOCALE_ID = "6a983fb4dfdbdb9a5e8b8831"
+LOCALE_TAG = "de-AT"
+LOCALE_SUBDIR = "de-at"
+LOCALE_PLACEHOLDER = LOCALE_ID
 
 DISCLOSURE = (
     "Dieser Film enthält künstlich erzeugte oder KI-bearbeitete Bilder, "
@@ -899,7 +903,7 @@ ORG = {
         "availableLanguage": ["English", "German"],
         "contactType": "sales",
         "email": "sebastian@oleskostudio.com",
-        "url": "https://oleskostudio.com/de/commission",
+        "url": "https://oleskostudio.com/de-at/commission",
     },
     "description": "Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern.",
     "email": "sebastian@oleskostudio.com",
@@ -1087,7 +1091,7 @@ seo_pages = [
     {
         "id": "6a83fdcf46ec1970b6eb307b",
         "path": "/",
-        "canonical": "https://oleskostudio.com/de",
+        "canonical": "https://oleskostudio.com/de-at",
         "title": "Home",
         "seo": {"title": HOME_TITLE, "description": HOME_DESC},
         "openGraph": {
@@ -1107,21 +1111,21 @@ seo_pages = [
                     "name": "OLESKO",
                     "publisher": {"@id": "https://oleskostudio.com/#organization"},
                     "url": "https://oleskostudio.com",
-                    "inLanguage": ["en", "de"],
+                    "inLanguage": ["en", "de-AT"],
                 },
                 {
-                    "@id": "https://oleskostudio.com/de#webpage",
+                    "@id": "https://oleskostudio.com/de-at#webpage",
                     "@type": "WebPage",
                     "description": HOME_DESC,
-                    "inLanguage": "de",
+                    "inLanguage": "de-AT",
                     "isPartOf": {"@id": "https://oleskostudio.com/#website"},
                     "name": HOME_TITLE,
-                    "url": "https://oleskostudio.com/de",
+                    "url": "https://oleskostudio.com/de-at",
                 },
                 {
-                    "@id": "https://oleskostudio.com/de#faq",
+                    "@id": "https://oleskostudio.com/de-at#faq",
                     "@type": "FAQPage",
-                    "inLanguage": "de",
+                    "inLanguage": "de-AT",
                     "mainEntity": [
                         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
                         for q, a in faq
@@ -1133,7 +1137,7 @@ seo_pages = [
     {
         "id": "6a8471318afbe9b46708f954",
         "path": "/collection",
-        "canonical": "https://oleskostudio.com/de/collection",
+        "canonical": "https://oleskostudio.com/de-at/collection",
         "title": "Collection",
         "seo": {
             "title": "Die Kollektion. OLESKO",
@@ -1147,7 +1151,7 @@ seo_pages = [
         "jsonLdSchema": {
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "inLanguage": "de",
+            "inLanguage": "de-AT",
             "description": "Ausgewählte beauftragte Filme für exklusive Automobile.",
             "mainEntity": {
                 "@type": "ItemList",
@@ -1156,7 +1160,7 @@ seo_pages = [
                         "@type": "ListItem",
                         "name": name,
                         "position": i,
-                        "url": f"https://oleskostudio.com/de/films/{slug}",
+                        "url": f"https://oleskostudio.com/de-at/films/{slug}",
                     }
                     for i, (_pid, slug, name, *_rest) in enumerate(film_schema, start=1)
                 ],
@@ -1172,13 +1176,13 @@ seo_pages = [
                 "sameAs": ORG["sameAs"],
                 "url": "https://oleskostudio.com",
             },
-            "url": "https://oleskostudio.com/de/collection",
+            "url": "https://oleskostudio.com/de-at/collection",
         },
     },
     {
         "id": "6a8471320e6ee1e88c0037c2",
         "path": "/commission",
-        "canonical": "https://oleskostudio.com/de/commission",
+        "canonical": "https://oleskostudio.com/de-at/commission",
         "title": "Commission",
         "seo": {
             "title": "Einen Film beauftragen. OLESKO",
@@ -1192,17 +1196,17 @@ seo_pages = [
         "jsonLdSchema": {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "inLanguage": "de",
+            "inLanguage": "de-AT",
             "description": "Beauftragen Sie einen Film für Ihr exklusives Automobil, erzeugt aus Ihren Bildern.",
             "name": "Einen Film beauftragen. OLESKO",
             "publisher": {"@type": "Organization", "name": "OLESKO", "url": "https://oleskostudio.com"},
-            "url": "https://oleskostudio.com/de/commission",
+            "url": "https://oleskostudio.com/de-at/commission",
         },
     },
     {
         "id": "6a8471331d2d68eb848af612",
         "path": "/about",
-        "canonical": "https://oleskostudio.com/de/about",
+        "canonical": "https://oleskostudio.com/de-at/about",
         "title": "About",
         "seo": {
             "title": "Über. OLESKO",
@@ -1216,7 +1220,7 @@ seo_pages = [
         "jsonLdSchema": {
             "@context": "https://schema.org",
             "@type": "AboutPage",
-            "inLanguage": "de",
+            "inLanguage": "de-AT",
             "description": "Über OLESKO. Beauftragte Filme für exklusive Automobile.",
             "mainEntity": {
                 "@type": "Person",
@@ -1227,7 +1231,7 @@ seo_pages = [
                     "https://www.linkedin.com/in/sebastianolesko/",
                     "https://www.facebook.com/sebastianolesko/",
                 ],
-                "url": "https://oleskostudio.com/de/about",
+                "url": "https://oleskostudio.com/de-at/about",
                 "worksFor": {
                     "@id": "https://oleskostudio.com/#organization",
                     "@type": "Organization",
@@ -1240,13 +1244,13 @@ seo_pages = [
                 },
             },
             "name": "Über. OLESKO",
-            "url": "https://oleskostudio.com/de/about",
+            "url": "https://oleskostudio.com/de-at/about",
         },
     },
 ]
 
 for pid, slug, name, desc, mux, asset, thumb, upload, seo_title in film_schema:
-    url = f"https://oleskostudio.com/de/films/{slug}"
+    url = f"https://oleskostudio.com/de-at/films/{slug}"
     seo_pages.append(
         {
             "id": pid,
@@ -1268,7 +1272,7 @@ for pid, slug, name, desc, mux, asset, thumb, upload, seo_title in film_schema:
                 "contentUrl": f"https://stream.mux.com/{mux}.m3u8",
                 "embedUrl": f"https://player.mux.com/{mux}",
                 "encodingFormat": "application/x-mpegURL",
-                "inLanguage": "de",
+                "inLanguage": "de-AT",
                 "thumbnailUrl": thumb,
                 "uploadDate": upload,
                 "url": url,
@@ -1277,15 +1281,31 @@ for pid, slug, name, desc, mux, asset, thumb, upload, seo_title in film_schema:
         }
     )
 
+apply["cmsLocaleId"] = CMS_LOCALE_ID
+apply["localeTag"] = LOCALE_TAG
+apply["subdirectory"] = LOCALE_SUBDIR
+apply["notes"] = [
+    "Applied to existing unpublished locale German (Austria).",
+    f"localeId {LOCALE_ID} cmsLocaleId {CMS_LOCALE_ID} tag {LOCALE_TAG} subdirectory {LOCALE_SUBDIR} enabled false.",
+    "Films are static pages. Do not recreate Films-cms or Posts.",
+    "Do not write Imprint or Privacy DE.",
+    "FAQ questions and commission submit buttons may need Designer on de-AT.",
+    "Reality section is translated and stays hidden.",
+    "Do not publish.",
+]
+
 seo = {
     "do_not_publish": True,
     "site_id": SITE,
-    "localeId": LOCALE_PLACEHOLDER,
+    "localeId": LOCALE_ID,
+    "cmsLocaleId": CMS_LOCALE_ID,
+    "localeTag": LOCALE_TAG,
+    "subdirectory": LOCALE_SUBDIR,
     "hreflang": {
-        "note": "Webflow Localization writes en <-> de hreflang after locale de exists and the page is saved in Designer. MCP has no separate hreflang action. Canonical is the locale URL.",
+        "note": "Webflow Localization writes en <-> de-AT hreflang after the locale exists and a page is saved. Canonical is the locale URL under /de-at/.",
         "expected": [
             {"rel": "alternate", "hreflang": "en", "href": "https://oleskostudio.com{path}"},
-            {"rel": "alternate", "hreflang": "de", "href": "https://oleskostudio.com/de{path}"},
+            {"rel": "alternate", "hreflang": "de-AT", "href": "https://oleskostudio.com/de-at{path}"},
             {"rel": "alternate", "hreflang": "x-default", "href": "https://oleskostudio.com{path}"},
         ],
     },

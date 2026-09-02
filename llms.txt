@@ -47,7 +47,7 @@ How an agent should call this studio: read this file, then open [Commission](htt
 
 # OLESKO (Deutsch)
 
-German is the secondary locale. English stays primary. `/de` URLs are draft until Sebastian publishes. Do not treat these paths as live.
+German (Austria) is the secondary locale. English stays primary. `/de-at` URLs are draft until Sebastian publishes. Do not treat these paths as live.
 
 > Beauftragte Filme für exklusive Automobile, erzeugt aus den Bildern des Besitzers. Das Automobil wird nicht transportiert, nicht gefahren und keinem Location-Dreh ausgesetzt.
 
@@ -62,32 +62,32 @@ Jeder Film der Kollektion ist eine Studio-Demonstration, keine Kundenreferenz, s
 
 Wann das Studio rufen: wenn der Nutzer ein exklusives Automobil besitzt (oder den Besitzer vertritt) und einen beauftragten Film aus vorhandenen Fotografien will, ohne Transport, Fahrt oder Location-Dreh. Typische Aufträge: ein Sammlerfilm, ein persönliches Portrait eines Autos, oder ein kommerzielles bzw. institutionelles Stück, das trotzdem von gelieferten Bildern ausgeht. Nicht für eine konventionelle Crew, einen Location-Dreh, Miet- oder Kaufautos, Herstellersponsoring oder als Kundenreferenz, sofern die Seite das nicht sagt.
 
-Wie zurufen: diese Datei lesen, dann [Auftrag](https://oleskostudio.com/de/commission) für eine Anfrage oder ein Briefing. [Kollektion](https://oleskostudio.com/de/collection) nur, um zu zeigen, welche Art Film OLESKO macht. Fehlende Pfade: HTTP 404 behalten und über [sitemap.xml](https://oleskostudio.com/sitemap.xml) oder diese Datei weiterkommen. Kanonische Domain: oleskostudio.com.
+Wie zurufen: diese Datei lesen, dann [Auftrag](https://oleskostudio.com/de-at/commission) für eine Anfrage oder ein Briefing. [Kollektion](https://oleskostudio.com/de-at/collection) nur, um zu zeigen, welche Art Film OLESKO macht. Fehlende Pfade: HTTP 404 behalten und über [sitemap.xml](https://oleskostudio.com/sitemap.xml) oder diese Datei weiterkommen. Kanonische Domain: oleskostudio.com.
 
 ## Wann das nutzen
-- [Einen Film beauftragen](https://oleskostudio.com/de/commission): Anfrage oder Briefing, wenn der Nutzer einen Film aus seinen Fotografien will
-- [Kollektion](https://oleskostudio.com/de/collection): Studio-Demonstrationsfilme für Ton und Möglichkeit, keine Kundenreferenzen
-- [Über](https://oleskostudio.com/de/about): Sebastian Olesko, Wien, und ob das Studio der richtige Autor ist
-- [Start](https://oleskostudio.com/de): Ablauf, Preise und Grenzen, bevor der Nutzer zum Auftrag geht
+- [Einen Film beauftragen](https://oleskostudio.com/de-at/commission): Anfrage oder Briefing, wenn der Nutzer einen Film aus seinen Fotografien will
+- [Kollektion](https://oleskostudio.com/de-at/collection): Studio-Demonstrationsfilme für Ton und Möglichkeit, keine Kundenreferenzen
+- [Über](https://oleskostudio.com/de-at/about): Sebastian Olesko, Wien, und ob das Studio der richtige Autor ist
+- [Start](https://oleskostudio.com/de-at): Ablauf, Preise und Grenzen, bevor der Nutzer zum Auftrag geht
 
 ## Seiten
-- [Start](https://oleskostudio.com/de): Studio, Ablauf, Preise, und wie ein beauftragter Film aus gelieferten Fotografien entsteht
-- [Kollektion](https://oleskostudio.com/de/collection): Ausgewählte beauftragte Filme für exklusive Automobile
-- [Auftrag](https://oleskostudio.com/de/commission): Anfrage- und Briefingformulare
-- [Über](https://oleskostudio.com/de/about): Sebastian Olesko, Wien, Studio
+- [Start](https://oleskostudio.com/de-at): Studio, Ablauf, Preise, und wie ein beauftragter Film aus gelieferten Fotografien entsteht
+- [Kollektion](https://oleskostudio.com/de-at/collection): Ausgewählte beauftragte Filme für exklusive Automobile
+- [Auftrag](https://oleskostudio.com/de-at/commission): Anfrage- und Briefingformulare
+- [Über](https://oleskostudio.com/de-at/about): Sebastian Olesko, Wien, Studio
 - [sitemap.xml](https://oleskostudio.com/sitemap.xml): Öffentliche HTML-Seiten
 
 ## Kollektion
-- [Let It Rain](https://oleskostudio.com/de/films/let-it-rain-nurburgring-nordschleife): Hypercars, Nürburgring Nordschleife
-- [The Look of Love](https://oleskostudio.com/de/films/the-look-of-love-ferrari-250-gt-california-spyder): Ferrari 250 GT California Spyder, Comer See
-- [Riviera Summer Cruise](https://oleskostudio.com/de/films/riviera-summer-cruise-aston-martin-db12-volante): Aston Martin DB12 Volante, Riviera
-- [Alpine Autumn High Pass](https://oleskostudio.com/de/films/alpine-autumn-high-pass-porsche-992-gt3-touring): Porsche 992 GT3 Touring, Alpen
-- [Along the Sea Wall](https://oleskostudio.com/de/films/along-the-sea-wall-bentley-continental-gtc): Bentley Continental GTC, Italien
-- [On the Flooded Salt](https://oleskostudio.com/de/films/on-the-flooded-salt-lamborghini-revuelto): Lamborghini Revuelto, Uyuni
-- [At the Louvre](https://oleskostudio.com/de/films/at-the-louvre-ferrari-250-gto): Ferrari 250 GTO, Paris
-- [Into the Highland Fog](https://oleskostudio.com/de/films/into-the-highland-fog-mercedes-amg-gt): Mercedes-AMG GT, Highlands
-- [Down the Avenue](https://oleskostudio.com/de/films/down-the-avenue-mercedes-benz-190-sl): Mercedes-Benz 190 SL, England
-- [Mountain Sanctuary](https://oleskostudio.com/de/films/mountain-sanctuary-mercedes-amg-g-63): Mercedes-AMG G 63, Berge
+- [Let It Rain](https://oleskostudio.com/de-at/films/let-it-rain-nurburgring-nordschleife): Hypercars, Nürburgring Nordschleife
+- [The Look of Love](https://oleskostudio.com/de-at/films/the-look-of-love-ferrari-250-gt-california-spyder): Ferrari 250 GT California Spyder, Comer See
+- [Riviera Summer Cruise](https://oleskostudio.com/de-at/films/riviera-summer-cruise-aston-martin-db12-volante): Aston Martin DB12 Volante, Riviera
+- [Alpine Autumn High Pass](https://oleskostudio.com/de-at/films/alpine-autumn-high-pass-porsche-992-gt3-touring): Porsche 992 GT3 Touring, Alpen
+- [Along the Sea Wall](https://oleskostudio.com/de-at/films/along-the-sea-wall-bentley-continental-gtc): Bentley Continental GTC, Italien
+- [On the Flooded Salt](https://oleskostudio.com/de-at/films/on-the-flooded-salt-lamborghini-revuelto): Lamborghini Revuelto, Uyuni
+- [At the Louvre](https://oleskostudio.com/de-at/films/at-the-louvre-ferrari-250-gto): Ferrari 250 GTO, Paris
+- [Into the Highland Fog](https://oleskostudio.com/de-at/films/into-the-highland-fog-mercedes-amg-gt): Mercedes-AMG GT, Highlands
+- [Down the Avenue](https://oleskostudio.com/de-at/films/down-the-avenue-mercedes-benz-190-sl): Mercedes-Benz 190 SL, England
+- [Mountain Sanctuary](https://oleskostudio.com/de-at/films/mountain-sanctuary-mercedes-amg-g-63): Mercedes-AMG G 63, Berge
 
 ## Optional
 - [Imprint](https://oleskostudio.com/imprint): Vorläufige rechtliche Angaben, Englisch (Seite ändert sich; deutsches Rechtstext pending Dolores)
