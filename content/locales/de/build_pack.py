@@ -85,7 +85,7 @@ header_nodes = [
 footer_nodes = [
     n(
         "c71826be-a2bb-fee5-bd98-26dfc1070f9d",
-        "<p>Beauftragte visuelle Arbeiten für außergewöhnliche Automobile.</p>",
+        "<p>Beauftragte visuelle Arbeiten für außergewöhnliche Fahrzeuge.</p>",
     ),
     n(
         "c71826be-a2bb-fee5-bd98-26dfc1070f9f",
@@ -131,7 +131,7 @@ cta_nodes = [
         "f343f630-2311-818c-25f1-2120a8f0ef23",
         '<p class="home_commission_copy u-text-style-main u-color-faded">'
         "Beginnen Sie mit einer kurzen persönlichen Anfrage, oder bereiten Sie ein genaues Briefing "
-        "zu Automobil, Zweck und Anforderungen vor. Jede Anfrage wird persönlich in Wien gelesen."
+        "zu Fahrzeug, Zweck und Anforderungen vor. Jede Anfrage wird persönlich in Wien gelesen."
         "</p>",
     ),
     n(
@@ -148,7 +148,7 @@ disclaimer_nodes = [
         '<p class="olesko_film_copy u-color-faded">'
         "OLESKO ist nicht gesponsert, verbunden, genehmigt, empfohlen oder affiliert mit einem "
         "hier genannten oder gezeigten Fahrzeughersteller. Namen, Zeichen und Modellangaben "
-        "sind nur beschreibend, um die Automobile zu benennen, die die Konzeptarbeit angeregt haben."
+        "sind nur beschreibend, um die Fahrzeuge zu benennen, die die Konzeptarbeit angeregt haben."
         "</p>",
     ),
     n(
@@ -166,7 +166,7 @@ home_nodes = [
         "5b3c7b25-e77b-cfe4-245d-1e1676ee0df7",
         '<h1 class="olesko_hero_title u-text-style-h2">'
         '<p class="nav_screen-reader-text" data-w-id="e294f67f-35b1-d906-60d4-c569e84b2c65">OLESKO. </p>'
-        "UNMÖGLICHE FILME FÜR AUSSERGEWÖHNLICHE AUTOMOBILE</h1>",
+        "UNMÖGLICHE FILME FÜR AUSSERGEWÖHNLICHE FAHRZEUGE</h1>",
     ),
     n(
         "5b3c7b25-e77b-cfe4-245d-1e1676ee0df9",
@@ -183,7 +183,7 @@ home_nodes = [
         '<span class="olesko_hero_laurel_copy" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e03">'
         '<span class="olesko_hero_laurel_line" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e04">PERSÖNLICH</span>'
         '<span class="olesko_hero_laurel_line_subdued" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e06">GEMACHT FÜR JEDES</span>'
-        '<span class="olesko_hero_laurel_line_subdued" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e08">AUTOMOBIL</span></span>'
+        '<span class="olesko_hero_laurel_line_subdued" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e08">FAHRZEUG</span></span>'
         '<span class="olesko_hero_laurel_side" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e0a">'
         '<img src="https://s3.amazonaws.com/webflow-prod-assets/6a7b43a328ec101a40bb1d20/6a7b646b460c187d667116b7_olesko-laurel-right.svg" loading="lazy" width="auto" height="auto" alt="__wf_reserved_inherit" class="olesko_hero_laurel_branch" data-w-id="5b3c7b25-e77b-cfe4-245d-1e1676ee0e0b">'
         "</span></li>",
@@ -232,7 +232,7 @@ home_nodes = [
     ),
     n(
         "28ea34b7-fdff-c129-ec54-21a8f43bf71b",
-        '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">BEAUFTRAGTE AUTOMOBILFILME</p>',
+        '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">BEAUFTRAGTE FAHRZEUGFILME</p>',
     ),
     n(
         "28ea34b7-fdff-c129-ec54-21a8f43bf71d",
@@ -245,14 +245,14 @@ home_nodes = [
     n(
         "28ea34b7-fdff-c129-ec54-21a8f43bf71f",
         '<p class="home_service_text u-text-style-main">'
-        "Ihr Automobil wird nicht transportiert, nicht gefahren, keiner Straße, keiner Crew und "
+        "Ihr Fahrzeug wird nicht transportiert, nicht gefahren, keiner Straße, keiner Crew und "
         "keinem Wetter ausgesetzt. Es findet kein echter Dreh statt. Nichts ist in Gefahr. </p>",
     ),
     n(
         "28ea34b7-fdff-c129-ec54-21a8f43bf721",
         '<p class="home_service_text u-text-style-main">'
         "Der Film entsteht vollständig aus Fotografien, die Sie liefern, mit intelligenter Technologie. "
-        "Ihr genaues Automobil, in einer Umgebung die Sie wählen, in einer Woche geliefert. </p>",
+        "Ihr genaues Fahrzeug, in einer Umgebung die Sie wählen, in einer Woche geliefert. </p>",
     ),
     n(
         "0bb8b077-d226-6bb5-ca3d-7e919ab2b7e3",
@@ -305,7 +305,7 @@ home_nodes = [
         "c28474f0-3742-9825-4efe-95e90d03bf8a",
         '<p class="home_uses_intro_copy u-text-style-main u-color-faded u-column-start-4 u-column-span-5">'
         "Ihr Film kann dort wirken, wo Ihre Geschichte gesehen werden soll: auf Ihrer Website, "
-        "in der Werbung, in einem Automobilinserat, auf einem Showroom-Schirm, in den sozialen "
+        "in der Werbung, in einem Fahrzeuginserat, auf einem Showroom-Schirm, in den sozialen "
         "Medien, auf einer Ausstellung oder in einer direkten Präsentation.</p>",
     ),
     n("c28474f0-3742-9825-4efe-95e90d03bf8d", '<li class="home_uses_application_item u-text-style-h6 u-text-transform-uppercase u-color-faded">WEBSITE</li>'),
@@ -343,7 +343,7 @@ home_nodes = [
     n("ef8748c2-b05a-7be2-294c-2426ec6cacfd", '<p class="home_pricing_price u-text-style-h4">AB €3.600,-</p>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cacff", '<p class="home_pricing_note u-text-style-small u-color-faded">60 Sekunden</p>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad06", '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">ENTHALTEN</p>'),
-    n("ef8748c2-b05a-7be2-294c-2426ec6cad08", '<li class="home_pricing_list_item">Ein Automobil wie auf den gelieferten Bildern</li>'),
+    n("ef8748c2-b05a-7be2-294c-2426ec6cad08", '<li class="home_pricing_list_item">Ein Fahrzeug wie auf den gelieferten Bildern</li>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad12", '<li class="home_pricing_list_item">Zustand (Licht, Griffe, ...) wie auf den Bildern</li>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad0a", '<li class="home_pricing_list_item">Eine stimmige Umgebung, wie gewählt</li>'),
     n("4126c6f0-7fc9-bb58-2f4d-ce7d28255fae", '<li class="home_pricing_list_item">Mehrere Perspektiven und Ansichten</li>'),
@@ -355,7 +355,7 @@ home_nodes = [
     n("ef8748c2-b05a-7be2-294c-2426ec6cad18", '<li class="home_pricing_list_item">Weitere allgemeine Umgebung</li>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad1a", '<li class="home_pricing_list_item">Eigene reale Kundenumgebung</li>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad1c", '<li class="home_pricing_list_item">Eigene erkennbare Person</li>'),
-    n("ef8748c2-b05a-7be2-294c-2426ec6cad1e", '<li class="home_pricing_list_item">Zweites Automobil in einem Film</li>'),
+    n("ef8748c2-b05a-7be2-294c-2426ec6cad1e", '<li class="home_pricing_list_item">Zweites Fahrzeug in einem Film</li>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad20", '<li class="home_pricing_list_item">Änderung des Kennzeichens</li>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad22", '<li class="home_pricing_list_item">4K Videoauflösung</li>'),
     n("ef8748c2-b05a-7be2-294c-2426ec6cad24", '<li class="home_pricing_list_item">Weiteres Seitenverhältnis</li>'),
@@ -369,7 +369,7 @@ home_nodes = [
         "778a07b8-16fe-7d70-79ec-3ff09c6eac6f",
         '<p class="home_collection_text u-text-style-main">'
         "Ihr Film soll mehr tun, als Aufmerksamkeit halten. Er soll etwas Wesentliches über Ihr "
-        "Automobil zeigen und eine bewusste emotionale Antwort auslösen.</p>",
+        "Fahrzeug zeigen und eine bewusste emotionale Antwort auslösen.</p>",
     ),
     n(
         "aab1c3f6-647b-c44f-4bfc-21392a2b7c70",
@@ -388,7 +388,7 @@ home_nodes = [
     n(
         "bd5e6421-f297-6c5f-be66-92376e80ee94",
         '<p class="home_collection_text u-text-style-main u-color-faded">'
-        "Ein Film für die Bedeutung, die Geschichte oder die Emotion, die mit einem Automobil oder einer Sammlung verbunden ist.</p>",
+        "Ein Film für die Bedeutung, die Geschichte oder die Emotion, die mit einem Fahrzeug oder einer Sammlung verbunden ist.</p>",
     ),
     n("69f445b9-0b60-e4a3-137e-df9721c4a873", '<h3 class="olesko_label u-text-style-h6 u-text-transform-uppercase">KUNDENRICHTLINIEN</h3>'),
     n(
@@ -397,15 +397,15 @@ home_nodes = [
         "Liegen Markenrichtlinien vor, folgt Ihr Film der freigegebenen Sprache, Identität, Tonlage, "
         "den visuellen Codes, der Logo-Nutzung, den Botschaften und den Kommunikationsvorgaben.</p>",
     ),
-    n("c589ac41-6dab-9585-7536-4326785b509a", '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">IHR AUTOMOBIL</p>'),
+    n("c589ac41-6dab-9585-7536-4326785b509a", '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">IHR FAHRZEUG</p>'),
     n(
         "c589ac41-6dab-9585-7536-4326785b509c",
-        '<h2 id="reality-title" class="olesko_section_grid_item u-text-style-h2">IHR AUTOMOBIL DORT, WO ES NIE WAR.</h2>',
+        '<h2 id="reality-title" class="olesko_section_grid_item u-text-style-h2">IHR FAHRZEUG DORT, WO ES NIE WAR.</h2>',
     ),
     n(
         "c589ac41-6dab-9585-7536-4326785b509f",
         '<p class="home_reality_text u-text-style-main u-color-faded u-column-start-4 u-column-span-5">'
-        "Ihr Automobil kann in einer anderen Stadt, in einer anderen Landschaft oder in einem "
+        "Ihr Fahrzeug kann in einer anderen Stadt, in einer anderen Landschaft oder in einem "
         "Moment erscheinen, der nie stattfand, ohne seinen Ort zu verlassen.</p>",
     ),
     n(
@@ -430,14 +430,14 @@ home_nodes = [
     n(
         "49347a28-7cb3-25e7-2333-4aa6b89d6929",
         '<p class="home_process_intro_copy u-text-style-main u-color-faded u-column-start-4 u-column-span-5">'
-        "Sie liefern klare Fotografien Ihres Automobils aus brauchbaren Winkeln und beschreiben "
+        "Sie liefern klare Fotografien Ihres Fahrzeugs aus brauchbaren Winkeln und beschreiben "
         "das Ergebnis, das Sie im Sinn haben. Konzept, Komposition und Herstellung übernimmt das Studio.</p>",
     ),
     n("49f8ab6a-2a21-4cf6-b985-9c795d439be9", '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">DANACH</p>'),
     n("836da381-52d8-4c29-bc84-ca0877e2e0b5", '<p class="home_process_comparison_caption u-text-style-h4 u-text-transform-uppercase">IHR FERTIGER FILM</p>'),
     n("a30dc286-b2be-b29a-7bcf-864a6908c8d3", '<p class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded">DAVOR</p>'),
     n("04d6d54f-0c03-e57f-048d-2c2e7efbd025", '<p class="home_process_comparison_caption u-text-style-h4 u-text-transform-uppercase">IHRE GELIEFERTEN FOTOGRAFIEN</p>'),
-    n("a3973a29-2dfe-fdd6-2730-0d69076da238", '<h3 class="home_process_step_heading u-text-style-h4 u-text-transform-uppercase">TEILEN SIE IHR AUTOMOBIL</h3>'),
+    n("a3973a29-2dfe-fdd6-2730-0d69076da238", '<h3 class="home_process_step_heading u-text-style-h4 u-text-transform-uppercase">TEILEN SIE IHR FAHRZEUG</h3>'),
     n(
         "f6b21d55-1a75-0b9a-6cf0-de4bb29bafe8",
         '<p class="home_process_step_copy u-text-style-main u-color-faded">Fotografien, Beschreibung, wichtige Details und Vorgaben zum Erscheinungsbild.</p>',
@@ -457,7 +457,7 @@ home_nodes = [
     n(
         "aaa2b792-6d47-3a67-2a56-26858ec42113",
         '<p class="home_process_instruction u-text-style-main u-color-faded u-column-start-1 u-column-span-8">'
-        "Ziehen Sie den Teiler, um das Ausgangsautomobil mit dem komponierten Ergebnis zu vergleichen.</p>",
+        "Ziehen Sie den Teiler, um das Ausgangsfahrzeug mit dem komponierten Ergebnis zu vergleichen.</p>",
     ),
     n(
         "219aae07-e2f2-b158-1096-0e2ebdc1dae6",
@@ -492,13 +492,13 @@ home_nodes = [
         "bc61f72d-608a-d5ee-1f27-d36e12220cfb",
         '<p class="home_faq_answer_copy">'
         "Ja. Jeder kann das, wenn er das Können hat und die Werkzeuge beherrscht. Die Software ist "
-        "nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Automobil in Bewegung aussieht, "
+        "nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Fahrzeug in Bewegung aussieht, "
         "und die Arbeit, es dorthin zu bringen.</p>",
     ),
     n(
         "c2e1f317-16f6-7d17-7546-ddd849486b79",
         '<p class="home_faq_answer_copy">'
-        "Das ist keine Herstellerwerbung. Es ist ein beauftragter Film eines bestimmten Automobils, "
+        "Das ist keine Herstellerwerbung. Es ist ein beauftragter Film eines bestimmten Fahrzeugs, "
         "aus Ihren Fotografien, ohne Anspruch auf Markengenehmigung. Verbietet ein Händlervertrag "
         "tatsächlich inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Auto, "
         "Inserat oder Ihren Kunden gilt das nicht in derselben Weise.</p>",
@@ -507,7 +507,7 @@ home_nodes = [
         "ee7a7955-3390-8fe0-0996-4c4b89761159",
         '<p class="home_faq_answer_copy">'
         "Ihr beauftragter Film ist eine kurze visuelle Arbeit aus gelieferten Fotografien. Er kann Ihr "
-        "Automobil in eine komponierte Geschichte, einen Ort oder eine Atmosphäre setzen, ohne einen "
+        "Fahrzeug in eine komponierte Geschichte, einen Ort oder eine Atmosphäre setzen, ohne einen "
         "konventionellen Location-Dreh.</p>",
     ),
     n(
@@ -591,7 +591,7 @@ commission_nodes = [
     n("5ea31196-f387-49a9-2820-804f3b63289d", '<h1 id="commission-title" class="olesko_section_grid_item u-text-style-h2">IHR FILM</h1>'),
     n(
         "35f671f4-2ad3-d413-7137-ff0ac44e687d",
-        '<p class="olesko_commission_copy">Sie beauftragen einen Film Ihres Automobils aus Fotografien, die Sie liefern. Übliche Arbeit wird persönlich gemacht, in einer Woche geliefert.</p>',
+        '<p class="olesko_commission_copy">Sie beauftragen einen Film Ihres Fahrzeugs aus Fotografien, die Sie liefern. Übliche Arbeit wird persönlich gemacht, in einer Woche geliefert.</p>',
     ),
     n(
         "fd72e77f-f435-bebf-63fc-1a2294326f1a",
@@ -620,7 +620,7 @@ commission_nodes = [
     n("19080533-51ef-e3e4-32de-890f944320b5", '<label for="" class="form_label_text">Firma (optional)</label>'),
     n("df88cc19-c72d-12c6-1549-11a6a522459c", '<label for="" class="form_label_text">E-Mail *</label>'),
     n("7d08f292-48e2-d1f4-8f6e-9672c1739705", '<label for="" class="form_label_text">Telefon</label>'),
-    n("d8df9aea-0dda-0028-5e9b-7055be5cb4b0", '<label for="" class="form_label_text">Automobil *</label>'),
+    n("d8df9aea-0dda-0028-5e9b-7055be5cb4b0", '<label for="" class="form_label_text">Fahrzeug *</label>'),
     ov("480571dd-2466-2c0a-271c-c17c9591daef", [("b4da0210-a11e-8169-6bd3-3724db9bdc28", "Länge")]),
     ov("81fa6aa4-7379-a531-24b2-14e9b5af28d9", [(LABEL, "15 Sekunden")]),
     ov("bae2bf93-ccc3-1aa8-74a8-e09b44cfdcb0", [(LABEL, "30 Sekunden")]),
@@ -635,7 +635,7 @@ commission_nodes = [
     ov("ee1ec920-e72b-5491-e984-d399cc3b4686", [(LABEL, "Weitere allgemeine Umgebung")]),
     ov("d8cb75f1-3555-74df-8b9f-48e02fab67ac", [(LABEL, "Eigene reale Kundenumgebung")]),
     ov("2c43d4f9-706f-bfdc-f82f-bdd35a1c989b", [(LABEL, "Eigene erkennbare Person")]),
-    ov("6184219f-7830-f7ae-5052-215f6e701dd3", [(LABEL, "Zweites Automobil in einem Film")]),
+    ov("6184219f-7830-f7ae-5052-215f6e701dd3", [(LABEL, "Zweites Fahrzeug in einem Film")]),
     ov("8bc9bc77-ec9e-2f0a-f4c7-7e56f6c973af", [(LABEL, "Änderung des Kennzeichens")]),
     ov("9f263d54-acc7-6e31-30da-c1f87b39532a", [(LABEL, "4K Videoauflösung")]),
     ov("0b28e19b-552c-2452-43c5-1c18e377c247", [(LABEL, "Weiteres Seitenverhältnis")]),
@@ -711,7 +711,7 @@ about_nodes = [
     n(
         "3c9f8e75-5d30-5b25-8114-d2576c19ebae",
         '<p class="home_commission_copy u-text-style-main u-color-faded">'
-        "Erzählen Sie mir von Ihrem Automobil und was Sie im Sinn haben. Ich sehe Ihr Material "
+        "Erzählen Sie mir von Ihrem Fahrzeug und was Sie im Sinn haben. Ich sehe Ihr Material "
         "persönlich an und sage Ihnen, was möglich ist.</p>",
     ),
     n("fb4fe7b2-9a4c-4804-d185-9aa2994eca39", "<div>EIN GESPRÄCH BEGINNEN</div>"),
@@ -929,7 +929,7 @@ ORG = {
         "email": "sebastian@oleskostudio.com",
         "url": "https://oleskostudio.com/de-at/commission",
     },
-    "description": "Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern.",
+    "description": "Beauftragte Filme für exklusive Fahrzeuge, erzeugt aus Ihren Bildern.",
     "email": "sebastian@oleskostudio.com",
     "legalName": "OLESKO",
     "logo": {
@@ -947,10 +947,10 @@ ORG = {
 
 HOME_DESC = (
     "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für "
-    "exklusive Automobile, erzeugt aus Ihren Bildern, ohne Transport, "
+    "exklusive Fahrzeuge, erzeugt aus Ihren Bildern, ohne Transport, "
     "Straßensperrungen oder einen konventionellen Location-Dreh."
 )
-HOME_TITLE = "OLESKO. Beauftragte Filme für exklusive Automobile. Erzeugt aus Ihren Bildern"
+HOME_TITLE = "OLESKO. Beauftragte Filme für exklusive Fahrzeuge. Erzeugt aus Ihren Bildern"
 
 film_schema = [
     (
@@ -1068,21 +1068,21 @@ film_schema = [
 faq = [
     (
         "KANN ICH DAS SELBST MIT KI-SOFTWARE MACHEN?",
-        "Ja. Jeder kann das, wenn er das Können hat und die Werkzeuge beherrscht. Die Software ist nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Automobil in Bewegung aussieht, und die Arbeit, es dorthin zu bringen.",
+        "Ja. Jeder kann das, wenn er das Können hat und die Werkzeuge beherrscht. Die Software ist nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Fahrzeug in Bewegung aussieht, und die Arbeit, es dorthin zu bringen.",
     ),
     (
         "GEHT DAS, WENN DER HERSTELLER NUR OFFIZIELLES MARKENMATERIAL ERLAUBT?",
-        "Das ist keine Herstellerwerbung. Es ist ein beauftragter Film eines bestimmten Automobils, aus Ihren Fotografien, ohne Anspruch auf Markengenehmigung. Verbietet ein Händlervertrag tatsächlich inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Auto, Inserat oder Ihren Kunden gilt das nicht in derselben Weise.",
+        "Das ist keine Herstellerwerbung. Es ist ein beauftragter Film eines bestimmten Fahrzeugs, aus Ihren Fotografien, ohne Anspruch auf Markengenehmigung. Verbietet ein Händlervertrag tatsächlich inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Auto, Inserat oder Ihren Kunden gilt das nicht in derselben Weise.",
     ),
     (
-        "WAS IST EIN AUTOMOBILFILM AUF AUFTRAG?",
-        "Ihr beauftragter Film ist eine kurze visuelle Arbeit aus gelieferten Fotografien. Er kann Ihr Automobil in eine komponierte Geschichte, einen Ort oder eine Atmosphäre setzen, ohne einen konventionellen Location-Dreh.",
+        "WAS IST EIN FAHRZEUGFILM AUF AUFTRAG?",
+        "Ihr beauftragter Film ist eine kurze visuelle Arbeit aus gelieferten Fotografien. Er kann Ihr Fahrzeug in eine komponierte Geschichte, einen Ort oder eine Atmosphäre setzen, ohne einen konventionellen Location-Dreh.",
     ),
     (
         "WAS MUSS ICH LIEFERN?",
         "Klare Fotografien aus brauchbaren Winkeln, wichtige Erscheinungsdetails und eine kurze Beschreibung des Ergebnisses, das Sie wollen.",
     ),
-    ("MUSS MEIN AUTOMOBIL TRANSPORTIERT WERDEN?", "Nein. Ihr Film entsteht aus gelieferten Fotografien."),
+    ("MUSS MEIN FAHRZEUG TRANSPORTIERT WERDEN?", "Nein. Ihr Film entsteht aus gelieferten Fotografien."),
     (
         "BRAUCHT MEIN FILM EIN KOMMERZIELLES ZIEL?",
         "Nein. Ihr Film kann ein kommerzielles Ziel stützen, oder für persönliche Bedeutung und Emotion entstehen.",
@@ -1165,7 +1165,7 @@ seo_pages = [
         "title": "Collection",
         "seo": {
             "title": "Die Kollektion. OLESKO",
-            "description": "Ausgewählte beauftragte Filme für exklusive Automobile.",
+            "description": "Ausgewählte beauftragte Filme für exklusive Fahrzeuge.",
         },
         "openGraph": {
             "titleCopied": True,
@@ -1176,7 +1176,7 @@ seo_pages = [
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "inLanguage": "de-AT",
-            "description": "Ausgewählte beauftragte Filme für exklusive Automobile.",
+            "description": "Ausgewählte beauftragte Filme für exklusive Fahrzeuge.",
             "mainEntity": {
                 "@type": "ItemList",
                 "itemListElement": [
@@ -1210,7 +1210,7 @@ seo_pages = [
         "title": "Commission",
         "seo": {
             "title": "Einen Film beauftragen. OLESKO",
-            "description": "Beauftragen Sie einen Film für Ihr exklusives Automobil, erzeugt aus Ihren Bildern.",
+            "description": "Beauftragen Sie einen Film für Ihr exklusives Fahrzeug, erzeugt aus Ihren Bildern.",
         },
         "openGraph": {
             "titleCopied": True,
@@ -1221,7 +1221,7 @@ seo_pages = [
             "@context": "https://schema.org",
             "@type": "WebPage",
             "inLanguage": "de-AT",
-            "description": "Beauftragen Sie einen Film für Ihr exklusives Automobil, erzeugt aus Ihren Bildern.",
+            "description": "Beauftragen Sie einen Film für Ihr exklusives Fahrzeug, erzeugt aus Ihren Bildern.",
             "name": "Einen Film beauftragen. OLESKO",
             "publisher": {"@type": "Organization", "name": "OLESKO", "url": "https://oleskostudio.com"},
             "url": "https://oleskostudio.com/de-at/commission",
@@ -1234,7 +1234,7 @@ seo_pages = [
         "title": "About",
         "seo": {
             "title": "Über. OLESKO",
-            "description": "Über OLESKO. Beauftragte Filme für exklusive Automobile.",
+            "description": "Über OLESKO. Beauftragte Filme für exklusive Fahrzeuge.",
         },
         "openGraph": {
             "titleCopied": True,
@@ -1245,7 +1245,7 @@ seo_pages = [
             "@context": "https://schema.org",
             "@type": "AboutPage",
             "inLanguage": "de-AT",
-            "description": "Über OLESKO. Beauftragte Filme für exklusive Automobile.",
+            "description": "Über OLESKO. Beauftragte Filme für exklusive Fahrzeuge.",
             "mainEntity": {
                 "@type": "Person",
                 "image": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a81f40a7a61e6094a0ba10b_sebastian-olesko-portrait-native.jpg",

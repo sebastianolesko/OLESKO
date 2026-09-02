@@ -29,13 +29,13 @@
       "canonical": "https://oleskostudio.com/de-at",
       "title": "Home",
       "seo": {
-        "title": "OLESKO. Beauftragte Filme für exklusive Automobile. Erzeugt aus Ihren Bildern",
-        "description": "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern, ohne Transport, Straßensperrungen oder einen konventionellen Location-Dreh."
+        "title": "OLESKO. Beauftragte Filme für exklusive Fahrzeuge. Erzeugt aus Ihren Bildern",
+        "description": "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für exklusive Fahrzeuge, erzeugt aus Ihren Bildern, ohne Transport, Straßensperrungen oder einen konventionellen Location-Dreh."
       },
       "openGraph": {
-        "title": "OLESKO. Beauftragte Filme für exklusive Automobile. Erzeugt aus Ihren Bildern",
+        "title": "OLESKO. Beauftragte Filme für exklusive Fahrzeuge. Erzeugt aus Ihren Bildern",
         "titleCopied": true,
-        "description": "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern, ohne Transport, Straßensperrungen oder einen konventionellen Location-Dreh.",
+        "description": "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für exklusive Fahrzeuge, erzeugt aus Ihren Bildern, ohne Transport, Straßensperrungen oder einen konventionellen Location-Dreh.",
         "descriptionCopied": true,
         "imageAssetId": "6a899d738775ce81a7b4a072"
       },
@@ -64,7 +64,7 @@
               "email": "sebastian@oleskostudio.com",
               "url": "https://oleskostudio.com/de-at/commission"
             },
-            "description": "Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern.",
+            "description": "Beauftragte Filme für exklusive Fahrzeuge, erzeugt aus Ihren Bildern.",
             "email": "sebastian@oleskostudio.com",
             "legalName": "OLESKO",
             "logo": {
@@ -95,12 +95,12 @@
           {
             "@id": "https://oleskostudio.com/de-at#webpage",
             "@type": "WebPage",
-            "description": "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für exklusive Automobile, erzeugt aus Ihren Bildern, ohne Transport, Straßensperrungen oder einen konventionellen Location-Dreh.",
+            "description": "OLESKO ist das Wiener Studio von Sebastian Olesko. Beauftragte Filme für exklusive Fahrzeuge, erzeugt aus Ihren Bildern, ohne Transport, Straßensperrungen oder einen konventionellen Location-Dreh.",
             "inLanguage": "de-AT",
             "isPartOf": {
               "@id": "https://oleskostudio.com/#website"
             },
-            "name": "OLESKO. Beauftragte Filme für exklusive Automobile. Erzeugt aus Ihren Bildern",
+            "name": "OLESKO. Beauftragte Filme für exklusive Fahrzeuge. Erzeugt aus Ihren Bildern",
             "url": "https://oleskostudio.com/de-at"
           },
           {
@@ -113,7 +113,7 @@
                 "name": "KANN ICH DAS SELBST MIT KI-SOFTWARE MACHEN?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Ja. Jeder kann das, wenn er das Können hat und die Werkzeuge beherrscht. Die Software ist nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Automobil in Bewegung aussieht, und die Arbeit, es dorthin zu bringen."
+                  "text": "Ja. Jeder kann das, wenn er das Können hat und die Werkzeuge beherrscht. Die Software ist nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Fahrzeug in Bewegung aussieht, und die Arbeit, es dorthin zu bringen."
                 }
               },
               {
@@ -121,15 +121,15 @@
                 "name": "GEHT DAS, WENN DER HERSTELLER NUR OFFIZIELLES MARKENMATERIAL ERLAUBT?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Das ist keine Herstellerwerbung. Es ist ein beauftragter Film eines bestimmten Automobils, aus Ihren Fotografien, ohne Anspruch auf Markengenehmigung. Verbietet ein Händlervertrag tatsächlich inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Auto, Inserat oder Ihren Kunden gilt das nicht in derselben Weise."
+                  "text": "Das ist keine Herstellerwerbung. Es ist ein beauftragter Film eines bestimmten Fahrzeugs, aus Ihren Fotografien, ohne Anspruch auf Markengenehmigung. Verbietet ein Händlervertrag tatsächlich inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Auto, Inserat oder Ihren Kunden gilt das nicht in derselben Weise."
                 }
               },
               {
                 "@type": "Question",
-                "name": "WAS IST EIN AUTOMOBILFILM AUF AUFTRAG?",
+                "name": "WAS IST EIN FAHRZEUGFILM AUF AUFTRAG?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Ihr beauftragter Film ist eine kurze visuelle Arbeit aus gelieferten Fotografien. Er kann Ihr Automobil in eine komponierte Geschichte, einen Ort oder eine Atmosphäre setzen, ohne einen konventionellen Location-Dreh."
+                  "text": "Ihr beauftragter Film ist eine kurze visuelle Arbeit aus gelieferten Fotografien. Er kann Ihr Fahrzeug in eine komponierte Geschichte, einen Ort oder eine Atmosphäre setzen, ohne einen konventionellen Location-Dreh."
                 }
               },
               {
@@ -142,7 +142,7 @@
               },
               {
                 "@type": "Question",
-                "name": "MUSS MEIN AUTOMOBIL TRANSPORTIERT WERDEN?",
+                "name": "MUSS MEIN FAHRZEUG TRANSPORTIERT WERDEN?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Nein. Ihr Film entsteht aus gelieferten Fotografien."
@@ -224,7 +224,7 @@
       "title": "Collection",
       "seo": {
         "title": "Die Kollektion. OLESKO",
-        "description": "Ausgewählte beauftragte Filme für exklusive Automobile."
+        "description": "Ausgewählte beauftragte Filme für exklusive Fahrzeuge."
       },
       "openGraph": {
         "titleCopied": true,
@@ -237,7 +237,7 @@
           {
             "@type": "CollectionPage",
             "inLanguage": "de-AT",
-            "description": "Ausgewählte beauftragte Filme für exklusive Automobile.",
+            "description": "Ausgewählte beauftragte Filme für exklusive Fahrzeuge.",
             "mainEntity": {
               "@type": "ItemList",
               "itemListElement": [
@@ -360,7 +360,7 @@
       "title": "Commission",
       "seo": {
         "title": "Einen Film beauftragen. OLESKO",
-        "description": "Beauftragen Sie einen Film für Ihr exklusives Automobil, erzeugt aus Ihren Bildern."
+        "description": "Beauftragen Sie einen Film für Ihr exklusives Fahrzeug, erzeugt aus Ihren Bildern."
       },
       "openGraph": {
         "titleCopied": true,
@@ -373,7 +373,7 @@
           {
             "@type": "WebPage",
             "inLanguage": "de-AT",
-            "description": "Beauftragen Sie einen Film für Ihr exklusives Automobil, erzeugt aus Ihren Bildern.",
+            "description": "Beauftragen Sie einen Film für Ihr exklusives Fahrzeug, erzeugt aus Ihren Bildern.",
             "name": "Einen Film beauftragen. OLESKO",
             "publisher": {
               "@type": "Organization",
@@ -409,7 +409,7 @@
       "title": "About",
       "seo": {
         "title": "Über. OLESKO",
-        "description": "Über OLESKO. Beauftragte Filme für exklusive Automobile."
+        "description": "Über OLESKO. Beauftragte Filme für exklusive Fahrzeuge."
       },
       "openGraph": {
         "titleCopied": true,
@@ -422,7 +422,7 @@
           {
             "@type": "AboutPage",
             "inLanguage": "de-AT",
-            "description": "Über OLESKO. Beauftragte Filme für exklusive Automobile.",
+            "description": "Über OLESKO. Beauftragte Filme für exklusive Fahrzeuge.",
             "mainEntity": {
               "@type": "Person",
               "image": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a81f40a7a61e6094a0ba10b_sebastian-olesko-portrait-native.jpg",

@@ -135,6 +135,10 @@ MCP wrote **only** localeId `6a983fb4dfdbdb9a5e8b882c`. English primary SEO and 
 | CMS | `get_collection_list` → `collections: []`. Films-cms and Posts were not recreated. |
 | Collection empty-state node `b92297f0-eaff-dfe5-9c28-de759a2d043f` | **Node not found** (CMS list gone). Other Collection strings wrote. |
 
+## Fahrzeug lock (2026-09-02, de-AT only)
+
+Sebastian lock: German `Automobil*` / `Automobile` / compounds replaced with `Fahrzeug` / `Fahrzeuge` / `Fahrzeugs` / `Fahrzeugen` as grammar requires. English primary untouched (`automobile` stays). English identifiers (`brief-automobile`, `data-name="Automobile"`, `Second automobile in one film`, `aria-label="Selected automobile films"`) untouched. Imprint/Privacy body stays English; de-AT footer chrome uses Fahrzeuge. `llms.txt` not changed (live file is English only). Reality stays hidden. Commission buttons stay SEND ENQUIRY / SEND BRIEF.
+
 ## FAQ questions (applied on de-AT)
 
 Accordion questions were span + String nodes. Localization MCP strips `<span>`, so those strings could not be written. Each original span still wraps the toggle. Inside it, a localizable `h5.accordion_toggle_text.u-text-style-h5` holds the question. English heading copy is unchanged. de-AT headings are German. Same 13 items. No new FAQ rows.
@@ -143,9 +147,9 @@ Accordion questions were span + String nodes. Localization MCP strips `<span>`, 
 |---|---|---|
 | CAN I MAKE THIS MYSELF WITH AI SOFTWARE? | KANN ICH DAS SELBST MIT KI-SOFTWARE MACHEN? | `4d895fa8-66cd-3e23-13a7-ebb539f59f9c` |
 | CAN I USE THIS IF THE MANUFACTURER ONLY ALLOWS OFFICIAL BRAND MATERIAL? | GEHT DAS, WENN DER HERSTELLER NUR OFFIZIELLES MARKENMATERIAL ERLAUBT? | `83039e7b-b200-fdda-9d2f-174f71eefc59` |
-| WHAT IS A COMMISSIONED AUTOMOBILE FILM? | WAS IST EIN AUTOMOBILFILM AUF AUFTRAG? | `368b27dc-78b0-b61f-da33-f1098d00a301` |
+| WHAT IS A COMMISSIONED AUTOMOBILE FILM? | WAS IST EIN FAHRZEUGFILM AUF AUFTRAG? | `368b27dc-78b0-b61f-da33-f1098d00a301` |
 | WHAT DO I NEED TO PROVIDE? | WAS MUSS ICH LIEFERN? | `ca15bc04-49e0-b415-2d24-3b032601e370` |
-| DOES MY AUTOMOBILE NEED TO BE TRANSPORTED? | MUSS MEIN AUTOMOBIL TRANSPORTIERT WERDEN? | `58b2ed8d-04a8-b4d5-59f2-8886ef72f2df` |
+| DOES MY AUTOMOBILE NEED TO BE TRANSPORTED? | MUSS MEIN FAHRZEUG TRANSPORTIERT WERDEN? | `58b2ed8d-04a8-b4d5-59f2-8886ef72f2df` |
 | DOES MY FILM NEED A COMMERCIAL OBJECTIVE? | BRAUCHT MEIN FILM EIN KOMMERZIELLES ZIEL? | `6360e305-4063-d52e-5d3b-2048c210fb7f` |
 | HOW LONG WILL MY FILM TAKE? | WIE LANGE DAUERT MEIN FILM? | `e810c2a3-a2cb-f0db-09b3-c782c48e17d7` |
 | WILL MY BRAND GUIDELINES BE FOLLOWED? | WERDEN MEINE MARKENRICHTLINIEN BEACHTET? | `178ab66d-46b6-4aba-6050-5673e6e15c31` |
