@@ -4,7 +4,7 @@
 
 **lastPublished: `2026-09-02T19:16:58.722Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. Separator spacing published after the jammed `HOME/COLLECTION/LET IT RAIN` screenshot.
 
-Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is ` / ` (space slash space, same as header EN / DE) via `olesko_header_language_separator`. Last crumb is a self page-link with `aria-current="page"`.
+Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is a dedicated `olesko_breadcrumb_separator` (inherits trail type; `padding-left/right: 0.75em`). Do not reuse `olesko_header_language_separator` on crumbs. Last crumb is a self page-link with `aria-current="page"`.
 
 EN visible: HOME / COLLECTION, HOME / COMMISSION, HOME / ABOUT, HOME / COLLECTION / [film title], HOME / IMPRINT, HOME / PRIVACY.
 
