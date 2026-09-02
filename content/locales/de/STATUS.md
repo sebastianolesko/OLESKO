@@ -1,6 +1,20 @@
-# OLESKO German (Austria) locale — published site, locale still disabled
+# OLESKO German (Austria) locale
 
-Sebastian said **PUBLISH**. Full-site `publish_site` ran. `/de-at` is **not** public yet because the secondary locale is still `enabled: false`. MCP cannot toggle locale publishing. Designer is disconnected. Do not open Designer for commission buttons.
+## Language switcher (2026-09-02, unpublished until this publish)
+
+Disabled DE spans are gone in OLESKO Global Header (`881a26d8-3f1e-e90c-0186-847d7679f286`). EN and DE are real `<a href>` in the header, menu, and menu-bottom row on English primary and de-AT.
+
+| Spot | EN | DE |
+|---|---|---|
+| Header `olesko_header_language` | `881a26d8-3f1e-e90c-0186-847d7679f28a` → `/` | `dd7ac7c5-345c-2049-115e-57514581294c` → `/de-at` |
+| Menu `olesko_menu_language` | `881a26d8-3f1e-e90c-0186-847d7679f29a` → `/` | `fc070936-6271-7b7e-8dac-fe8de3dcd478` → `/de-at` |
+| Menu bottom | `0d488183-5fa9-8d2b-d025-f0bcb735f0c0` ENGLISH → `/` | `7410d705-9d60-5936-d7be-706b6a6efd79` DEUTSCH → `/de-at` |
+
+Old disabled spans (`…f28c`, `…f29c`, `…f0c2`) deleted. Title `German version in preparation` is gone. Site footer script `oleskolangpair` 1.0.0 rewrites those hrefs to the matching path (`/collection` ↔ `/de-at/collection`, films too). Imprint/Privacy stay English URLs; DE from those pages goes to `/de-at`. `oleskowatchvideo` 1.0.0 still applied. No new rem. No `olesko_header_language_item_current` class (it does not exist).
+
+---
+
+Sebastian said **PUBLISH**. Full-site `publish_site` ran earlier. `/de-at` is public (`enabled: true`). Do not open Designer for commission buttons.
 
 Site: `https://oleskostudio.com`  
 Site ID: `6a7b43a328ec101a40bb1d20`  
@@ -89,8 +103,7 @@ Webflow will not compile a secondary locale until Localize → **Enable publishi
 
 ## Leftovers (Designer on de-AT only)
 
-- Primary header DE is still a **disabled span**, not a locale link. Do not type a fake `/de` or `/de-at` path on live EN until you publish.
-- On the DE header, DE is current; EN → `/`. Bottom row still shows both as current until Designer fixes the switcher.
+- Language switcher links are in the component. Pairing script sets current + matching hrefs after load.
 - Commission submit values still SEND ENQUIRY / SEND BRIEF (verified 2026-09-02). Official Pages Update Content wants `value` + `waitingText` on those submit nodes. MCP `update_static_content` only accepts `text` / `propertyOverrides`, so the write is rejected. `set_settings` on `buttonText` has no localeId and would overwrite live English. Designer is disconnected (login required). On de-AT set `ANFRAGE SENDEN` / `BRIEFING SENDEN` and `Bitte warten...` on:
   - Enquiry `0fc9e301-f2d1-cff1-0e91-2fc4442cdb1c` (`#commission-enquiry-submit`, `type=submit`)
   - Brief `a39ce365-82b8-2a52-a5ae-d47a9ab4712a` (`#commission-brief-submit`, `type=submit`)
@@ -113,7 +126,7 @@ Webflow will not compile a secondary locale until Localize → **Enable publishi
 
 ## Page IDs
 
-| Page | id | EN path | DE path (unpublished) |
+| Page | id | EN path | DE path |
 |---|---|---|---|
 | Home | `6a83fdcf46ec1970b6eb307b` | `/` | `/de-at` |
 | Collection | `6a8471318afbe9b46708f954` | `/collection` | `/de-at/collection` |

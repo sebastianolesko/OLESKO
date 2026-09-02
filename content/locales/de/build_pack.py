@@ -41,7 +41,7 @@ header_nodes = [
         '<div class="olesko_header_language">'
         '<a class="olesko_header_language_item" href="/" data-w-id="881a26d8-3f1e-e90c-0186-847d7679f28a">EN</a>'
         '<span class="olesko_header_language_separator" data-w-id="570e69bf-6693-b7f6-8c0f-d9153113faa8">/</span>'
-        '<span class="olesko_header_language_item olesko_header_language_item_current" data-w-id="881a26d8-3f1e-e90c-0186-847d7679f28c">DE</span>'
+        '<a class="olesko_header_language_item" href="/de-at" data-w-id="dd7ac7c5-345c-2049-115e-57514581294c">DE</a>'
         "</div>",
     ),
     n(
@@ -53,7 +53,7 @@ header_nodes = [
         '<div class="olesko_menu_language">'
         '<a class="olesko_header_language_item" href="/" data-w-id="881a26d8-3f1e-e90c-0186-847d7679f29a">EN</a>'
         '<span class="olesko_header_language_separator" data-w-id="8fecbd68-a299-72a9-b980-3ceb2beb530a">/</span>'
-        '<span class="olesko_header_language_item olesko_header_language_item_current" data-w-id="881a26d8-3f1e-e90c-0186-847d7679f29c">DE</span>'
+        '<a class="olesko_header_language_item" href="/de-at" data-w-id="fc070936-6271-7b7e-8dac-fe8de3dcd478">DE</a>'
         "</div>",
     ),
     n(
@@ -76,7 +76,7 @@ header_nodes = [
         "0d488183-5fa9-8d2b-d025-f0bcb735f0c3",
         '<div class="olesko_menu_bottom_languages">'
         '<a class="olesko_menu_bottom_item" href="/" data-w-id="0d488183-5fa9-8d2b-d025-f0bcb735f0c0">ENGLISH</a>'
-        '<span class="olesko_menu_bottom_item olesko_menu_bottom_item_current" data-w-id="0d488183-5fa9-8d2b-d025-f0bcb735f0c2">DEUTSCH</span>'
+        '<a class="olesko_menu_bottom_item olesko_menu_bottom_item_current" href="/de-at" data-w-id="7410d705-9d60-5936-d7be-706b6a6efd79">DEUTSCH</a>'
         "</div>",
     ),
     # IMPRINT / PRIVACY stay English on purpose.
