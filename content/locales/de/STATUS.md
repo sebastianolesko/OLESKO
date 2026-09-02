@@ -36,11 +36,35 @@ After `de` exists, MCP can write secondary-locale page copy, page SEO, and schem
 | `content/locales/de/build_pack.py` | Regenerates the two JSON files. |
 | This file | What MCP could not do. What still needs your publish yes. |
 
+## CMS leftovers still on the site (blocks Localization Basic)
+
+Re-checked via MCP on 2 Sep 2026. Still exactly two collections, both **zero items**. Not deleted.
+
+| Collection | id | slug | items |
+|---|---|---|---|
+| Films-cms | `6a876663b22843d8b60c22c8` | `films-cms` | 0 |
+| Posts | `6a87666d57cf52c62b38e6cf` | `posts` | 0 |
+
+`data_cms_tool` has no delete-collection action (confirmed: `delete_collection` is rejected). Designer MCP is not connected. This environment has no Webflow Data API token, so `DELETE https://api.webflow.com/v2/collections/{id}` could not be sent.
+
+Live films stay static `/films/...` pages. Do **not** create replacement collections. Do **not** publish. Do **not** enable locale publishing. Do **not** paste llms.txt.
+
+### How to delete (you, then retry Localization Basic)
+
+Designer: CMS → collection gear → Delete collection. Do that for **Films-cms** and **Posts**. Do not publish after.
+
+Or put a site token with `cms:write` in the agent environment as `WEBFLOW_SITE_API_TOKEN` and say retry. Official call:
+
+```
+DELETE https://api.webflow.com/v2/collections/6a876663b22843d8b60c22c8
+DELETE https://api.webflow.com/v2/collections/6a87666d57cf52c62b38e6cf
+```
+
+After both are gone, `get_collection_list` must return **zero** collections. Then retry Localization Basic checkout. Locale `de` stays unpublished.
+
 ## CMS films: there are no CMS film items to clone
 
-Collection **Films-cms** (`6a876663b22843d8b60c22c8`) has fields (`still`, `mux-playback-id`, `alt`, `name`, `slug`) and **0 items**. Live films are **static pages** under `/films/...` (10 pages, including Look of Love and Let It Rain).
-
-MCP cannot create localized CMS items. That does not block this job: we localize the **static film pages**, not a CMS clone. Do **not** create 10 Films-cms items. That would invent a second set of film URLs.
+Live films are **static pages** under `/films/...` (10 pages, including Look of Love and Let It Rain). Do **not** create Films-cms items. That would invent a second set of film URLs.
 
 The Collection page still has an empty CMS list (“No items found”) plus the static cards. Left as-is. Not a DE task.
 
