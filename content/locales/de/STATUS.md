@@ -2,7 +2,7 @@
 
 ## Breadcrumbs (2026-09-02)
 
-**lastPublished: `2026-09-02T19:52:18.333Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. Breadcrumb slashes now use `olesko_breadcrumb_separator` (inherit trail type, `padding-left/right: 0.75em`). Do not reuse the header language separator on crumbs.
+**lastPublished: pending publish** Header, menu, and breadcrumb slashes share one rule: inherit size/weight from the labels, even `0.75em` padding, vertical-align middle. Language items hug the slash (`first-child` flex-end, `last-child` flex-start) so N-to-slash and slash-to-D stay even. No hard-set `.75rem` on the slash.
 
 Inner pages only. Not Home. Quiet type: `olesko_eyebrow` + `u-text-style-small` + `u-text-transform-uppercase` + `u-color-faded`. Links use `olesko_breadcrumb_link`. Separator is a dedicated `olesko_breadcrumb_separator` (inherits trail type; `padding-left/right: 0.75em`). Do not reuse `olesko_header_language_separator` on crumbs. Last crumb is a self page-link with `aria-current="page"`.
 
@@ -25,7 +25,7 @@ Live `/collection`:
 Live `/de-at/collection`:
 
 ```html
-<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/de-at" class="olesko_breadcrumb_link">START</a><span aria-hidden="true" class="olesko_header_language_separator"> / </span><a aria-current="page" href="/de-at/collection" class="olesko_breadcrumb_link w--current">KOLLEKTION</a></nav>
+<nav aria-label="Breadcrumb" class="olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded u-column-start-1 u-column-span-8"><a href="/de-at" class="olesko_breadcrumb_link">START</a><span aria-hidden="true" class="olesko_breadcrumb_separator">/</span><a aria-current="page" href="/de-at/collection" class="olesko_breadcrumb_link w--current">KOLLEKTION</a></nav>
 ```
 
 ```json
