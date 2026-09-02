@@ -1,6 +1,46 @@
 # OLESKO German (Austria) locale
 
-## Language switcher (2026-09-02, unpublished until this publish)
+## Live verify (2026-09-02)
+
+**lastPublished: `2026-09-02T16:51:45.136Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. de-AT `enabled: true`.
+
+Live HTML on `https://oleskostudio.com/` and `https://oleskostudio.com/de-at` has real `<a href>` for EN and DE in header and menu. No `German version in preparation`.
+
+English home header:
+
+```html
+<div aria-label="Language" class="olesko_header_language"><a href="/" aria-current="page" hreflang="en" lang="en" class="olesko_header_language_item">EN</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a lang="de" hreflang="de" href="/de-at" class="olesko_header_language_item">DE</a></div>
+```
+
+English home menu:
+
+```html
+<div aria-label="Language" class="olesko_menu_language"><a href="/" aria-current="page" hreflang="en" lang="en" class="olesko_header_language_item">EN</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a lang="de" hreflang="de" href="/de-at" class="olesko_header_language_item">DE</a></div>
+```
+
+English home menu bottom:
+
+```html
+<div aria-label="Language" class="olesko_menu_bottom_languages"><a href="/" aria-current="page" hreflang="en" lang="en" class="olesko_menu_bottom_item olesko_menu_bottom_item_current">ENGLISH</a><a lang="de" hreflang="de" href="/de-at" class="olesko_menu_bottom_item">DEUTSCH</a></div>
+```
+
+de-AT home header:
+
+```html
+<div aria-label="Language" class="olesko_header_language"><a href="/" lang="en" aria-current="page" hreflang="en" class="olesko_header_language_item">EN</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a href="/de-at" lang="de" hreflang="de" aria-current="page" class="olesko_header_language_item">DE</a></div>
+```
+
+de-AT home menu:
+
+```html
+<div aria-label="Language" class="olesko_menu_language"><a href="/" lang="en" aria-current="page" hreflang="en" class="olesko_header_language_item">EN</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a href="/de-at" lang="de" hreflang="de" aria-current="page" class="olesko_header_language_item">DE</a></div>
+```
+
+Collection, commission, about, and film pages also have those three `<a href>` switchers. `oleskolangpair` 1.0.0 is in the footer and pairs matching paths after load. Imprint/Privacy stay English (`Imprint. OLESKO` / `Privacy. OLESKO`). Reality stays `.home_reality_section.u-section.u-theme-light { display: none; }`. Commission submits stay `SEND ENQUIRY` / `SEND BRIEF`.
+
+---
+
+## Language switcher (2026-09-02)
 
 Disabled DE spans are gone in OLESKO Global Header (`881a26d8-3f1e-e90c-0186-847d7679f286`). EN and DE are real `<a href>` in the header, menu, and menu-bottom row on English primary and de-AT.
 
