@@ -2,7 +2,9 @@
 
 ## Natural Austrian German inner-page rewrite (2026-09-03)
 
-Unpublished Webflow writes on locale `6a983fb4dfdbdb9a5e8b882c` only. English primary untouched. Home de-AT page nodes, Home SEO/OG/JSON-LD, and the shared Commission CTA component were **not** rewritten (a Home rewrite must not ship). Footer and film-disclaimer chrome were rewritten; they also appear on Home/legal URLs.
+**lastPublished: `2026-09-03T10:14:29.853Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
+
+Webflow writes on locale `6a983fb4dfdbdb9a5e8b882c` only. English primary untouched. Home de-AT page nodes, Home SEO/OG/JSON-LD, and the shared Commission CTA component were **not** rewritten (a Home rewrite must not ship). Footer and film-disclaimer chrome were rewritten; they also appear on Home/legal URLs.
 
 Rewritten and ready to publish: Collection, Commission, About, all 10 films, plus matching de-AT meta / OG (titleCopied / descriptionCopied) / JSON-LD. JSON-LD VideoObject Mux fields and BreadcrumbList restored after a stripped write. Imprint/Privacy **body** stays English.
 
