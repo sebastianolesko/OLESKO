@@ -4,7 +4,7 @@
   "localeId": "6a983fb4dfdbdb9a5e8b882c",
   "notes": [
     "Inner-page breadcrumbs: START / KOLLEKTION / AUFTRAG / ÜBER. Film last crumb stays the English title. Imprint/Privacy stay English HOME / IMPRINT and HOME / PRIVACY.",
-    "Language switcher: inactive uses u-color-faded. Current locale stays full and gets aria-current. oleskolangpair 1.1.0 pairs the same path including imprint/privacy.",
+    "Language switcher + crumbs: inactive uses u-color-faded. Current locale/crumb stays full theme text. Inactive hover uses that same colour. oleskolangpair 1.1.0 pairs the same path including imprint/privacy.",
     "localeId 6a983fb4dfdbdb9a5e8b882c cmsLocaleId 6a983fb4dfdbdb9a5e8b8831 tag de-AT subdirectory de-at enabled true.",
     "Films are static pages. Do not recreate Films-cms or Posts.",
     "Do not write Imprint or Privacy DE.",

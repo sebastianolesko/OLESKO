@@ -1,8 +1,10 @@
 # OLESKO German (Austria) locale
 
-## Language switcher current / faded (2026-09-03)
+## Language switcher + breadcrumbs current / faded (2026-09-03)
 
-Inactive language uses existing `u-color-faded` (`color-mix(in srgb, currentColor 70%, transparent)`). Current locale stays full. No new grey.
+Inactive language and inactive crumbs use the existing faded token (`u-color-faded` / `color-mix(in srgb, currentColor 70%, transparent)`). Current locale and current crumb stay full (`var(--_theme---text)`, same as live current EN/DE). No new grey.
+
+Hover on inactive switcher items and inactive crumbs uses that same active text colour. Current items have no hover change (language hover opacity removed).
 
 Header, menu, and menu-bottom ENGLISH/DEUTSCH are real links on both locales. `oleskolangpair` **1.1.0** in the site footer (keep `oleskowatchvideo` 1.0.0) pairs the same path, including imprint/privacy:
 
