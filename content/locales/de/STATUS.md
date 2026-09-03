@@ -2,9 +2,17 @@
 
 ## Spoken Austrian German rewrite, from meaning (2026-09-03)
 
-Unpublished Webflow writes on locale `6a983fb4dfdbdb9a5e8b882c` only. Previous DE-from-EN pass rejected. Home page nodes, Home SEO/OG/JSON-LD, and the shared Commission CTA were **not** rewritten. Footer chrome stays `Filme für außergewöhnliche Fahrzeuge. Auf Auftrag.` Imprint/Privacy body stays English.
+**lastPublished: `2026-09-03T13:13:10.562Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
 
-Rewritten: Collection, Commission, About, all 10 films, matching de-AT meta / OG / JSON-LD with Mux fields. New unpublished Home draft replaces `content/locales/de/HOME-DRAFT.md`.
+Webflow writes on locale `6a983fb4dfdbdb9a5e8b882c` only. Previous DE-from-EN pass rejected. Home page nodes, Home SEO/OG/JSON-LD, and the shared Commission CTA were **not** rewritten. Footer chrome stays `Filme für außergewöhnliche Fahrzeuge. Auf Auftrag.` Imprint/Privacy body stays English.
+
+Rewritten and live: Collection, Commission, About, all 10 films, matching de-AT meta / OG / JSON-LD with Mux fields. Home lastUpdated still `2026-09-02T21:22:03.224Z` (content) / `2026-09-03T09:55:13.024Z` (SEO). Live Home still has the old translation-German (`IHR AUTO`, `Jede Anfrage wird persönlich in Wien gelesen`). Full unpublished Home draft is in `content/locales/de/HOME-DRAFT.md`.
+
+Live lines that are not the previous pass:
+
+- Commission: `Sie schicken Fotos. Ich mache Ihren Film. Standardarbeit ist in einer Woche geliefert.`
+- About: `Ich bin Designer. Verkäufer. Unternehmer. Sitz in Wien.`
+- Rain: `Nass auf der Nordschleife. Gischt hinter Chiron, Valkyrie, Jesko Attack und Huayra.`
 
 ---
 
