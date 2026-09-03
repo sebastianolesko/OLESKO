@@ -1,8 +1,8 @@
 # Home de-AT draft (unpublished)
 
-For Sebastian / Chris. Natural Austrian German, Sie, studio-quiet. Do not apply in this pass. Reality stays drafted and hidden.
+For Sebastian / Chris. Spoken Austrian German, Sie, studio-quiet. Rewrite from meaning. Do not apply. Reality stays drafted and hidden.
 
-Locks kept: Fahrzeug / Fahrzeuge / Fahrzeugs / Fahrzeugen. Exact phrases `intelligenter Technologie` and `in einer Woche geliefert`. Film titles and car names English. Headlines stay uppercase. Hyphen-minus only. No video-model names. `Ihr Film`, not `ein OLESKO-Film`. Menu chrome stays START / KOLLEKTION / AUFTRAG / ÜBER.
+Locks: Fahrzeug / Fahrzeuge / Fahrzeugs / Fahrzeugen. Exact phrases `intelligenter Technologie` and `in einer Woche geliefert`. Film titles and car names English. Headlines uppercase. Hyphen-minus only. No video-model names. `Ihr Film`, not `ein OLESKO-Film`. Menu stays START / KOLLEKTION / AUFTRAG / ÜBER. No `IHR AUTO`.
 
 ---
 
@@ -17,38 +17,38 @@ FILM BEAUFTRAGEN →
 ## Laurels
 
 PERSÖNLICH
-GEMACHT FÜR JEDES
+FÜR JEDES
 FAHRZEUG
 
 30+ JAHRE
 MARKE UND
-VISUELLES DESIGN
+BILD
 
 WIEN
 AUCH
-INTERNATIONAL
+DRAUSSEN
 
 in einer Woche geliefert
 ·
 ·
 
-(Fourth laurel keeps the locked delivery line as the primary phrase. The two dots stay as in the live EN structure.)
+(Fourth laurel keeps the locked delivery line. The two dots stay as in the live EN structure.)
 
 ## Service
 
 **Eyebrow**
-FAHRZEUGFILME AUF AUFTRAG
+FILME AUF AUFTRAG
 
 **H2**
-IHR AUTO. KEIN echter Dreh. KEIN RISIKO. in einer Woche geliefert.
+IHR FAHRZEUG. KEIN echter Dreh. KEIN RISIKO. in einer Woche geliefert.
 
 **H2**
 für einen Bruchteil der Kosten.
 
 **Body**
-Ihr Fahrzeug bleibt, wo es ist. Es wird nicht transportiert. Nicht gefahren. Keine Straße, keine Crew, kein Wetter. Es gibt keinen echten Dreh. Nichts ist in Gefahr.
+Ihr Fahrzeug bleibt, wo es steht. Kein Transport. Kein Fahren. Keine Straße. Keine Crew. Kein Wetter. Es gibt keinen echten Dreh. Nichts kommt in Gefahr.
 
-Ihr Film entsteht vollständig aus Fotografien, die Sie liefern, mit intelligenter Technologie. Ihr genaues Fahrzeug. Eine Umgebung, die Sie wählen. in einer Woche geliefert.
+Sie schicken Fotos. Daraus entsteht Ihr Film. Mit intelligenter Technologie. Ihr genaues Fahrzeug. Eine Umgebung, die Sie wählen. in einer Woche geliefert.
 
 **Film cards (titles stay English)**
 LET IT RAIN. / THE LOOK OF LOVE. / RIVIERA SUMMER CRUISE. / ALPINE AUTUMN HIGH PASS. / ALONG THE SEA WALL. / ON THE FLOODED SALT. / AT THE LOUVRE. / INTO THE HIGHLAND FOG. / DOWN THE AVENUE. / MOUNTAIN SANCTUARY.
@@ -71,13 +71,13 @@ MERCEDES-AMG G 63 · BERGE
 ## Uses
 
 **Eyebrow**
-WO IHR FILM HIN SOLL
+WO ER HIN SOLL
 
 **H2**
-IHR FILM. VIELE MÖGLICHKEITEN.
+IHR FILM. VIELE ORTE.
 
 **Body**
-Ihr Film kann dort stehen, wo Ihre Geschichte gesehen werden soll. Auf der Website. In der Werbung. Im Inserat. Im Showroom. In den sozialen Medien. Auf einer Ausstellung. Oder in einem Gespräch, das Sie führen.
+Ihr Film kann dort stehen, wo man ihn braucht. Auf der Website. In der Werbung. Im Inserat. Im Showroom. In den sozialen Medien. Auf einer Ausstellung. Oder in einem Gespräch.
 
 **List (uppercase)**
 WEBSITE
@@ -97,9 +97,9 @@ PREISE
 EIN KLARER ANFANG.
 
 **Body**
-Ihr Film beginnt mit einem Basispaket nach Länge. Extras kommen nur dazu, wenn Sie sie wollen.
+Sie wählen ein Basispaket nach Länge. Extras nur, wenn Sie sie wollen.
 
-Brauchen Sie mehr als einen Film, fragen Sie nach Paketen oder einem besseren Preis.
+Brauchen Sie mehr als einen Film, fragen Sie nach einem Paket. Oder nach einem besseren Preis.
 
 **Packages**
 BASISPAKET / KURZFILM / AB €1.200,- / 15 Sekunden
@@ -108,14 +108,14 @@ BASISPAKET / PORTRAITFILM / AB €3.600,- / 60 Sekunden
 
 **Included**
 ENTHALTEN
-Ein Fahrzeug, wie auf den gelieferten Bildern
-Zustand (Licht, Griffe, ...) wie auf den Bildern
-Eine stimmige Umgebung, wie gewählt
+Ein Fahrzeug, wie auf den Fotos
+Zustand (Licht, Griffe, ...) wie auf den Fotos
+Eine Umgebung, wie gewählt
 Mehrere Perspektiven
 Ein gewähltes Bildformat
 1080p
 Ein allgemeiner Fahrer, wo nötig
-Kennzeichen wie auf den Bildern
+Kennzeichen wie auf den Fotos
 
 **Optional**
 OPTIONAL
@@ -137,7 +137,7 @@ IHR FILM BEGINNT HIER
 IHR FILM.
 
 **Body**
-Schreiben Sie kurz, oder bereiten Sie ein genaues Briefing vor. Fahrzeug, Zweck, was Sie brauchen. Jede Anfrage lese ich selbst. In Wien.
+Schreiben Sie kurz. Oder ein Briefing. Fahrzeug, Zweck, was Sie brauchen. Ich lese jede Anfrage selbst. In Wien.
 
 **CTA**
 AUFTRAG ANSEHEN →
@@ -151,18 +151,18 @@ DIE KOLLEKTION
 UNMÖGLICHE FILME. MIT EINEM ZWECK.
 
 **Body**
-Ihr Film soll mehr tun, als halten. Er soll etwas vom Fahrzeug zeigen. Und etwas in Ihnen auslösen.
+Ein Film soll das Fahrzeug zeigen. Und etwas auslösen.
 
-Für einen Händler, ein Auktionshaus oder eine Marke kann dieses Gefühl einem klaren Ziel dienen. Für einen Sammler darf der Zweck ganz persönlich sein. Die Poesie macht die Arbeit spürbar. Der Zweck gibt ihr eine Richtung.
+Für einen Händler, ein Auktionshaus oder eine Marke kann das einem Ziel dienen. Für einen Sammler darf es ganz privat sein. Das Bild macht es spürbar. Der Zweck gibt die Richtung.
 
 **KOMMERZIELL ODER INSTITUTIONELL**
-Ein Film mit einem klaren Ziel. Sagen, positionieren, etwas stützen.
+Ein Film mit einem Ziel. Sagen. Positionieren. Etwas stützen.
 
 **SAMMLER ODER PERSÖNLICH**
-Ein Film für die Bedeutung, die Geschichte oder das Gefühl, das an einem Fahrzeug hängt.
+Ein Film für die Geschichte, die an einem Fahrzeug hängt. Oder für das Gefühl.
 
 **KUNDENRICHTLINIEN**
-Liegen Markenrichtlinien vor, folgt Ihr Film der freigegebenen Sprache. Identität, Ton, Zeichen, Logo, Botschaft.
+Liegen Richtlinien vor, folgt Ihr Film der freigegebenen Sprache. Identität, Ton, Zeichen, Logo, Botschaft.
 
 ## Reality (drafted, stays hidden)
 
@@ -196,17 +196,17 @@ KOMPONIERTE BILDER. FAHRZEUG WIE ANGEGEBEN.
 DER ABLAUF
 
 **H2**
-VON IHREN FOTOS ZU IHREM FERTIGEN FILM.
+VON IHREN FOTOS ZUM FERTIGEN FILM.
 
 **Body**
-Sie schicken klare Fotografien Ihres Fahrzeugs. Aus brauchbaren Winkeln. Und sagen, was Sie im Sinn haben. Konzept, Bild und Herstellung übernehme ich.
+Sie schicken klare Fotos Ihres Fahrzeugs. Aus brauchbaren Winkeln. Und sagen, was Sie wollen. Konzept, Bild und Herstellung übernehme ich.
 
 **Compare**
 DANACH / IHR FERTIGER FILM
-DAVOR / IHRE GELIEFERTEN FOTOGRAFIEN
+DAVOR / IHRE GELIEFERTEN FOTOS
 
 **01 TEILEN SIE IHR FAHRZEUG**
-Fotografien. Eine kurze Beschreibung. Was wichtig ist. Was am Erscheinungsbild sitzen muss.
+Fotos. Eine kurze Beschreibung. Was sitzen muss. Was am Erscheinungsbild zählt.
 
 **02 BESTIMMEN SIE DIE SZENE**
 Zweck, Publikum, Geschichte, Umgebung. Länge, Format. Wie es enden soll.
@@ -220,15 +220,15 @@ Ziehen Sie den Teiler. Links das gelieferte Fahrzeug. Rechts das Ergebnis.
 ## About (Home band)
 
 **Eyebrow**
-PERSÖNLICH GEMACHT IN WIEN
+GEMACHT IN WIEN
 
 **H2**
 SEBASTIAN OLESKO.
 
 **Body**
-Jeden Auftrag entwickle und kuratiere ich selbst.
+Jeden Auftrag mache ich selbst.
 
-Mehr als 30 Jahre. Marke, visuelles Design, Marketing, internationaler Vertrieb, eigene Unternehmen. Inklusive Führung. Und dem Aufbau von Geschäften von vorne.
+Über 30 Jahre. Marke, Bild, Marketing, Verkauf, eigene Firmen. Inklusive Führung. Und dem Aufbau von vorne.
 
 Sie arbeiten mit mir. Vom ersten Gespräch bis zur Übergabe.
 
@@ -244,40 +244,40 @@ HÄUFIGE FRAGEN
 FRAGEN, BEANTWORTET.
 
 **KANN ICH DAS SELBST MIT KI-SOFTWARE MACHEN?**
-Ja. Wenn Sie das Können haben und die Werkzeuge beherrschen. Die Software ist nicht der Auftrag. Der Auftrag ist das Wissen, wie ein echtes Fahrzeug in Bewegung aussieht. Und die Arbeit, es dorthin zu bringen.
+Ja. Wenn Sie das können. Die Software allein macht es nicht. Es geht darum, wie ein echtes Fahrzeug in Bewegung aussieht. Und um die Arbeit, das hinzukriegen.
 
 **GEHT DAS, WENN DER HERSTELLER NUR OFFIZIELLES MARKENMATERIAL ERLAUBT?**
-Das ist keine Herstellerwerbung. Es ist Ihr Film. Von einem bestimmten Fahrzeug. Aus Ihren Fotografien. Ohne Anspruch auf eine Markengenehmigung. Verbietet ein Händlervertrag inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Auto, Ihr Inserat oder Ihren Kunden gilt das nicht so.
+Das ist keine Herstellerwerbung. Es ist Ihr Film. Von einem bestimmten Fahrzeug. Aus Ihren Fotos. Ohne Anspruch auf eine Markengenehmigung. Verbietet ein Händlervertrag inoffizielle Filme auf neuem Bestand, ist das Ihre Grenze. Für Ihr eigenes Fahrzeug, Ihr Inserat oder Ihren Kunden gilt das nicht so.
 
 **WAS IST EIN FAHRZEUGFILM AUF AUFTRAG?**
-Ihr Film ist eine kurze Arbeit aus Fotografien, die Sie liefern. Er kann Ihr Fahrzeug in eine Geschichte, an einen Ort oder in eine Stimmung setzen. Ohne einen konventionellen Location-Dreh.
+Ihr Film ist kurz. Er entsteht aus Fotos, die Sie schicken. Er kann Ihr Fahrzeug in eine Geschichte setzen. An einen Ort. In eine Stimmung. Ohne Location-Dreh.
 
 **WAS MUSS ICH LIEFERN?**
-Klare Fotografien aus brauchbaren Winkeln. Was am Erscheinungsbild zählt. Eine kurze Beschreibung, was Sie wollen.
+Klare Fotos aus brauchbaren Winkeln. Was am Erscheinungsbild zählt. Eine kurze Beschreibung, was Sie wollen.
 
 **MUSS MEIN FAHRZEUG TRANSPORTIERT WERDEN?**
-Nein. Ihr Film entsteht aus gelieferten Fotografien.
+Nein. Ihr Film entsteht aus den Fotos, die Sie schicken.
 
 **BRAUCHT MEIN FILM EIN KOMMERZIELLES ZIEL?**
-Nein. Ihr Film kann ein geschäftliches Ziel stützen. Oder ganz persönlich sein.
+Nein. Er kann ein geschäftliches Ziel stützen. Oder ganz privat sein.
 
 **WIE LANGE DAUERT MEIN FILM?**
 Ein üblicher Auftrag wird in einer Woche geliefert.
 
 **WERDEN MEINE MARKENRICHTLINIEN BEACHTET?**
-Ja. Was Sie liefern, geht ins Briefing.
+Ja. Was Sie schicken, geht ins Briefing.
 
 **SIND DIE BILDER ECHT ODER ERZEUGT?**
-Ihr Film verwendet komponierte Bilder und moderne Bildtechnik. Das kann generative KI einschließen. Die Herstellung liegt bei mir. Die Art der Bilder wird klar benannt.
+Die Bilder sind zusammengesetzt. Manche erzeugt. Das kann generative KI einschließen. Die Arbeit liegt bei mir. Die Art der Bilder wird klar benannt.
 
 **KANN MEIN FILM EINEN ECHTEN SHOWROOM, EINE VILLA ODER EINE ERKENNBARE PERSON ZEIGEN?**
-Ja. Eigene reale Orte und erkennbare Personen gehen als Extra, wenn geeignetes Referenzmaterial da ist.
+Ja. Eigene reale Orte und erkennbare Personen gehen als Extra. Wenn geeignetes Material da ist.
 
 **KANN ICH KENNZEICHEN, BRANDING UND AUSLIEFERUNGSFORMAT VORGEBEN?**
-Ja. Kennzeichen, Abschluss, Bildformat und Auflösung können Teil Ihres Auftrags sein. Manche Wahl ändert den Preis.
+Ja. Kennzeichen, Abschluss, Bildformat und Auflösung können Teil des Auftrags sein. Manche Wahl ändert den Preis.
 
 **WELCHE NUTZUNGSRECHTE SIND ENTHALTEN?**
-Was Sie nutzen dürfen, steht klar im Auftrag. Lieferung, Nutzung und Grenzen, bevor die Arbeit beginnt.
+Was Sie nutzen dürfen, steht im Auftrag. Lieferung, Nutzung und Grenzen, bevor die Arbeit beginnt.
 
 **WIRD MEIN AUFTRAGSFILM VERÖFFENTLICHT?**
 Nur wenn Sie extra zustimmen. Kollektion, soziale Medien, Tags, Inseratslinks: jeweils eigene Einwilligung.
@@ -290,7 +290,7 @@ SCHLIESSEN ×
 ## Suggested Home SEO (also unpublished)
 
 **Title**
-OLESKO. Filme für außergewöhnliche Fahrzeuge. Aus Ihren Bildern.
+OLESKO. Filme für außergewöhnliche Fahrzeuge. Aus Ihren Fotos.
 
 **Description**
-OLESKO ist das Wiener Studio von Sebastian Olesko. Ihr Film entsteht aus Fotografien, die Sie liefern. Ohne Transport, ohne Sperre, ohne Location-Dreh. in einer Woche geliefert.
+OLESKO ist das Wiener Studio von Sebastian Olesko. Sie schicken Fotos. Ich mache Ihren Film. Ohne Transport, ohne Sperre, ohne Location-Dreh. in einer Woche geliefert.

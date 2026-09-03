@@ -1,5 +1,13 @@
 # OLESKO German (Austria) locale
 
+## Spoken Austrian German rewrite, from meaning (2026-09-03)
+
+Unpublished Webflow writes on locale `6a983fb4dfdbdb9a5e8b882c` only. Previous DE-from-EN pass rejected. Home page nodes, Home SEO/OG/JSON-LD, and the shared Commission CTA were **not** rewritten. Footer chrome stays `Filme für außergewöhnliche Fahrzeuge. Auf Auftrag.` Imprint/Privacy body stays English.
+
+Rewritten: Collection, Commission, About, all 10 films, matching de-AT meta / OG / JSON-LD with Mux fields. New unpublished Home draft replaces `content/locales/de/HOME-DRAFT.md`.
+
+---
+
 ## Natural Austrian German inner-page rewrite (2026-09-03)
 
 **lastPublished: `2026-09-03T10:14:29.853Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.

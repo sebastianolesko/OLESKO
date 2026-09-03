@@ -224,7 +224,7 @@
       "title": "Collection",
       "seo": {
         "title": "Die Kollektion. OLESKO",
-        "description": "Ausgewählte Filme für außergewöhnliche Fahrzeuge. Auf Auftrag."
+        "description": "Zehn Filme. Für außergewöhnliche Fahrzeuge."
       },
       "openGraph": {
         "titleCopied": true,
@@ -237,7 +237,7 @@
           {
             "@type": "CollectionPage",
             "inLanguage": "de-AT",
-            "description": "Ausgewählte Filme für außergewöhnliche Fahrzeuge. Auf Auftrag.",
+            "description": "Zehn Filme. Für außergewöhnliche Fahrzeuge.",
             "mainEntity": {
               "@type": "ItemList",
               "itemListElement": [
@@ -360,7 +360,7 @@
       "title": "Commission",
       "seo": {
         "title": "Ihr Film. OLESKO",
-        "description": "Ihr Film entsteht aus Fotografien, die Sie liefern. Persönlich gemacht. Standardarbeit ist in einer Woche geliefert."
+        "description": "Sie schicken Fotos. Ich mache Ihren Film. Standardarbeit ist in einer Woche geliefert."
       },
       "openGraph": {
         "titleCopied": true,
@@ -373,7 +373,7 @@
           {
             "@type": "WebPage",
             "inLanguage": "de-AT",
-            "description": "Ihr Film entsteht aus Fotografien, die Sie liefern. Persönlich gemacht. Standardarbeit ist in einer Woche geliefert.",
+            "description": "Sie schicken Fotos. Ich mache Ihren Film. Standardarbeit ist in einer Woche geliefert.",
             "name": "Ihr Film. OLESKO",
             "publisher": {
               "@type": "Organization",
@@ -409,7 +409,7 @@
       "title": "About",
       "seo": {
         "title": "Sebastian Olesko. OLESKO",
-        "description": "Sebastian Olesko. Designer, Verkäufer und Unternehmer in Wien. OLESKO führt er persönlich."
+        "description": "Sebastian Olesko. Designer, Verkäufer, Unternehmer. Sitz in Wien. OLESKO führt er selbst."
       },
       "openGraph": {
         "titleCopied": true,
@@ -422,7 +422,7 @@
           {
             "@type": "AboutPage",
             "inLanguage": "de-AT",
-            "description": "Sebastian Olesko. Designer, Verkäufer und Unternehmer in Wien. OLESKO führt er persönlich.",
+            "description": "Sebastian Olesko. Designer, Verkäufer, Unternehmer. Sitz in Wien. OLESKO führt er selbst.",
             "mainEntity": {
               "@type": "Person",
               "image": "https://cdn.prod.website-files.com/6a7b43a328ec101a40bb1d20/6a81f40a7a61e6094a0ba10b_sebastian-olesko-portrait-native.jpg",
@@ -491,7 +491,7 @@
       "title": "LET IT RAIN",
       "seo": {
         "title": "LET IT RAIN. Nürburgring Nordschleife. OLESKO",
-        "description": "Let it rain. Vier Hypercars auf der Nürburgring Nordschleife. Als hätte der Regen genau darauf gewartet."
+        "description": "Nass auf der Nordschleife. Vier Hypercars. Der Regen gehört dazu."
       },
       "openGraph": {
         "titleCopied": true,
@@ -504,7 +504,7 @@
           {
             "@type": "VideoObject",
             "name": "LET IT RAIN.",
-            "description": "Let it rain. Vier Hypercars auf der Nürburgring Nordschleife. Als hätte der Regen genau darauf gewartet.",
+            "description": "Nass auf der Nordschleife. Vier Hypercars. Der Regen gehört dazu.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/OlX8CPetuXoNzDIwejgd7NOU1intYKyZ8h3toHIdrNg.m3u8",
             "embedUrl": "https://player.mux.com/OlX8CPetuXoNzDIwejgd7NOU1intYKyZ8h3toHIdrNg",
@@ -552,7 +552,7 @@
       "title": "THE LOOK OF LOVE",
       "seo": {
         "title": "THE LOOK OF LOVE. Ferrari 250 GT California Spyder. OLESKO",
-        "description": "The Look of Love. Ein Ferrari 250 GT California Spyder am Como. Ohne Eile. Der Nachmittag gehört ihm."
+        "description": "Dach offen. Ein 250 GT California Spyder am Como. Keine Eile."
       },
       "openGraph": {
         "titleCopied": true,
@@ -565,7 +565,7 @@
           {
             "@type": "VideoObject",
             "name": "THE LOOK OF LOVE.",
-            "description": "The Look of Love. Ein Ferrari 250 GT California Spyder am Como. Ohne Eile. Der Nachmittag gehört ihm.",
+            "description": "Dach offen. Ein 250 GT California Spyder am Como. Keine Eile.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/rs01FzIgY7VytHaQpcSz02eznRjuYts8zz2I9MIQ36dHo.m3u8",
             "embedUrl": "https://player.mux.com/rs01FzIgY7VytHaQpcSz02eznRjuYts8zz2I9MIQ36dHo",
@@ -613,7 +613,7 @@
       "title": "RIVIERA SUMMER CRUISE",
       "seo": {
         "title": "RIVIERA SUMMER CRUISE. Aston Martin DB12 Volante. OLESKO",
-        "description": "Riviera Summer Cruise. Ein Aston Martin DB12 Volante an der Côte d'Azur. Ohne Eile."
+        "description": "Dach offen. Ein DB12 Volante. Nah genug für das Salz."
       },
       "openGraph": {
         "titleCopied": true,
@@ -626,7 +626,7 @@
           {
             "@type": "VideoObject",
             "name": "RIVIERA SUMMER CRUISE.",
-            "description": "Riviera Summer Cruise. Ein Aston Martin DB12 Volante an der Côte d'Azur. Ohne Eile.",
+            "description": "Dach offen. Ein DB12 Volante. Nah genug für das Salz.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/02qnn02P7l2wIRJfRyjBTyhGoTTOoKjDelHwSxFe1OdKY.m3u8",
             "embedUrl": "https://player.mux.com/02qnn02P7l2wIRJfRyjBTyhGoTTOoKjDelHwSxFe1OdKY",
@@ -674,7 +674,7 @@
       "title": "ALPINE AUTUMN HIGH PASS",
       "seo": {
         "title": "ALPINE AUTUMN HIGH PASS. Porsche 992 GT3 Touring. OLESKO",
-        "description": "Alpine Autumn High Pass. Ein Porsche 992 GT3 Touring in den Alpen. Ohne Eile."
+        "description": "Hohe Luft. Ein 992 GT3 Touring am Berg. Keine Eile."
       },
       "openGraph": {
         "titleCopied": true,
@@ -687,7 +687,7 @@
           {
             "@type": "VideoObject",
             "name": "ALPINE AUTUMN HIGH PASS.",
-            "description": "Alpine Autumn High Pass. Ein Porsche 992 GT3 Touring in den Alpen. Ohne Eile.",
+            "description": "Hohe Luft. Ein 992 GT3 Touring am Berg. Keine Eile.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/JpRyvr01QDyNp5v1O5ODoWzzbiWll1HrNGlFGfwa6DQs.m3u8",
             "embedUrl": "https://player.mux.com/JpRyvr01QDyNp5v1O5ODoWzzbiWll1HrNGlFGfwa6DQs",
@@ -735,7 +735,7 @@
       "title": "ALONG THE SEA WALL",
       "seo": {
         "title": "ALONG THE SEA WALL. Bentley Continental GTC. OLESKO",
-        "description": "Along the Sea Wall. Ein Bentley Continental GTC an der italienischen Küste. Ohne Eile."
+        "description": "Dach offen. Ein Continental GTC. Nah genug für das Salz."
       },
       "openGraph": {
         "titleCopied": true,
@@ -748,7 +748,7 @@
           {
             "@type": "VideoObject",
             "name": "ALONG THE SEA WALL.",
-            "description": "Along the Sea Wall. Ein Bentley Continental GTC an der italienischen Küste. Ohne Eile.",
+            "description": "Dach offen. Ein Continental GTC. Nah genug für das Salz.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/HK7phtLFrY6EoR7Zb4J700hPvNkLRosTbDQZtirhxqqk.m3u8",
             "embedUrl": "https://player.mux.com/HK7phtLFrY6EoR7Zb4J700hPvNkLRosTbDQZtirhxqqk",
@@ -796,7 +796,7 @@
       "title": "ON THE FLOODED SALT",
       "seo": {
         "title": "ON THE FLOODED SALT. Lamborghini Revuelto. OLESKO",
-        "description": "On the Flooded Salt. Ein Lamborghini Revuelto auf dem Salar de Uyuni. Ohne Eile."
+        "description": "Himmel und Salz eine Fläche. Ein Revuelto auf dem nassen Salar."
       },
       "openGraph": {
         "titleCopied": true,
@@ -809,7 +809,7 @@
           {
             "@type": "VideoObject",
             "name": "ON THE FLOODED SALT.",
-            "description": "On the Flooded Salt. Ein Lamborghini Revuelto auf dem Salar de Uyuni. Ohne Eile.",
+            "description": "Himmel und Salz eine Fläche. Ein Revuelto auf dem nassen Salar.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/7vMDXoYF3ELCWh1Ht01rSTv856q9yP600Ns02PIzzhiztw.m3u8",
             "embedUrl": "https://player.mux.com/7vMDXoYF3ELCWh1Ht01rSTv856q9yP600Ns02PIzzhiztw",
@@ -857,7 +857,7 @@
       "title": "AT THE LOUVRE",
       "seo": {
         "title": "AT THE LOUVRE. Ferrari 250 GTO. OLESKO",
-        "description": "At the Louvre. Ein Ferrari 250 GTO in Paris. Ohne Eile."
+        "description": "Nacht auf dem Stein. Ein 250 GTO in Paris."
       },
       "openGraph": {
         "titleCopied": true,
@@ -870,7 +870,7 @@
           {
             "@type": "VideoObject",
             "name": "AT THE LOUVRE.",
-            "description": "At the Louvre. Ein Ferrari 250 GTO in Paris. Ohne Eile.",
+            "description": "Nacht auf dem Stein. Ein 250 GTO in Paris.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/Ew5FZhdef02EiwtkpJ768ZJL1N6FKOpfKuyRp1KjpFJI.m3u8",
             "embedUrl": "https://player.mux.com/Ew5FZhdef02EiwtkpJ768ZJL1N6FKOpfKuyRp1KjpFJI",
@@ -918,7 +918,7 @@
       "title": "INTO THE HIGHLAND FOG",
       "seo": {
         "title": "INTO THE HIGHLAND FOG. Mercedes-AMG GT. OLESKO",
-        "description": "Into the Highland Fog. Ein Mercedes-AMG GT in Schottland. Ohne Eile."
+        "description": "Die Straße geht im Nebel aus. Ein AMG GT in den Highlands."
       },
       "openGraph": {
         "titleCopied": true,
@@ -931,7 +931,7 @@
           {
             "@type": "VideoObject",
             "name": "INTO THE HIGHLAND FOG.",
-            "description": "Into the Highland Fog. Ein Mercedes-AMG GT in Schottland. Ohne Eile.",
+            "description": "Die Straße geht im Nebel aus. Ein AMG GT in den Highlands.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/Xcs02prXENY100cDYVvGjToQyZ21PJkaFpY006icNuVvgg.m3u8",
             "embedUrl": "https://player.mux.com/Xcs02prXENY100cDYVvGjToQyZ21PJkaFpY006icNuVvgg",
@@ -979,7 +979,7 @@
       "title": "DOWN THE AVENUE",
       "seo": {
         "title": "DOWN THE AVENUE. Mercedes-Benz 190 SL. OLESKO",
-        "description": "Down the Avenue. Ein Mercedes-Benz 190 SL in England. Ohne Eile."
+        "description": "Bäume in einer Reihe. Ein 190 SL auf einer Allee in England."
       },
       "openGraph": {
         "titleCopied": true,
@@ -992,7 +992,7 @@
           {
             "@type": "VideoObject",
             "name": "DOWN THE AVENUE.",
-            "description": "Down the Avenue. Ein Mercedes-Benz 190 SL in England. Ohne Eile.",
+            "description": "Bäume in einer Reihe. Ein 190 SL auf einer Allee in England.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/7vlFqf2fLr3h5kneTRKmO6XCjMbU7Fu3zxgdPUelkTA.m3u8",
             "embedUrl": "https://player.mux.com/7vlFqf2fLr3h5kneTRKmO6XCjMbU7Fu3zxgdPUelkTA",
@@ -1040,7 +1040,7 @@
       "title": "MOUNTAIN SANCTUARY",
       "seo": {
         "title": "MOUNTAIN SANCTUARY. Mercedes-AMG G 63. OLESKO",
-        "description": "Mountain Sanctuary. Ein Mercedes-AMG G 63 in den Bergen. Ohne Eile."
+        "description": "Schnee. Still. Ein G 63 oben. Keine Eile."
       },
       "openGraph": {
         "titleCopied": true,
@@ -1053,7 +1053,7 @@
           {
             "@type": "VideoObject",
             "name": "MOUNTAIN SANCTUARY.",
-            "description": "Mountain Sanctuary. Ein Mercedes-AMG G 63 in den Bergen. Ohne Eile.",
+            "description": "Schnee. Still. Ein G 63 oben. Keine Eile.",
             "duration": "PT30S",
             "contentUrl": "https://stream.mux.com/svnxW67n6IeVArX329IXJiALGVi02TCWhNV3FXSthKjk.m3u8",
             "embedUrl": "https://player.mux.com/svnxW67n6IeVArX329IXJiALGVi02TCWhNV3FXSthKjk",

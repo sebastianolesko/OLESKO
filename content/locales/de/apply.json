@@ -15,7 +15,8 @@
     "Copy lock: kluge/kluger Technik -> intelligenter Technologie. Delivery claim is exactly in einer Woche geliefert.",
     "Reality section is translated and stays hidden.",
     "German Automobil/Automobile and compounds are Fahrzeug/Fahrzeuge/Fahrzeugs/Fahrzeugen. English automobile identifiers stay.",
-    "Voice lock 2026-09-03: inner de-AT is natural Austrian German (Sie), not DE-from-EN. Home page nodes stay as previously published. Commission CTA component stays as published (shared with Home). Footer and film disclaimer may land on Home/legal chrome. Imprint/Privacy body stays English."
+    "Voice lock 2026-09-03: inner de-AT is natural Austrian German (Sie), not DE-from-EN. Home page nodes stay as previously published. Commission CTA component stays as published (shared with Home). Footer and film disclaimer may land on Home/legal chrome. Imprint/Privacy body stays English.",
+    "Voice lock 2026-09-03 pass 2: rewrite from meaning, spoken Austrian German (Sie). Not DE-from-EN. Home page nodes and Commission CTA stay unpublished. Footer chrome may stay. Imprint/Privacy body English."
   ],
   "components": [
     {
@@ -130,11 +131,11 @@
       "nodes": [
         {
           "nodeId": "8b4e95eb-fc30-c6aa-df8c-80e377a2c390",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">OLESKO ist nicht gesponsert, verbunden oder empfohlen von den genannten Herstellern. Namen, Zeichen und Modelle stehen nur zur Beschreibung. Sie nennen die Fahrzeuge, von denen die Idee kommt.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">OLESKO hat mit den Herstellern nichts zu tun. Kein Sponsoring. Keine Empfehlung. Namen und Modelle stehen nur da, damit klar ist, welches Fahrzeug gemeint ist.</p>"
         },
         {
           "nodeId": "3901362d-b8ec-4041-8f38-b97d19342db1",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Das ist Konzeptarbeit. Kein bestimmtes reales Fahrzeug. Kein Besitzer. Kein Inserat. Ähnlichkeiten sind Zufall.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Das ist Konzept. Kein echtes Fahrzeug. Kein Besitzer. Kein Inserat. Wenn etwas ähnlich wirkt: Zufall.</p>"
         }
       ]
     }
@@ -726,7 +727,7 @@
         },
         {
           "nodeId": "8a7c22be-2029-ddc7-7e6f-8dee79dcbea2",
-          "text": "<h1 id=\"collection-title\" class=\"olesko_section_grid_item u-text-style-h2\">Kollektion</h1>"
+          "text": "<h1 id=\"collection-title\" class=\"olesko_section_grid_item u-text-style-h2\">KOLLEKTION</h1>"
         },
         {
           "nodeId": "b92297f0-eaff-dfe5-9c28-de759a2d043f",
@@ -817,15 +818,15 @@
         },
         {
           "nodeId": "35f671f4-2ad3-d413-7137-ff0ac44e687d",
-          "text": "<p class=\"olesko_commission_copy\">Ihr Film entsteht aus Fotografien, die Sie liefern. Die übliche Arbeit mache ich persönlich. Standardarbeit ist in einer Woche geliefert.</p>"
+          "text": "<p class=\"olesko_commission_copy\">Sie schicken Fotos. Ich mache Ihren Film. Standardarbeit ist in einer Woche geliefert.</p>"
         },
         {
           "nodeId": "fd72e77f-f435-bebf-63fc-1a2294326f1a",
-          "text": "<p class=\"olesko_commission_copy\">Zwei Wege: eine kurze Anfrage, oder ein Briefing. Sebastian spricht es mit Ihnen durch. Dann kommt das Angebot.</p>"
+          "text": "<p class=\"olesko_commission_copy\">Zwei Wege. Eine kurze Nachricht. Oder ein Briefing. Wir sprechen. Dann das Angebot.</p>"
         },
         {
           "nodeId": "c3a8fe0e-ce53-5f0c-713d-ab2f24a5862a",
-          "text": "<a class=\"olesko_commission_copy\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">Die Pakete stehen auf der Startseite.</a>"
+          "text": "<a class=\"olesko_commission_copy\" data-wf-link-page-id=\"6a83fdcf46ec1970b6eb307b\">Die Preise stehen auf der Startseite.</a>"
         },
         {
           "nodeId": "ba6404b5-efb9-437d-eb5f-2c14fdf72b1e",
@@ -833,7 +834,7 @@
         },
         {
           "nodeId": "5b478404-5c97-3837-7d1f-2ed94fd1b523",
-          "text": "<p class=\"olesko_commission_copy\">Eine kurze Anfrage, wenn Sie zuerst Orientierung wollen.</p>"
+          "text": "<p class=\"olesko_commission_copy\">Nur eine Nachricht. Wenn Sie zuerst Orientierung wollen.</p>"
         },
         {
           "nodeId": "a8b9f64f-7885-c60e-c39f-0533264d4e94",
@@ -861,11 +862,11 @@
         },
         {
           "nodeId": "8e91f074-72a0-29d0-1bdf-1b5c2e9ed901",
-          "text": "<p class=\"olesko_commission_copy form_success_wrap\">Sebastian meldet sich. Wir sprechen es durch. Danach kommt das Angebot.</p>"
+          "text": "<p class=\"olesko_commission_copy form_success_wrap\">Ich melde mich. Wir sprechen. Dann das Angebot.</p>"
         },
         {
           "nodeId": "e28cdf41-f968-db01-c55e-fa0249bc306a",
-          "text": "<div class=\"form_error_text\">Das Senden hat nicht geklappt.</div>"
+          "text": "<div class=\"form_error_text\">Das ist nicht angekommen.</div>"
         },
         {
           "nodeId": "4bc005e6-1891-4eb0-ee99-19a29892faef",
@@ -873,7 +874,7 @@
         },
         {
           "nodeId": "3e3d42ec-6679-51a7-8432-52aae8a4ac75",
-          "text": "<p class=\"olesko_commission_copy\">Sie wissen schon, was Sie wollen. Optionen, dann die Anfrage. Noch kein Preis.</p>"
+          "text": "<p class=\"olesko_commission_copy\">Sie wissen schon, was Sie wollen. Optionen ankreuzen. Dann schicken. Noch kein Preis.</p>"
         },
         {
           "nodeId": "7b0b15aa-716c-f74a-1d3c-3486865c3cab",
@@ -1071,11 +1072,11 @@
         },
         {
           "nodeId": "10fc7615-fedb-b2b6-8826-e3e4ce1bb472",
-          "text": "<p class=\"olesko_commission_copy form_success_wrap\">Sebastian meldet sich. Wir sprechen es durch. Danach kommt das Angebot.</p>"
+          "text": "<p class=\"olesko_commission_copy form_success_wrap\">Ich melde mich. Wir sprechen. Dann das Angebot.</p>"
         },
         {
           "nodeId": "be9354bd-5374-d37b-9d80-91670ff115ec",
-          "text": "<div class=\"form_error_text\">Das Senden hat nicht geklappt.</div>"
+          "text": "<div class=\"form_error_text\">Das ist nicht angekommen.</div>"
         }
       ]
     },
@@ -1094,27 +1095,27 @@
         },
         {
           "nodeId": "a8851332-85d3-eb33-1e41-86e4ae13b0c0",
-          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">GESTALTER VON AUSBILDUNG. KAUFMANN AUS ERFAHRUNG.</p>"
+          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">GESTALTER GELERNT. VERKAUF GELEBT.</p>"
         },
         {
           "nodeId": "b8bec284-07d7-67b2-f9d5-6eebc22e8c08",
-          "text": "<p class=\"home_collection_text u-text-style-main u-color-faded\">Ich bin Designer, Verkäufer und Unternehmer. In Wien.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main u-color-faded\">Ich bin Designer. Verkäufer. Unternehmer. Sitz in Wien.</p>"
         },
         {
           "nodeId": "59f455af-db1c-a337-9b0a-e83fc3e94c74",
-          "text": "<p class=\"home_collection_text u-text-style-main u-color-faded\">Seit mehr als 30 Jahren arbeite ich dort, wo Design, Technik, Marketing und Verkauf zusammenkommen. OLESKO ist das Studio, in dem das zusammenläuft. Persönlich geführt.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main u-color-faded\">Über 30 Jahre. Design, Technik, Marketing, Verkauf. Bei OLESKO läuft das zusammen. Ich führe das Studio selbst.</p>"
         },
         {
           "nodeId": "c91c1bb6-b883-4d6e-a851-faa58572d321",
-          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">JAHRE IM BERUF</p>"
+          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">JAHRE ARBEIT</p>"
         },
         {
           "nodeId": "e63f5945-092c-eb16-b335-6c16eabfa9f6",
-          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">JAHRE SEIT DER ERSTEN WEBSITE</p>"
+          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">SEIT DER ERSTEN WEBSITE</p>"
         },
         {
           "nodeId": "7898b1bf-0b4e-9342-8a6b-8b05e4b0312c",
-          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">GEGRÜNDET ODER MITGEGRÜNDET</p>"
+          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">EIGENE FIRMEN</p>"
         },
         {
           "nodeId": "41e3f05b-9395-3d50-20d4-4b3556373705",
@@ -1122,11 +1123,11 @@
         },
         {
           "nodeId": "8efa2f41-30f0-7565-a411-5e911611542a",
-          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">SITZ · AUCH INTERNATIONAL</p>"
+          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">SITZ WIEN · AUCH DRAUSSEN</p>"
         },
         {
           "nodeId": "72dc6152-044d-db3d-602c-5b994fb8ec99",
-          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">WOHER ICH KOMME</p>"
+          "text": "<p class=\"olesko_eyebrow u-text-style-small u-text-transform-uppercase u-color-faded\">HERKUNFT</p>"
         },
         {
           "nodeId": "61b77b71-d3fb-e6fd-1e59-07ae97a0cf0e",
@@ -1134,15 +1135,15 @@
         },
         {
           "nodeId": "ee026905-196c-7301-76b2-33e6555546e6",
-          "text": "<p class=\"home_collection_text u-text-style-main\">Ich habe Tischler und Innenarchitektur gelernt. Da habe ich früh begriffen: eine gute Idee muss nicht nur gut aussehen. Sie muss halten. Sie muss sitzen. Sie muss funktionieren.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main\">Ich habe Tischler gelernt. Und Innenarchitektur. Schön allein reicht nicht. Es muss halten. Es muss sitzen. Es muss gehen.</p>"
         },
         {
           "nodeId": "1226c060-e4aa-c1a3-d9ed-373155da307b",
-          "text": "<p class=\"home_collection_text u-text-style-main\">Technik hat mich immer interessiert. Vor etwa 35 Jahren habe ich meine erste Website geschrieben.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main\">Technik hat mich immer interessiert. Vor rund 35 Jahren die erste Website. Selbst geschrieben.</p>"
         },
         {
           "nodeId": "5d48b132-63a3-addb-83c6-4f636d7d7238",
-          "text": "<p class=\"home_collection_text u-text-style-main\">Danach Design, Produkt, Marke, Marketing, internationaler Vertrieb, Führung. Unter anderem bei Bene, IKEA und hali. Später the office republic, PRTTY, 1st Beauty Lab und OLESKO. Gegründet oder mitgegründet.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main\">Dann Design, Produkt, Marke, Marketing, Verkauf, Führung. Unter anderem Bene, IKEA, hali. Später eigene Firmen: the office republic, PRTTY, 1st Beauty Lab, OLESKO.</p>"
         },
         {
           "nodeId": "b28a060e-02d2-52e6-cedb-78b38c631cc2",
@@ -1154,15 +1155,15 @@
         },
         {
           "nodeId": "087c1daf-f0c6-a6c0-5273-a1c7c343db73",
-          "text": "<p class=\"home_collection_text u-text-style-main\">So nenne ich mich noch immer.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main\">So sag ich das noch immer.</p>"
         },
         {
           "nodeId": "7682ea4c-2780-1e0f-e72b-fb8d2bcd10d7",
-          "text": "<p class=\"home_collection_text u-text-style-main\">Design hat mich sehen gelehrt. Die Tischlerei hat mich bauen gelehrt. Technik hält mich neugierig. Verkauf hat mich zuhören gelehrt. Unternehmen aufzubauen hat mich Verantwortung gelehrt.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main\">Vom Design das Sehen. Von der Tischlerei das Bauen. Von der Technik die Neugier. Vom Verkauf das Zuhören. Von den Firmen die Verantwortung.</p>"
         },
         {
           "nodeId": "5e120a29-da27-b4cc-ebf2-97b03d60b809",
-          "text": "<p class=\"home_collection_text u-text-style-main\">Jeden Auftrag bei OLESKO entwickle und kuratiere ich selbst. Sie arbeiten mit mir. Vom ersten Gespräch bis zum fertigen Film.</p>"
+          "text": "<p class=\"home_collection_text u-text-style-main\">Jeden Auftrag mache ich selbst. Konzept und Bild. Sie arbeiten mit mir. Vom ersten Gespräch bis der Film fertig ist.</p>"
         },
         {
           "nodeId": "8d352917-ea50-6e91-db48-445685c8406e",
@@ -1174,11 +1175,11 @@
         },
         {
           "nodeId": "3c9f8e75-5d30-5b25-8114-d2576c19ebae",
-          "text": "<p class=\"home_commission_copy u-text-style-main u-color-faded\">Erzählen Sie mir von Ihrem Fahrzeug. Und was Sie im Sinn haben. Ich sehe Ihr Material selbst an und sage Ihnen, was möglich ist.</p>"
+          "text": "<p class=\"home_commission_copy u-text-style-main u-color-faded\">Erzählen Sie mir vom Fahrzeug. Was Sie wollen. Ich schau mir Ihr Material an. Dann sage ich, was geht.</p>"
         },
         {
           "nodeId": "fb4fe7b2-9a4c-4804-d185-9aa2994eca39",
-          "text": "<div>EIN GESPRÄCH BEGINNEN</div>"
+          "text": "<div>SCHREIBEN SIE MIR</div>"
         }
       ]
     },
@@ -1197,11 +1198,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Die Grüne Hölle ist nass. Gischt hinter Chiron, Valkyrie, Jesko Attack und Huayra. Vier Hypercars auf der Nordschleife. Als hätte der Regen genau darauf gewartet.</p>"
+          "text": "<p class=\"olesko_film_copy\">Nass auf der Nordschleife. Gischt hinter Chiron, Valkyrie, Jesko Attack und Huayra. Vier Hypercars. Der Regen gehört dazu.</p>"
         },
         {
           "nodeId": "d85092e4-ecf0-3c89-8aee-06384083eb41",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1228,11 +1229,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Das Dach ist offen. Burgunderrot auf der Straße am Como. Oleander in der Sonne. Ein 250 GT California Spyder. Ohne Eile. Der Nachmittag gehört ihm.</p>"
+          "text": "<p class=\"olesko_film_copy\">Dach offen. Burgunderrot am Como. Oleander in der Sonne. Ein 250 GT California Spyder. Keine Eile.</p>"
         },
         {
           "nodeId": "d85092e4-ecf0-3c89-8aee-06384083eb41",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1259,11 +1260,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Das Dach ist offen. Mittelmeerlicht auf dem Aufbau. Die Corniche zieht sich dahin. Ein DB12 Volante. Ohne Eile. Nah genug, dass man das Salz schmeckt.</p>"
+          "text": "<p class=\"olesko_film_copy\">Dach offen. Licht vom Meer. Die Corniche zieht sich. Ein DB12 Volante. Nah genug für das Salz.</p>"
         },
         {
           "nodeId": "60239087-0df7-279e-27c6-2a99a6ab59f6",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1290,11 +1291,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Hohe Luft. Dünnes Licht. Der Pass öffnet sich durch Lärche und Stein. Ein 992 GT3 Touring, am Berg gehalten. Ohne Eile. Als hätte die Straße gewartet.</p>"
+          "text": "<p class=\"olesko_film_copy\">Hohe Luft. Dünnes Licht. Der Pass geht durch Lärche und Stein. Ein 992 GT3 Touring. Am Berg. Keine Eile.</p>"
         },
         {
           "nodeId": "d149f4c6-f637-cfe0-6fc1-91eded3279cb",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1321,11 +1322,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Das Dach ist offen. Silber gegen die Seemauer. Sonne auf dem Wasser. Die Küste macht auf. Ein Continental GTC. Ohne Eile. Nah genug, dass man das Salz schmeckt.</p>"
+          "text": "<p class=\"olesko_film_copy\">Dach offen. Silber an der Mauer. Sonne auf dem Wasser. Ein Continental GTC. Nah genug für das Salz.</p>"
         },
         {
           "nodeId": "c56dc512-e92f-0774-ba0b-793f0624c8b2",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1352,11 +1353,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Himmel und Salz sind eine Fläche. Ein Revuelto auf dem überfluteten Salar. Ohne Eile. Der Horizont so still, er könnte Glas sein.</p>"
+          "text": "<p class=\"olesko_film_copy\">Himmel und Salz eine Fläche. Ein Revuelto auf dem nassen Salar. Der Horizont steht still.</p>"
         },
         {
           "nodeId": "231256d3-5d94-853c-076a-7d2626d77186",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1383,11 +1384,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Nacht auf dem Stein. Roter Aufbau unter den Lampen. Ein 250 GTO in Paris. Ohne Eile. Als gehöre ihm die Straße.</p>"
+          "text": "<p class=\"olesko_film_copy\">Nacht auf dem Stein. Rot unter den Lampen. Ein 250 GTO in Paris. Die Straße wirkt leer für ihn.</p>"
         },
         {
           "nodeId": "d85092e4-ecf0-3c89-8aee-06384083eb41",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1414,11 +1415,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Die Straße dünnt sich in den Nebel. Ein AMG GT in den Highlands. Silber gegen das Nasse. Ohne Eile. Nah genug, dass man den Regen schmeckt.</p>"
+          "text": "<p class=\"olesko_film_copy\">Die Straße geht im Nebel aus. Ein AMG GT in den Highlands. Silber im Nassen. Nah genug für den Regen.</p>"
         },
         {
           "nodeId": "7b4a83f3-56d6-8a0b-0aac-cfe840c2d0f6",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1445,11 +1446,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Bäume in einer Reihe. Heller Aufbau im Schatten. Ein 190 SL auf einer englischen Allee. Ohne Eile. Der Nachmittag gehört ihm.</p>"
+          "text": "<p class=\"olesko_film_copy\">Bäume in einer Reihe. Heller Aufbau im Schatten. Ein 190 SL auf einer Allee in England. Keine Eile.</p>"
         },
         {
           "nodeId": "160ff042-61f7-467f-3f3d-895662ea4cbc",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
@@ -1476,11 +1477,11 @@
         },
         {
           "nodeId": "f3c6087f-0d69-dadd-c0dc-9ef39cbe89c6",
-          "text": "<p class=\"olesko_film_copy\">Schnee. Stille. Schwarzer Aufbau gegen den Gipfel. Ein G 63 in der hohen Luft. Ohne Eile. Als hätte der Berg gewartet.</p>"
+          "text": "<p class=\"olesko_film_copy\">Schnee. Still. Schwarz gegen den Gipfel. Ein G 63 oben. Keine Eile.</p>"
         },
         {
           "nodeId": "20a012e1-f76d-7c79-1842-8da6e0d4bec6",
-          "text": "<p class=\"olesko_film_copy u-color-faded\">Dieser Film verwendet erzeugte oder bearbeitete Bilder. Die Arbeit daran ist persönlich.</p>"
+          "text": "<p class=\"olesko_film_copy u-color-faded\">Die Bilder sind gemacht. Zum Teil erzeugt. Die Arbeit liegt bei mir.</p>"
         },
         {
           "nodeId": "4f06d78c-6a4b-e448-20d3-9816f40f6e9b",
