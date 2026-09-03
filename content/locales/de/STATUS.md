@@ -2,6 +2,8 @@
 
 ## Breadcrumb to next-line gap (2026-09-03)
 
+**lastPublished: `2026-09-03T09:12:37.446Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
+
 Live crumb→next was `32px` on Collection and Let It Rain (`u-gap-row-6` / `--_spacing---space--6` / `2rem`). Next token is `--_spacing---space--7` / `2.5rem` / `40px` — exactly 25% more. Did not invent a px. The jump to `--_spacing---space--8` (`4rem` / `64px`) would be 100%.
 
 Applied `space-7` as the crumb→next gap on every inner page that has crumbs, both locales. Header→crumb, `.page_main`, and `section#page` padding/margin stay as approved.
