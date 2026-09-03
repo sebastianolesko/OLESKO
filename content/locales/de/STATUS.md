@@ -1,5 +1,25 @@
 # OLESKO German (Austria) locale
 
+## Home About margin leak (unpublished, 2026-09-03)
+
+**Not published.** `lastPublished` still `2026-09-03T13:19:45.950Z` on apex + www. Site `lastUpdated`: `2026-09-03T14:43:39.659Z`. `googleTagIds: []`.
+
+Leaky selector (EN and de-AT Home, both breakpoints; no small/tiny override):
+
+`.home_about_section.u-section.u-theme-dark { margin-top: var(--_spacing---space--8); padding-top: 10rem; }`
+
+That margin is transparent page space between `#process` and `#about`. The fixed hero Bentley shows through it. The laurels sit in the hero; they are not the leak.
+
+Audit: nothing reads `#about` box geometry. Header solid keys off `#service.getBoundingClientRect()`. Reveals observe `#service` / `#uses` / `#pricing` / `#collection` only. Process video observes its own node. No IX2, ScrollTrigger, scroll-snap, sticky, or `href="#about"` (menu is `/about` and `/de-at/about`). Hero handoff is `.page_main { padding-top: 100svh; }`. Converting the margin to padding would still move `#about` `getBoundingClientRect().top` up by `space--8`; nothing currently reads that.
+
+Fix A: removed `margin-top` from the combo. Kept existing `padding-top: 10rem` (enough rhythm; no token added, no invented rem). Same combo on English Home.
+
+Also unpublished: `.olesko_hero_laurels` has no `background-color` (matches pre-fill `/tmp/olesko.css` block). Home page head section rule restored to `position: relative; z-index: 30` only (box-shadow workaround removed). Preloader script restored. Commission band copy unchanged.
+
+Other Home stack gaps (reported, not changed): no spacer divs; no other `page_main > section` margin-top/bottom. Reality stays `.home_reality_section.u-section.u-theme-light { display: none; }`. Inner-page `.olesko_page_section.u-section.u-theme-dark` still has `margin-top: var(--_spacing---space--8)` (not on the Home fixed-hero stack).
+
+---
+
 ## Spoken Austrian German rewrite, from meaning (2026-09-03)
 
 **lastPublished: `2026-09-03T13:13:10.562Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
