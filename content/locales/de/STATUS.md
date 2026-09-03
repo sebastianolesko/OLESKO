@@ -1,5 +1,31 @@
 # OLESKO German (Austria) locale
 
+## No em/en dashes (2026-09-03)
+
+**lastPublished:** pending full-site publish after this copy lock.
+
+Lock: never use U+2014 or U+2013 on oleskostudio.com. Replace with hyphen-minus `-`. Entities `&mdash;` `&#8212;` `&ndash;` `&#8211;` and JSON `\u2014` `\u2013` also become `-`. Do not change hyphens already `-`. Do not touch URLs, class names, or Mux IDs. Do not restyle.
+
+Live sweep before replace (body HTML, both locales, plus CMS / custom code / `llms.txt` / schema):
+
+| Page | Hits | Replacement |
+| --- | --- | --- |
+| EN `/films/let-it-rain-nurburgring-nordschleife` | 1 em | `Huayra - four hypercars` |
+| EN `/imprint` and `/de-at/imprint` | 2 en each (same English nodes, inherited) | `§ 25(2)-(4)` twice |
+| EN `/privacy` and `/de-at/privacy` | 1 en each (same English nodes, inherited) | `EU-US Data Privacy Framework` |
+| Home EN/de-AT, Collection, Commission, About, other films, 404, 401, `llms.txt` | 0 | none |
+| CMS | empty | none |
+| Site/page custom code | 0 in copy | none |
+| JSON-LD schema | 0 | none |
+
+Stored leftover (not live body): Home OG title had `Cars — Generated` with `titleCopied: true` (live used the period SEO title). Replaced stored OG title. Draft Old Home SEO/OG also had em dashes; replaced. Old Home stays draft.
+
+de-AT Let It Rain already used a period (`Huayra. Vier Hypercars`). Imprint/Privacy stay English pages and still lose the dashes.
+
+Fade/hover, crumb gap, pairing, Reality hidden, buttons `SEND ENQUIRY` / `SEND BRIEF` unchanged. No extra Cursor project. No `googleTagIds`. `llms.txt` untouched (already clean).
+
+---
+
 ## Breadcrumb to next-line gap (2026-09-03)
 
 **lastPublished: `2026-09-03T09:12:37.446Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
