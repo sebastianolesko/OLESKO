@@ -1,22 +1,20 @@
 # OLESKO German (Austria) locale
 
-## Home About margin leak (unpublished, 2026-09-03)
+## Home About margin leak published (2026-09-03)
 
-**Not published.** `lastPublished` still `2026-09-03T13:19:45.950Z` on apex + www. Site `lastUpdated`: `2026-09-03T14:43:39.659Z`. `googleTagIds: []`.
+**lastPublished: `2026-09-03T14:51:58.798Z`** on apex + www + Webflow subdomain. `publishScope: site`. `googleTagIds: []`. Live CSS: `olesko-website----development.shared.3c021e7e8.css`.
 
-Leaky selector (EN and de-AT Home, both breakpoints; no small/tiny override):
+Removed (Fix A, no compensating padding):
 
-`.home_about_section.u-section.u-theme-dark { margin-top: var(--_spacing---space--8); padding-top: 10rem; }`
+- `margin-top: var(--_spacing---space--8)` from `.home_about_section.u-section.u-theme-dark`. Kept `padding-top: 10rem` and `min-width: 0`. About sits flush against process.
+- Rejected laurels fill: `.olesko_hero_laurels` has no `background-color`. Live property set is the pre-fill block (relative, `space--6` bottom, `space--8` padding-bottom, 4-col grid).
+- Rejected Home-head workaround: no `box-shadow` / section `background-color` on `.page_main > section`. Live head rule is only `position: relative; z-index: 30` plus the existing preloader script and the rest of the prior Home head (hero fixed, `padding-top: 100svh`, header, motion).
 
-That margin is transparent page space between `#process` and `#about`. The fixed hero Bentley shows through it. The laurels sit in the hero; they are not the leak.
+Left alone: `.olesko_page_section.u-section.u-theme-dark { margin-top: var(--_spacing---space--8); }` on inner pages. Inner pages have no fixed hero, so that margin cannot window onto the Bentley. Removing it would retune every inner page for no benefit.
 
-Audit: nothing reads `#about` box geometry. Header solid keys off `#service.getBoundingClientRect()`. Reveals observe `#service` / `#uses` / `#pricing` / `#collection` only. Process video observes its own node. No IX2, ScrollTrigger, scroll-snap, sticky, or `href="#about"` (menu is `/about` and `/de-at/about`). Hero handoff is `.page_main { padding-top: 100svh; }`. Converting the margin to padding would still move `#about` `getBoundingClientRect().top` up by `space--8`; nothing currently reads that.
+Live CSS check (EN `/` and de-AT `/de-at`, same shared file): no `background-color` on `.olesko_hero_laurels`; no `margin-top` on any `.home_about_section` rule; inner-page margin still present. Phone measure on live de-AT Home (390x844): `#process` bottom equals `#about` top (`gap: 0`), `aboutMarginTop: 0px`, `aboutPaddingTop: 160px`, `aboutBg: rgb(11, 11, 12)`, `laurelsBg: rgba(0, 0, 0, 0)`. Screenshot: `/opt/cursor/artifacts/de_at_home_phone_process_about_boundary.png`.
 
-Fix A: removed `margin-top` from the combo. Kept existing `padding-top: 10rem` (enough rhythm; no token added, no invented rem). Same combo on English Home.
-
-Also unpublished: `.olesko_hero_laurels` has no `background-color` (matches pre-fill `/tmp/olesko.css` block). Home page head section rule restored to `position: relative; z-index: 30` only (box-shadow workaround removed). Preloader script restored. Commission band copy unchanged.
-
-Other Home stack gaps (reported, not changed): no spacer divs; no other `page_main > section` margin-top/bottom. Reality stays `.home_reality_section.u-section.u-theme-light { display: none; }`. Inner-page `.olesko_page_section.u-section.u-theme-dark` still has `margin-top: var(--_spacing---space--8)` (not on the Home fixed-hero stack).
+HOME-DRAFT.md was not applied. Live Home de-AT still has the old translation (`IHR AUTO`). Commission band stays `IHR FILM. UNENDLICHE MÖGLICHKEITEN.` with the locked body. Buttons `SEND ENQUIRY` / `SEND BRIEF`. Imprint/Privacy body English. Reality `display: none`. No em dashes.
 
 ---
 
