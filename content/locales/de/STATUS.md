@@ -1,5 +1,17 @@
 # OLESKO German (Austria) locale
 
+## Natural Austrian German inner-page rewrite (2026-09-03)
+
+Unpublished Webflow writes on locale `6a983fb4dfdbdb9a5e8b882c` only. English primary untouched. Home de-AT page nodes, Home SEO/OG/JSON-LD, and the shared Commission CTA component were **not** rewritten (a Home rewrite must not ship). Footer and film-disclaimer chrome were rewritten; they also appear on Home/legal URLs.
+
+Rewritten and ready to publish: Collection, Commission, About, all 10 films, plus matching de-AT meta / OG (titleCopied / descriptionCopied) / JSON-LD. JSON-LD VideoObject Mux fields and BreadcrumbList restored after a stripped write. Imprint/Privacy **body** stays English.
+
+Full unpublished Home draft lives in `content/locales/de/HOME-DRAFT.md`. Do not apply it in this pass. Reality stays drafted and hidden.
+
+Locks kept: Fahrzeug / Fahrzeuge / Fahrzeugs / Fahrzeugen. Exact phrases `intelligenter Technologie` and `in einer Woche geliefert` where those claims appear. Commission buttons `SEND ENQUIRY` / `SEND BRIEF`. Film titles and car names English. Menu START / KOLLEKTION / AUFTRAG / ÜBER. No em/en dash. `Ihr Film`, not `ein OLESKO-Film`.
+
+---
+
 ## No em/en dashes (2026-09-03)
 
 **lastPublished: `2026-09-03T09:56:12.243Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
