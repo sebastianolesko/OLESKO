@@ -6,6 +6,7 @@
     "Inner-page breadcrumbs: START / KOLLEKTION / AUFTRAG / ÜBER. Film last crumb stays the English title. Imprint/Privacy stay English HOME / IMPRINT and HOME / PRIVACY.",
     "Language switcher + crumbs: inactive uses u-color-faded. Current locale/crumb stays full theme text. Inactive hover uses that same colour. oleskolangpair 1.1.0 pairs the same path including imprint/privacy.",
     "Collection top gap: removed Collection-only .page_main { padding-top: 5rem; } so EN/de-AT Collection match the film stack (page_main padding-top 0, section margin-top 64px, padding-top 112px). Film is the source of truth. Do not invent rem.",
+    "Crumb to next line: live gap was space-6 / 2rem / 32px. Next token space-7 / 2.5rem / 40px (25% more). Applied on Collection, films, Commission, About, Imprint/Privacy, both locales. Do not change header-to-crumb.",
     "localeId 6a983fb4dfdbdb9a5e8b882c cmsLocaleId 6a983fb4dfdbdb9a5e8b8831 tag de-AT subdirectory de-at enabled true.",
     "Films are static pages. Do not recreate Films-cms or Posts.",
     "Do not write Imprint or Privacy DE.",

@@ -1,5 +1,18 @@
 # OLESKO German (Austria) locale
 
+## Breadcrumb to next-line gap (2026-09-03)
+
+Live crumb→next was `32px` on Collection and Let It Rain (`u-gap-row-6` / `--_spacing---space--6` / `2rem`). Next token is `--_spacing---space--7` / `2.5rem` / `40px` — exactly 25% more. Did not invent a px. The jump to `--_spacing---space--8` (`4rem` / `64px`) would be 100%.
+
+Applied `space-7` as the crumb→next gap on every inner page that has crumbs, both locales. Header→crumb, `.page_main`, and `section#page` padding/margin stay as approved.
+
+- Intro stacks that contain the crumb nav (`olesko_section_intro` + `u-gap-row-6`): `row-gap: var(--_spacing---space--7)`. Collection, films, Commission, Imprint, Privacy.
+- About crumbs sit in `home_about_body` (`row-gap: space-4` / `18px`). Margin-bottom on the nav is `calc(var(--_spacing---space--7) - var(--_spacing---space--4))` so the computed crumb→next is still `40px`, not 18+40.
+
+Fade/hover/pairing/slash stay. Reality hidden. Buttons `SEND ENQUIRY` / `SEND BRIEF`. No extra Cursor project. No `googleTagIds`. `llms.txt` untouched.
+
+---
+
 ## Collection top gap + language/crumb restyle (2026-09-03)
 
 **lastPublished: `2026-09-03T08:27:34.406Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. One full-site publish covering fade/hover + Collection top gap.
