@@ -2,6 +2,8 @@
 
 ## Collection top gap + language/crumb restyle (2026-09-03)
 
+**lastPublished: `2026-09-03T08:27:34.406Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. One full-site publish covering fade/hover + Collection top gap.
+
 Same restyle as the language/crumb fade and hover. Do not split.
 
 Collection (`/collection` and `/de-at/collection`) used a Collection-only page-head rule `.page_main { padding-top: 5rem; }`. Film pages (source of truth: `/films/let-it-rain-nurburgring-nordschleife`) have no such rule. That 80px was the extra header→content gap.
