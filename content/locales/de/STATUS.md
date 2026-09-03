@@ -2,7 +2,7 @@
 
 ## No em/en dashes (2026-09-03)
 
-**lastPublished:** pending full-site publish after this copy lock.
+**lastPublished: `2026-09-03T09:56:12.243Z`** on apex + www. `publishScope: site`. `googleTagIds: []`.
 
 Lock: never use U+2014 or U+2013 on oleskostudio.com. Replace with hyphen-minus `-`. Entities `&mdash;` `&#8212;` `&ndash;` `&#8211;` and JSON `\u2014` `\u2013` also become `-`. Do not change hyphens already `-`. Do not touch URLs, class names, or Mux IDs. Do not restyle.
 
