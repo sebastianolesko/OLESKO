@@ -1,5 +1,31 @@
 # OLESKO German (Austria) locale
 
+## Collection top gap + language/crumb restyle (2026-09-03)
+
+Same restyle as the language/crumb fade and hover. Do not split.
+
+Collection (`/collection` and `/de-at/collection`) used a Collection-only page-head rule `.page_main { padding-top: 5rem; }`. Film pages (source of truth: `/films/let-it-rain-nurburgring-nordschleife`) have no such rule. That 80px was the extra header→content gap.
+
+Measured film stack, then copied it — no invented rem:
+
+- `.page_main` `padding-top: 0`
+- first `section#page` (`olesko_page_section` + `u-section`) `margin-top: 64px`, `padding-top: 112px` (`--_spacing---section-space--main`)
+- breadcrumb nav has no extra top padding
+
+Removed only `.page_main { padding-top: 5rem; }` from Collection page head. Kept html background, header fixed + theme background, language-item justify, slash `margin-inline`, play-scale CSS, and the motion sessionStorage script. Footer play-scale script unchanged. One Collection page ID covers both locales.
+
+Fade/hover/pairing from this same pass stay:
+
+- Inactive language faded (`u-color-faded`), current full. No EN `aria-current` on de-AT. Menu-bottom ENGLISH/DEUTSCH current only for the live locale.
+- Inactive crumbs same faded colour; current crumb full.
+- Hover on inactive switcher items AND inactive crumbs = active text colour. Current items no hover change.
+- Current-page pairing. Slash rule stays (inherit size/weight, even `0.75em` padding).
+- Reality hidden. Buttons `SEND ENQUIRY` / `SEND BRIEF`. No extra Cursor project. No `googleTagIds`. `llms.txt` untouched.
+
+`oleskolangpair` **1.1.0** and `oleskowatchvideo` **1.0.0** stay in the site footer.
+
+---
+
 ## Language switcher + breadcrumbs current / faded (2026-09-03)
 
 Inactive language and inactive crumbs use the existing faded token (`u-color-faded` / `color-mix(in srgb, currentColor 70%, transparent)`). Current locale and current crumb stay full (`var(--_theme---text)`, same as live current EN/DE). No new grey.
