@@ -1,5 +1,22 @@
 # OLESKO German (Austria) locale
 
+## Language switcher current / faded (2026-09-03)
+
+Inactive language uses existing `u-color-faded` (`color-mix(in srgb, currentColor 70%, transparent)`). Current locale stays full. No new grey.
+
+Header, menu, and menu-bottom ENGLISH/DEUTSCH are real links on both locales. `oleskolangpair` **1.1.0** in the site footer (keep `oleskowatchvideo` 1.0.0) pairs the same path, including imprint/privacy:
+
+- English `/collection` → DE `/de-at/collection`
+- de-AT `/de-at/collection` → EN `/collection`
+- Same for commission, about, films, imprint, privacy
+
+On English: EN/ENGLISH current (`aria-current="page"`, menu-bottom `_current`), DE/DEUTSCH faded.
+On de-AT: DE/DEUTSCH current, EN/ENGLISH faded. EN must not have `aria-current`.
+
+Designer no longer bakes `aria-current` or `_current` onto the English links (those leaked onto every de-AT page). Script sets current/faded from `location.pathname`. Slash CSS unchanged: inherit size/weight, even `0.75em` padding. Reality hidden. Commission buttons stay `SEND ENQUIRY` / `SEND BRIEF`. English primary copy untouched. No `googleTagIds`. `llms.txt` untouched.
+
+---
+
 ## Breadcrumbs (2026-09-02)
 
 **lastPublished: `2026-09-02T20:13:32.677Z`** on apex + www. `publishScope: site`. `googleTagIds: []`. Header, menu, and breadcrumb slashes share one rule: inherit size/weight from the labels, even `0.75em` padding, `vertical-align: middle`. Language items hug the slash (`first-child` flex-end, `last-child` flex-start). No hard-set `.75rem` on the slash.
@@ -70,7 +87,7 @@ de-AT home menu:
 <div aria-label="Language" class="olesko_menu_language"><a href="/" lang="en" aria-current="page" hreflang="en" class="olesko_header_language_item">EN</a><span aria-hidden="true" class="olesko_header_language_separator">/</span><a href="/de-at" lang="de" hreflang="de" aria-current="page" class="olesko_header_language_item">DE</a></div>
 ```
 
-Collection, commission, about, and film pages also have those three `<a href>` switchers. `oleskolangpair` 1.0.0 is in the footer and pairs matching paths after load. Imprint/Privacy stay English (`Imprint. OLESKO` / `Privacy. OLESKO`). Reality stays `.home_reality_section.u-section.u-theme-light { display: none; }`. Commission submits stay `SEND ENQUIRY` / `SEND BRIEF`.
+Collection, commission, about, film, imprint, and privacy pages also have those three `<a href>` switchers. `oleskolangpair` 1.1.0 is in the footer and pairs matching paths after load, including imprint/privacy. Imprint/Privacy body copy stays English (`Imprint. OLESKO` / `Privacy. OLESKO`). Reality stays `.home_reality_section.u-section.u-theme-light { display: none; }`. Commission submits stay `SEND ENQUIRY` / `SEND BRIEF`.
 
 ---
 
@@ -84,7 +101,7 @@ Disabled DE spans are gone in OLESKO Global Header (`881a26d8-3f1e-e90c-0186-847
 | Menu `olesko_menu_language` | `881a26d8-3f1e-e90c-0186-847d7679f29a` → `/` | `fc070936-6271-7b7e-8dac-fe8de3dcd478` → `/de-at` |
 | Menu bottom | `0d488183-5fa9-8d2b-d025-f0bcb735f0c0` ENGLISH → `/` | `7410d705-9d60-5936-d7be-706b6a6efd79` DEUTSCH → `/de-at` |
 
-Old disabled spans (`…f28c`, `…f29c`, `…f0c2`) deleted. Title `German version in preparation` is gone. Site footer script `oleskolangpair` 1.0.0 rewrites those hrefs to the matching path (`/collection` ↔ `/de-at/collection`, films too). Imprint/Privacy stay English URLs; DE from those pages goes to `/de-at`. `oleskowatchvideo` 1.0.0 still applied. No new rem. No `olesko_header_language_item_current` class (it does not exist).
+Old disabled spans (`…f28c`, `…f29c`, `…f0c2`) deleted. Title `German version in preparation` is gone. Site footer script `oleskolangpair` 1.1.0 rewrites those hrefs to the matching path (`/collection` ↔ `/de-at/collection`, films, imprint, privacy). `oleskowatchvideo` 1.0.0 still applied. No new rem. No `olesko_header_language_item_current` class (it does not exist).
 
 ---
 
