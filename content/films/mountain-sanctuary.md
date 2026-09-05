@@ -1,6 +1,8 @@
 # Mountain Sanctuary copy (winter cut)
 
-Shipped 2026-09-05. Slug unchanged: `/films/mountain-sanctuary-mercedes-amg-g-63`.
+**lastPublished: `2026-09-05T08:33:05.662Z`** on apex + www + Webflow subdomain. `googleTagIds: []`. Live CSS: `olesko-website----development.shared.3c021e7e8.css`.
+
+Slug unchanged: `/films/mountain-sanctuary-mercedes-amg-g-63`.
 Title stays `MOUNTAIN SANCTUARY.` Duration stays `1440P - 59 SECONDS`. Mux playback ids unchanged.
 
 ## EN body
