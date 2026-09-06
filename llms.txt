@@ -28,6 +28,13 @@ How an agent should call this studio: read this file, then open [Commission](htt
 - [sitemap.xml](https://oleskostudio.com/sitemap.xml): All public HTML pages
 
 ## Collection
+- [Miami Night](https://oleskostudio.com/films/miami-night-ferrari-daytona-cabriolet): Ferrari Daytona, Miami
+- [Winter Roadster](https://oleskostudio.com/films/winter-roadster-mercedes-benz-300-sl): Mercedes-Benz 300 SL, mountains
+- [Amalfi Noon](https://oleskostudio.com/films/amalfi-noon-bentley-continental-gt-azure): Bentley Continental GT Azure, Amalfi
+- [Cap Ferrat](https://oleskostudio.com/films/cap-ferrat-riva-rivale): Riva Rivale, Cap Ferrat
+- [Mountain Sanctuary](https://oleskostudio.com/films/mountain-sanctuary-mercedes-amg-g-63): Mercedes-AMG G 63, mountains
+- [Let it rain](https://oleskostudio.com/films/let-it-rain-nurburgring-nordschleife): Hypercars, Nürburgring Nordschleife
+- [The Look of Love](https://oleskostudio.com/films/the-look-of-love-ferrari-250-gt-california-spyder): Ferrari 250 GT California Spyder, Lake Como
 - [Riviera Summer Cruise](https://oleskostudio.com/films/riviera-summer-cruise-aston-martin-db12-volante): Aston Martin DB12 Volante, Riviera
 - [Alpine Autumn High Pass](https://oleskostudio.com/films/alpine-autumn-high-pass-porsche-992-gt3-touring): Porsche 992 GT3 Touring, Alps
 - [Along the Sea Wall](https://oleskostudio.com/films/along-the-sea-wall-bentley-continental-gtc): Bentley Continental GTC, Italy
@@ -35,7 +42,6 @@ How an agent should call this studio: read this file, then open [Commission](htt
 - [At the Louvre](https://oleskostudio.com/films/at-the-louvre-ferrari-250-gto): Ferrari 250 GTO, Paris
 - [Into the Highland Fog](https://oleskostudio.com/films/into-the-highland-fog-mercedes-amg-gt): Mercedes-AMG GT, Highlands
 - [Down the Avenue](https://oleskostudio.com/films/down-the-avenue-mercedes-benz-190-sl): Mercedes-Benz 190 SL, England
-- [Mountain Sanctuary](https://oleskostudio.com/films/mountain-sanctuary-mercedes-amg-g-63): Mercedes-AMG G 63, mountains
 
 ## Optional
 - [Imprint](https://oleskostudio.com/imprint): Preliminary legal information (page will change)
