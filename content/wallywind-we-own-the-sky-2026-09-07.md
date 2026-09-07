@@ -27,3 +27,10 @@ Whole-card Link, media is a Div (play triangle), no nested link.
 ## Soft desktop join (unchanged this ship)
 
 Desktop `.home_service_transition` stays `70svh` + `linear-gradient(180deg, rgba(11, 11, 12, 0), rgba(11, 11, 12, 0.45) 72%, #0b0b0c)`. Phone `max-width: 767` not edited.
+
+## Live publish
+
+- `lastPublished`: `2026-09-07T15:32:31.528Z`
+- `googleTagIds`: `[]`
+- Live desktop CSS: `linear-gradient(180deg, rgba(11, 11, 12, 0), rgba(11, 11, 12, 0.45) 72%, #0b0b0c)` at `70svh`. 80%/92% absent.
+- Computed (hard-refresh 1440): `linear-gradient(rgba(11, 11, 12, 0), rgba(11, 11, 12, 0.45) 72%, …)`, height ~591px.
