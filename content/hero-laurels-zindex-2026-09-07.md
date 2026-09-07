@@ -33,4 +33,13 @@ No box, fill, or background on the laurels.
 
 Unchanged: transition `70svh` and the existing phone stack.
 
-`googleTagIds` left empty. Scripts untouched.
+## Live publish
+
+- `lastPublished`: `2026-09-07T13:27:46.806Z`
+- `googleTagIds`: `[]`
+
+## Desktop QA at 1440x900
+
+Computed: `.home_service_transition` is `position: fixed`, `z-index: 15`, `68svh` (`288` to `900`), 3-stop `#0b0b0c` gradient. Inner / laurels `z-index: 25`.
+
+Bright pixels (`L >= 180`): header `200` · H1 `218.1` · laurels `220.0`. No box or fill on the laurels.
