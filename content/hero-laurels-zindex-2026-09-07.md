@@ -68,17 +68,28 @@ Break the hero into independent viewport layers. Phone rules stay locked.
 }
 ```
 
-Required desktop stack:
+Required desktop stack, live at 1440x900:
 
-1. video / hero media (`z-index: 0`)
-2. hero shade / `.home_service_transition` (`68svh`, `z-index: 15`) under laurels
-3. laurels and hero copy (`z-index: 25`) above that shade
-4. `.home_service_transition` still covers the video; `.section_contain` (`z-index: 30`) covers laurels only at the section join
+1. video / media `position: fixed; z-index: 0`
+2. `.home_service_transition` `68svh` (`612px`, `z-index: 15`, top 290 to 902) under the laurels
+3. `.olesko_hero_inner` `position: fixed; z-index: 25` (copy + laurels, no box or fill)
+4. `.section_contain` `z-index: 30` covers laurels at the join
 
-No box, fill, or background on the laurels.
+## Live publish
 
-## Phone
+- `lastPublished`: `2026-09-07T12:49:48.818Z`
+- `googleTagIds`: `[]`
+- Phone `70svh` fade unchanged
 
-Locked fade unchanged: transition `70svh` and the previous phone stack. Not the target of this fix.
+## Desktop pixel QA (1440x900)
 
-`googleTagIds` left empty. Scripts untouched.
+Rest, bright pixels only (`L >= 180`):
+
+- header mean L `200.0` RGB `(200, 200, 199)`
+- H1 mean L `218.6` RGB `(220, 219, 214)`
+- laurels mean L `220.1` RGB `(224, 220, 212)`
+- video bottom edge mean L `13.2` (shade still tints the media)
+
+Before this split, laurel luma sat around `13` to `15`.
+
+At the join (`#service` contain top `706` to `780`), the laurel band has no remaining bright pixels. The next section covers them.
