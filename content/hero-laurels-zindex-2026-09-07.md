@@ -22,4 +22,9 @@ Deleted that rewrite. Desktop is back to the pre-thrash model:
 - Soft join: rest gutter darkens through the lower hero; at scroll 280 the lower viewport is flat L `11.1`.
 - At scroll 900, `elementFromPoint` on the rest H1/laurel boxes hits `#service` title / film grid. Rest-position luma is L `11.1`. Copy does not stay pinned.
 
-`googleTagIds`: `[]`
+## Live publish
+
+- `lastPublished`: `2026-09-07T14:56:45.558Z`
+- `googleTagIds`: `[]`
+
+Hard-refresh desktop 1440, no injected CSS: rewrite gone (`height: 0` / `z-index: 25` absent). Hero `fixed` / `0`, height `900px`. Inner `relative` / `3`. Media `absolute`. Service `relative` / `30`, bg `rgb(11, 11, 12)`. Transition `absolute`, `translate: 0 calc(-100% + 2px)`, `612px`. Rest laurel glyphs max L `232.5`, L>200 count `1215`. Gutter ramps `68 → 14` into the join. At scroll 280 the lower viewport is flat L `11.1`. At scroll 900, rest H1/laurel positions are L `11.1` and `elementFromPoint` hits `#service` title / film grid.
