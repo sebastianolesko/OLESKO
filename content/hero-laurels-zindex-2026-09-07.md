@@ -11,4 +11,9 @@ The hard cut was not a missing 68svh layer. Desktop `.home_service_section::befo
 
 Phone `70svh` rules and phone `::before` stay locked.
 
-`googleTagIds` left empty. Scripts untouched.
+## Live publish
+
+- `lastPublished`: `2026-09-07T14:00:16.889Z`
+- `googleTagIds`: `[]`
+
+Hard-refresh at 1440x900: transition is `position: absolute` with `translate: 0 calc(-100% + 2px)`, `68svh`, not a fixed overlay. Desktop `::before` is `none`. Laurel glyphs at rest mean L `220`. Join luma ramps into `#0b0b0c` over the 68svh band.
