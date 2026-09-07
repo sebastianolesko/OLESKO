@@ -1,12 +1,25 @@
-# Desktop soft join + opaque section 2 + readable laurels
+# Desktop hero revert: content scrolls over the hero
 
-Locked desktop stack. Phone CSS was not touched.
+Locked diagnosis (live CSS, lastPublished `2026-09-07T14:34:03.374Z`): desktop `@media (min-width: 768px)` had forced `.olesko_hero` `height: 0` and `.olesko_hero_media` / `_overlay` / `_inner` to `position: fixed` with inner `z-index: 25`. H1 and laurels stayed pinned while `#service` scrolled under them.
 
-`.home_service_transition` is section-local: `position: absolute` on `#service`, `68svh`, `translate: 0 calc(-100% + 2px)`, gradient `transparent → 0.45 at 72% → #0b0b0c`. `#service` is opaque `#0b0b0c`. Service `z-index` is `auto` so the fade at `15` sits above the video (`0`) and under the laurels (`25`). No fixed bottom overlay.
+## One fix
 
-## Live publish
+Deleted that rewrite. Desktop is back to the pre-thrash model:
 
-- `lastPublished`: `2026-09-07T14:34:03.374Z`
-- `googleTagIds`: `[]`
+- Hero shell `position: fixed; inset: 0; z-index: 0` (full viewport). Not `height: 0`.
+- Page sections `position: relative; z-index: 30` so content scrolls over the hero.
+- `#service` opaque `#0B0B0C`.
+- Soft join kept on `.home_service_transition` (absolute, `68svh`, `translate: 0 calc(-100% + 2px)`). The join ramp stays clear through the laurel band so the z-30 overlay does not wash the glyphs.
+- Within the hero only: `.olesko_hero_inner` (`relative`, `z-index: 3`) sits above `.olesko_hero_media::after` (`z-index: 2`, `68svh` 3-stop fade). Media, overlay, and inner are not viewport-fixed.
+- Phone `max-width: 767` / `479` rules were not edited.
 
-Hard-refresh desktop 1440, no injected CSS: fade is `absolute`, `translate: 0 calc(-100% + 2px)`, `612px`, `z-index: 15`. Service bg `rgb(11, 11, 12)`. Rest laurel glyphs mean L `219`. Rest gutter darkens from ~89 to ~15 over the lower hero. Join at scroll 280 ramps into flat L `11.1` at the section box. Deep section 2 stays L `11.1`.
+## Inject proof (1440 x 900, before publish)
+
+- Hero `position: fixed`, `z-index: 0`, height `900px`. Inner `relative` / `3`. Media `absolute` (not fixed).
+- Transition `absolute`, `translate: 0 calc(-100% + 2px)`, height `612px`.
+- Service `relative` / `30`, background `rgb(11, 11, 12)`.
+- Rest laurel glyphs max L `232.5`, L>200 count `1222` (matches the prior readable live rest).
+- Soft join: rest gutter darkens through the lower hero; at scroll 280 the lower viewport is flat L `11.1`.
+- At scroll 900, `elementFromPoint` on the rest H1/laurel boxes hits `#service` title / film grid. Rest-position luma is L `11.1`. Copy does not stay pinned.
+
+`googleTagIds`: `[]`
