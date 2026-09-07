@@ -31,7 +31,7 @@ Copy uses `olesko_section_intro` + `u-grid-subgrid` + `u-column-start-3` + `u-co
 ## Content
 
 - Collection cards: `home_service_film_card` + `u-grid-stack` + `u-column-span-6`; odd `u-column-start-1`, even `u-column-start-7`. Wrap the still in a Div `home_service_film_media` (that class draws the play triangle). Then `home_service_film_image`, then copy. Whole card links to the film page. Do not nest another link inside the card.
-- Film pages: intro in the 8-column band; Mux player + share stay inside `section_contain` + `u-container`. Class `olesko_film_embed`. Never `olesko_film_video`.
+- Film pages: intro in the 8-column band; Mux player + share stay inside `section_contain` + `u-container`. Class `olesko_film_embed`. Never `olesko_film_video`. After `#page` and before `OLESKO Commission CTA`, every film page uses the `OLESKO Recommended Films` component. Exact trio in this order, always all three: Cap Ferrat, The Look of Love, Mountain Sanctuary. Whole-card page links. Eyebrow RECOMMENDED / EMPFOHLEN. CTA WATCH THE FILM / FILM ANSEHEN.
 - Commission: forms in the same 8-column band unless Sebastian asks otherwise.
 
 Canonical copy also lives in Webflow as `rules/olesko-page-structure.md`.

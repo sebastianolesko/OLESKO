@@ -32,7 +32,7 @@ Do not start inner-page copy at column 1. Do not span 12 columns for intro copy.
 ## Content placement
 
 - Collection film cards: same as Home. Class `home_service_film_card` + `u-grid-stack` + `u-column-span-6`. Odd cards `u-column-start-1`, even cards `u-column-start-7`. Still sits in a Div `home_service_film_media` (play triangle is `::after` on that class), then `home_service_film_image`, then copy. Do not put the still as a direct child of the card. The whole card is a page link to `/films/{slug}`; do not nest another link inside it.
-- Film pages: intro copy in the 8-column band. Mux player and share are siblings of the intro, still inside `section_contain` + `u-container`, full width of that container. Player class `olesko_film_embed`. Never reuse the Home lightbox class `olesko_film_video`.
+- Film pages: intro copy in the 8-column band. Mux player and share are siblings of the intro, still inside `section_contain` + `u-container`, full width of that container. Player class `olesko_film_embed`. Never reuse the Home lightbox class `olesko_film_video`. After `#page` and before `OLESKO Commission CTA`, every film page uses the `OLESKO Recommended Films` component. Exact trio in this order, always all three: Cap Ferrat, The Look of Love, Mountain Sanctuary. Whole-card page links. Eyebrow RECOMMENDED / EMPFOHLEN. CTA WATCH THE FILM / FILM ANSEHEN.
 - Commission: forms stay inside the same grid, in the 8-column band unless Sebastian asks otherwise.
 
 ## Do not
