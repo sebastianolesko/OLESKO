@@ -48,3 +48,11 @@ de-AT eyebrow: `EMPFOHLEN`. CTA: `FILM ANSEHEN`.
 ## Locks
 
 No em/en dashes. Reality hidden. Commission buttons English. `googleTagIds` empty. H1/hero fades untouched. Breadcrumbs and language switcher unchanged.
+
+## Live
+
+- lastPublished: `2026-09-07T01:42:51.714Z`
+- EN example (not in the trio): https://oleskostudio.com/films/amalfi-noon-bentley-continental-gt-azure
+- de-AT example (not in the trio): https://oleskostudio.com/de-at/films/amalfi-noon-bentley-continental-gt-azure
+- EN trio member (still shows all three): https://oleskostudio.com/films/cap-ferrat-riva-rivale
+- de-AT trio member (still shows all three): https://oleskostudio.com/de-at/films/cap-ferrat-riva-rivale
