@@ -29,7 +29,7 @@ page_main#main
 
 If the current page is one of the three, still show all three. No fourth substitute.
 
-Cards reuse Collection language: whole-card `Link.home_service_film_card` (no nested link). Still in `home_service_film_media` then `home_service_film_image`. Layout: card 1 start-1 span-6, card 2 start-7 span-6, card 3 start-1 span-6. Links are Webflow page links so they locale-pair (`/films/...` and `/de-at/films/...`).
+Cards reuse Collection language: whole-card `Link.home_service_film_card` (no nested link). Still in `home_service_film_media` then `home_service_film_image`. Desktop is 3x1: `#recommended .home_service_film_card` spans 4 of 12 so the three cards sit in one row. Mobile stacks. Do not use Collection span-6 here. Links are Webflow page links so they locale-pair (`/films/...` and `/de-at/films/...`).
 
 ## Copy
 
