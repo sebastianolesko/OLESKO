@@ -23,3 +23,5 @@ Changed:
 Laurels sit above the new hero shade (`::after` at 2) and stay below the transition shade (3), because `.olesko_hero` uses `isolation: isolate` so in-hero layers cannot rise above the next-section transition.
 
 Desktop transition fade is untouched. `googleTagIds` left empty.
+
+Published 2026-09-07T11:43:22.304Z to oleskostudio.com, www, and the Webflow subdomain.
