@@ -1,27 +1,27 @@
-# Phone hero laurels z-index
+# Phone hero laurels paint order
 
-Added 2026-09-07. Stack only. Laurel look unchanged (no box, no fill, no background).
+Added 2026-09-07. Reopened after z-index 3 failed visual QA.
 
-## Problem
+## Cause
 
-The mobile soft fade on `.olesko_hero_media::after` (transparent to `#0B0B0C`) painted over the phone laurels.
+Class z-index on `.olesko_hero_laurels` was not the paint winner.
 
-## Stack
+Home page head CSS pinned `.olesko_hero` and, on phone, set `isolation: auto` plus `.home_service_transition { height: 70svh !important }`. That transition is a later sibling with `z-index: 3` and `pointer-events: none`, so it veiled the laurels at rest. The media `::after` shade was already under `.olesko_hero_inner`.
 
-Unchanged:
+## Fix (stack / structure only)
 
-- `.olesko_hero_media` `z-index: 0`
-- `.olesko_hero_media::after` (small) `z-index: 2`
-- `.olesko_hero_overlay` `z-index: 2`
-- `.olesko_hero_inner` `z-index: 3` desktop / `4` small
-- `.home_service_transition` `z-index: 3`
+Home head CSS, `max-width: 767px` and `479px`:
 
-Changed:
+- `.olesko_hero` `z-index: 0` + `isolation: isolate` so `::after` stays inside media
+- `.olesko_hero_media` `0`
+- `.olesko_hero_media::after` `2` (fade look unchanged)
+- `.olesko_hero_overlay` `2`
+- `.olesko_hero_inner`, `.olesko_hero_content`, `.olesko_hero_laurels` `4`
+- `.home_service_transition` height `8svh !important` (join only). Same gradient recipe.
+- Removed the phone `z-index: auto` / `isolation: auto` overrides so `#service` stays `z-index: 30` and covers laurels only at the join
 
-- `.olesko_hero_laurels` `z-index: 3` on small and tiny (already `position: relative`)
+Desktop `@media (min-width: 768px)` stays `68svh` with the locked soft fade.
 
-Laurels sit above the new hero shade (`::after` at 2) and stay below the transition shade (3), because `.olesko_hero` uses `isolation: isolate` so in-hero layers cannot rise above the next-section transition.
+Designer: `.home_service_transition` small height `8svh`. Laurels small/tiny `z-index: 4`. No box, no fill, no background on laurels.
 
-Desktop transition fade is untouched. `googleTagIds` left empty.
-
-Published 2026-09-07T11:43:22.304Z to oleskostudio.com, www, and the Webflow subdomain.
+`googleTagIds` left empty. Scripts untouched.
